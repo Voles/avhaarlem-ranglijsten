@@ -34,15 +34,19 @@ class Ranglijst extends Component {
         </tbody>
         </table>;
 
+      const renderDatum = datum =>
+        typeof datum === 'object' ?
+          datum.toLocaleDateString() : datum;
+
     return (
-      <table className="Ranglijst table table-striped table-responsive-md">
+      <table className="Ranglijst table table-sm table-striped table-responsive-md">
         <thead className="thead-dark">
           <tr>
             <th>Onderdeel</th>
             <th>Naam</th>
-            <th>Prestatie</th>
-            <th>Plaats</th>
-            <th>Datum</th>
+            <th className="text-right">Prestatie</th>
+            <th className="text-right">Plaats</th>
+            <th className="text-right">Datum</th>
           </tr>
         </thead>
         <tbody>
@@ -52,9 +56,9 @@ class Ranglijst extends Component {
               <tr key={index}>
                 <td className="text-nowrap">{ rij.onderdeel }</td>
                 <td>{ renderNaam(rij.naam) }</td>
-                <td className="text-nowrap">{ renderPrestatie(rij.prestatie) }</td>
-                <td className="text-nowrap">{ rij.plaats }</td>
-                <td className="text-nowrap">{ rij.datum.toLocaleDateString() }</td>
+                <td className="text-nowrap text-right">{  renderPrestatie(rij.prestatie) }</td>
+                <td className="text-nowrap text-right">{ rij.plaats }</td>
+                <td className="text-nowrap text-right">{ renderDatum(rij.datum) }</td>
               </tr>
             ))
         }
@@ -86,7 +90,10 @@ Ranglijst.propTypes = {
         )
       ]).isRequired,
       plaats: PropTypes.string.isRequired,
-      datum: PropTypes.instanceOf(Date).isRequired
+      datum: PropTypes.oneOfType([
+        PropTypes.string.isRequired,
+        PropTypes.instanceOf(Date).isRequired
+      ]).isRequired
     }).isRequired
   ).isRequired
 };
