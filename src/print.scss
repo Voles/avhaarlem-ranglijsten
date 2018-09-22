@@ -1,4 +1,9 @@
 @media print {
+  html,
+  body {
+    font-size: 10pt;
+  }
+
   .RanglijstSectie {
     page-break-before: always;
   }
