@@ -1,5 +1,13 @@
-body {
-  margin: 0;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1 {
+  padding-top: 3rem;
+}
+
+.no-padding {
   padding: 0;
-  font-family: sans-serif;
+}
+
+.RanglijstSectie {
+  margin-bottom: 2.5rem;
 }

@@ -8,7 +8,6 @@
 
 # production
 /build
-src/**/*.css
 
 # misc
 .DS_Store
@@ -23,3 +22,5 @@ yarn-error.log*
 
 # ide
 .idea
+
+src/**/*.css

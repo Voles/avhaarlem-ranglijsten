@@ -10,12 +10,11 @@ class Ranglijst extends Component {
     const { rijen } = this.props;
 
     return (
-      <table className="Ranglijst table table-striped">
-        <thead>
+      <table className="Ranglijst table table-striped table-responsive-md">
+        <thead className="thead-dark">
           <tr>
-            <th>Naam</th>
             <th>Onderdeel</th>
-            <th>Categorie</th>
+            <th>Naam</th>
             <th>Prestatie</th>
             <th>Plaats</th>
             <th>Datum</th>
@@ -26,12 +25,11 @@ class Ranglijst extends Component {
           rijen
             .map((rij, index) => (
               <tr key={index}>
-                <td>{ rij.naam }</td>
-                <td>{ rij.onderdeel }</td>
-                <td>{ rij.categorie }</td>
-                <td>{ rij.prestatie }</td>
-                <td>{ rij.plaats }</td>
-                <td>{ rij.datum.toLocaleDateString() }</td>
+                <td className="text-nowrap">{ rij.onderdeel }</td>
+                <td className="text-nowrap">{ rij.naam }</td>
+                <td className="text-nowrap">{ rij.prestatie }</td>
+                <td className="text-nowrap">{ rij.plaats }</td>
+                <td className="text-nowrap">{ rij.datum.toLocaleDateString() }</td>
               </tr>
             ))
         }
@@ -53,6 +51,5 @@ Ranglijst.propTypes = {
     }).isRequired
   ).isRequired
 };
-
 
 export default Ranglijst;
