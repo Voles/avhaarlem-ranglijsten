@@ -5,7 +5,33 @@ export default [{
   categorie: 'Senioren',
   locatie: 'outdoor',
   geslacht: 'Vrouwen',
+  naam: 'Niels',
+  prestatie: '',
+  plaats: '',
+  datum: new Date(2018, 9, 22)
+}, {
+  onderdeel: '100m',
+  categorie: 'Senioren',
+  locatie: 'outdoor',
+  geslacht: 'Vrouwen',
   naam: '',
+  prestatie: [{
+    onderdeel: '100 meter horden',
+    prestatie: '16,69',
+    punten: '633'
+  }, {
+    onderdeel: 'hoogspringen',
+    prestatie: '1,54',
+    punten: '666'
+  }],
+  plaats: '',
+  datum: new Date(2018, 9, 22)
+}, {
+  onderdeel: '100m',
+  categorie: 'Senioren',
+  locatie: 'outdoor',
+  geslacht: 'Vrouwen',
+  naam: ['Bente Elgersma', 'Sabine Hannema', 'Mirthe Wiltink', 'Albertine Vermeer'],
   prestatie: '',
   plaats: '',
   datum: new Date(2018, 9, 22)

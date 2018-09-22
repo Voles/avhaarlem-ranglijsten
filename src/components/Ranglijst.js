@@ -9,6 +9,31 @@ class Ranglijst extends Component {
   render() {
     const { rijen } = this.props;
 
+    const renderNaam = naam =>
+      Array.isArray(naam) ?
+        naam.map((naam, index) => <span className="text-nowrap d-block" key={index}>{ naam }</span>) :
+        <span className="text-nowrap">{ naam }</span>;
+
+    const renderPrestatie = prestatie =>
+      typeof prestatie === 'string' ?
+        prestatie : <table className="table table-sm table-borderless">
+        <tbody>
+          {
+            Object
+              .keys(prestatie)
+              .map((key, index) => {
+                return (
+                  <tr key={index}>
+                    <td>{ prestatie[key].onderdeel }</td>
+                    <td>{ prestatie[key].prestatie }</td>
+                    <td>{ prestatie[key].punten }</td>
+                  </tr>
+                )
+              })
+          }
+        </tbody>
+        </table>;
+
     return (
       <table className="Ranglijst table table-striped table-responsive-md">
         <thead className="thead-dark">
@@ -26,8 +51,8 @@ class Ranglijst extends Component {
             .map((rij, index) => (
               <tr key={index}>
                 <td className="text-nowrap">{ rij.onderdeel }</td>
-                <td className="text-nowrap">{ rij.naam }</td>
-                <td className="text-nowrap">{ rij.prestatie }</td>
+                <td>{ renderNaam(rij.naam) }</td>
+                <td className="text-nowrap">{ renderPrestatie(rij.prestatie) }</td>
                 <td className="text-nowrap">{ rij.plaats }</td>
                 <td className="text-nowrap">{ rij.datum.toLocaleDateString() }</td>
               </tr>
@@ -42,10 +67,24 @@ class Ranglijst extends Component {
 Ranglijst.propTypes = {
   rijen: PropTypes.arrayOf(
     PropTypes.shape({
-      naam: PropTypes.string.isRequired,
+      naam: PropTypes.oneOfType([
+        PropTypes.string.isRequired,
+        PropTypes.arrayOf(
+          PropTypes.string.isRequired
+        )
+      ]).isRequired,
       onderdeel: PropTypes.string.isRequired,
       categorie: PropTypes.string.isRequired,
-      prestatie: PropTypes.string.isRequired,
+      prestatie: PropTypes.oneOfType([
+        PropTypes.string.isRequired,
+        PropTypes.arrayOf(
+          PropTypes.shape({
+            onderdeel: PropTypes.string.isRequired,
+            prestatie: PropTypes.string.isRequired,
+            punten: PropTypes.string.isRequired
+          }).isRequired
+        )
+      ]).isRequired,
       plaats: PropTypes.string.isRequired,
       datum: PropTypes.instanceOf(Date).isRequired
     }).isRequired
