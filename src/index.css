@@ -6320,3 +6320,6 @@ h1 {
 
 .RanglijstSectie {
   margin-bottom: 2.5rem; }
+
+.Ranglijst table.table tbody tr {
+  background: none; }

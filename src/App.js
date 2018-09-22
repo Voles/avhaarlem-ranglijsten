@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Ranglijst from "./components/Ranglijst";
 import RanglijstSectie from "./components/RanglijstSectie";
 import Filters from "./components/Filters";
-import resultaten, { resultatenNaarTabellen, laatsteWijzigingGemaaktOp } from './resultaten';
+import resultaten, { resultatenNaarTabellen, laatsteWijzigingGemaaktOp } from './resultaten/index';
 
 import './print.css';
 
