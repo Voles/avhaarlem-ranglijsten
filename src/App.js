@@ -19,7 +19,7 @@ class App extends Component {
               <hr className="my-4"/>
             </div>
           </div>
-          <div className="row">
+          <div className="row d-none">
             <div className="col-12">
               <Filters />
             </div>
