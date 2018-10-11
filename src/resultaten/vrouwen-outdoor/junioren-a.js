@@ -58,49 +58,49 @@ export default [
   {
     "onderdeel": "hoogspringen",
     "naam": "Anja Smits",
-    "prestatie": "1,65",
+    "prestatie": "1.65",
     "plaats": "Arnhem",
     "datum": "20-05-1973"
   },
   {
     "onderdeel": "polsstokhoogspringen",
     "naam": "Mette Elgersma (B)",
-    "prestatie": "2,60",
+    "prestatie": "2.60",
     "plaats": "Alkmaar",
     "datum": "27-05-2018"
   },
   {
     "onderdeel": "verspringen",
     "naam": "Anja Smits",
-    "prestatie": "5,73",
+    "prestatie": "5.73",
     "plaats": "Arnhem",
     "datum": "20-05-1973"
   },
   {
     "onderdeel": "hinkstapspringen",
     "naam": "Sanne Immer",
-    "prestatie": "11,16 m (rw +0,0 m/s)",
+    "prestatie": "11.16 m (rw +0,0 m/s)",
     "plaats": "Sittard",
     "datum": "26-06-2004"
   },
   {
     "onderdeel": "kogelstoten",
     "naam": "Baltine de Wit",
-    "prestatie": "10,79",
+    "prestatie": "10.79",
     "plaats": "Haarlem",
     "datum": "23-05-2001"
   },
   {
     "onderdeel": "discuswerpen",
     "naam": "Brenda Stoete",
-    "prestatie": "23,26",
+    "prestatie": "23.26",
     "plaats": "Beverwijk",
     "datum": "27-05-1988"
   },
   {
     "onderdeel": "speerwerpen",
     "naam": "Ingeborg Zandbergen (B)",
-    "prestatie": "31,10",
+    "prestatie": "31.10",
     "plaats": "Alphen aan den Rijn",
     "datum": "12-06-1994"
   },
@@ -136,12 +136,12 @@ export default [
       },
       {
         "onderdeel": "hoogspringen",
-        "prestatie": "1,54",
+        "prestatie": "1.54",
         "punten": "(666)"
       },
       {
         "onderdeel": "kogelstoten",
-        "prestatie": "9,72",
+        "prestatie": "9.72",
         "punten": "(511)"
       },
       {
@@ -151,12 +151,12 @@ export default [
       },
       {
         "onderdeel": "verspringen",
-        "prestatie": "5,36",
+        "prestatie": "5.36",
         "punten": "(660)"
       },
       {
         "onderdeel": "speerwerpen",
-        "prestatie": "26,99",
+        "prestatie": "26.99",
         "punten": "(420)"
       },
       {
@@ -166,8 +166,8 @@ export default [
       },
       {
         "onderdeel": "Totaal",
-        "prestatie": "",
-        "punten": "4161 pnt"
+        "naam": "",
+        "prestatie": "4161 pnt"
       }
     ],
     "plaats": "Sittard",
