@@ -212,6 +212,11 @@ export default [
         "onderdeel": "600 meter",
         "prestatie": "1.42,02 s",
         "punten": "(661)"
+      },
+      {
+        "onderdeel": "Totaal",
+        "prestatie": "",
+        "punten": "3999 pnt"
       }
     ],
     "plaats": "Lisse",
