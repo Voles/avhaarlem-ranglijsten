@@ -113,7 +113,7 @@ export default [
   },
   {
     "onderdeel": "4 x 100 meter",
-    "naam": "Babs Koeman Mette Elgersma Anna Hovinga Marjolein  Groot",
+    "naam": ["Babs Koeman", "Mette Elgersma", "Anna Hovinga", "Marjolein Groot"],
     "prestatie": "53,84",
     "plaats": "Heerhugowaard",
     "datum": "10-06-2018"
@@ -122,41 +122,6 @@ export default [
     "onderdeel": "zevenkamp",
     "naam": "Tara van Schie",
     "prestatie": [
-      {
-        "onderdeel": "100 meter horden",
-        "prestatie": "15,28",
-        "punten": "(805)"
-      },
-      {
-        "onderdeel": "hoogspringen",
-        "prestatie": "1,51",
-        "punten": "(632)"
-      },
-      {
-        "onderdeel": "kogelstoten",
-        "prestatie": "11,41",
-        "punten": "(622)"
-      },
-      {
-        "onderdeel": "200 meter",
-        "prestatie": "26,17",
-        "punten": "(782)"
-      },
-      {
-        "onderdeel": "verspringen",
-        "prestatie": "5,31",
-        "punten": "(645)"
-      },
-      {
-        "onderdeel": "speerwerpen",
-        "prestatie": "26,19",
-        "punten": "(405)"
-      },
-      {
-        "onderdeel": "800 meter",
-        "prestatie": "2.46,79",
-        "punten": "(497)"
-      },
       {
         "onderdeel": "100 meter horden",
         "prestatie": "15,28",
