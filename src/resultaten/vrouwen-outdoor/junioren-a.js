@@ -166,8 +166,8 @@ export default [
       },
       {
         "onderdeel": "Totaal",
-        "naam": "",
-        "prestatie": "4161 pnt"
+        "prestatie": "",
+        "punten": "4161 pnt"
       }
     ],
     "plaats": "Sittard",
