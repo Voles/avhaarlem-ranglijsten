@@ -51,28 +51,28 @@ export default [
   {
     "onderdeel": "hoogspringen",
     "naam": "Tara van Schie",
-    "prestatie": "1,56",
+    "prestatie": "1.56",
     "plaats": "Gent (B)",
     "datum": "03-02-2008"
   },
   {
     "onderdeel": "verspringen",
     "naam": "Mieke van der Kolk",
-    "prestatie": "6,16",
+    "prestatie": "6.16",
     "plaats": "Zwolle",
     "datum": "22-01-1994"
   },
   {
     "onderdeel": "hinkstapspringen",
     "naam": "Mieke van der Kolk",
-    "prestatie": "12,10",
+    "prestatie": "12.10",
     "plaats": "Den Haag",
     "datum": "20-02-1994"
   },
   {
     "onderdeel": "kogelstoten",
     "naam": "Wendy IJzerman",
-    "prestatie": "11,20",
+    "prestatie": "11.20",
     "plaats": "Den Haag",
     "datum": "26-01-1997"
   },
@@ -87,17 +87,17 @@ export default [
       },
       {
         "onderdeel": "hoogspringen",
-        "naam": "1,56",
+        "naam": "1.56",
         "prestatie": "(689)"
       },
       {
         "onderdeel": "kogelstoten",
-        "naam": "9,72",
+        "naam": "9.72",
         "prestatie": "(511)"
       },
       {
         "onderdeel": "verspringen",
-        "naam": "5,38",
+        "naam": "5.38",
         "prestatie": "(665)"
       },
       {
