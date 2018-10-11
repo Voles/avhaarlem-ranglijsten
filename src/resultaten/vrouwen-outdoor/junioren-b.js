@@ -58,56 +58,56 @@ export default [
   {
     "onderdeel": "hoogspringen",
     "naam": "Sanne Immer (C)",
-    "prestatie": "1,60",
+    "prestatie": "1.60",
     "plaats": "Krommenie",
     "datum": "19-08-2000"
   },
   {
     "onderdeel": "",
     "naam": "Sanne Immer (C)",
-    "prestatie": "1,60",
+    "prestatie": "1.60",
     "plaats": "Amsterdam",
     "datum": "26-06-2000"
   },
   {
     "onderdeel": "polsstokhoogspringen",
     "naam": "Mette Elgersma",
-    "prestatie": "2,60",
+    "prestatie": "2.60",
     "plaats": "Alkmaar",
     "datum": "27-05-2018"
   },
   {
     "onderdeel": "verspringen",
     "naam": "Tara van Schie",
-    "prestatie": "5,42",
+    "prestatie": "5.42",
     "plaats": "Utrecht",
     "datum": "08-07-2007"
   },
   {
     "onderdeel": "hinkstapspringen",
     "naam": "Tara van Schie",
-    "prestatie": "10,63",
+    "prestatie": "10.63",
     "plaats": "Utrecht",
     "datum": "08-07-2007"
   },
   {
     "onderdeel": "kogelstoten",
     "naam": "Tara van Schie",
-    "prestatie": "12,14",
+    "prestatie": "12.14",
     "plaats": "Valkenswaard",
     "datum": "01-09-2007"
   },
   {
     "onderdeel": "discuswerpen",
     "naam": "Baltine de Wit",
-    "prestatie": "29,70",
+    "prestatie": "29.70",
     "plaats": "Haarlem",
     "datum": "18-04-1999"
   },
   {
     "onderdeel": "speerwerpen",
     "naam": "Ingeborg Zandbergen",
-    "prestatie": "31,30",
+    "prestatie": "31.30",
     "plaats": "Alphen aan den Rijn",
     "datum": "12-06-1994"
   },
@@ -129,27 +129,27 @@ export default [
       },
       {
         "onderdeel": "hoogspringen",
-        "prestatie": "1,51",
+        "prestatie": "1.51",
         "punten": "(632)"
       },
       {
         "onderdeel": "kogelstoten",
-        "prestatie": "11,41",
+        "prestatie": "11.41",
         "punten": "(622)"
       },
       {
         "onderdeel": "200 meter",
-        "prestatie": "26,17",
+        "prestatie": "26.17",
         "punten": "(782)"
       },
       {
         "onderdeel": "verspringen",
-        "prestatie": "5,31",
+        "prestatie": "5.31",
         "punten": "(645)"
       },
       {
         "onderdeel": "speerwerpen",
-        "prestatie": "26,19",
+        "prestatie": "26.19",
         "punten": "(405)"
       },
       {
