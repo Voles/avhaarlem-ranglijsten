@@ -86,49 +86,49 @@ export default [
   {
     "onderdeel": "hoogspringen",
     "naam": "Sanne Immer",
-    "prestatie": "1,60",
+    "prestatie": "1.60",
     "plaats": "Krommenie",
     "datum": "19-08-2000"
   },
   {
     "onderdeel": "",
     "naam": "Sanne Immer",
-    "prestatie": "1,60",
+    "prestatie": "1.60",
     "plaats": "Amsterdam",
     "datum": "26-08-2000"
   },
   {
     "onderdeel": "polsstokhoogspringen",
     "naam": "Mette Elgersma",
-    "prestatie": "2,40",
+    "prestatie": "2.40",
     "plaats": "Heerhugowaard",
     "datum": "02-06-2017"
   },
   {
     "onderdeel": "verspringen",
     "naam": "Marjanne van Sambeek",
-    "prestatie": "5,31",
+    "prestatie": "5.31",
     "plaats": "Beverwijk",
     "datum": "05-06-1993"
   },
   {
     "onderdeel": "kogelstoten",
     "naam": "Wendy IJzerman",
-    "prestatie": "12,07",
+    "prestatie": "12.07",
     "plaats": "Amersfoort",
     "datum": "24-04-1993"
   },
   {
     "onderdeel": "discuswerpen",
     "naam": "Wendy IJzerman",
-    "prestatie": "24,92",
+    "prestatie": "24.92",
     "plaats": "Beverwijk",
     "datum": "05-06-1993"
   },
   {
     "onderdeel": "speerwerpen",
     "naam": "Iris Komen",
-    "prestatie": "31,63",
+    "prestatie": "31.63",
     "plaats": "Santpoort",
     "datum": "24-05-2014"
   },
@@ -150,12 +150,12 @@ export default [
       },
       {
         "onderdeel": "hoogspringen",
-        "prestatie": "1,47 m",
+        "prestatie": "1.47 m",
         "punten": "(599)"
       },
       {
         "onderdeel": "kogelstoten",
-        "prestatie": "8,75 m",
+        "prestatie": "8.75 m",
         "punten": "(460)"
       },
       {
@@ -165,12 +165,12 @@ export default [
       },
       {
         "onderdeel": "verspringen",
-        "prestatie": "5,06 m",
+        "prestatie": "5.06 m",
         "punten": "(632)"
       },
       {
         "onderdeel": "speerwerpen",
-        "prestatie": "27,86 m",
+        "prestatie": "27.86 m",
         "punten": "(461)"
       },
       {
@@ -178,41 +178,6 @@ export default [
         "prestatie": "1.42,02 s",
         "punten": "(661)"
       },
-      {
-        "onderdeel": "80 meter horden",
-        "prestatie": "13,17 s",
-        "punten": "(569)"
-      },
-      {
-        "onderdeel": "hoogspringen",
-        "prestatie": "1,47 m",
-        "punten": "(599)"
-      },
-      {
-        "onderdeel": "kogelstoten",
-        "prestatie": "8,75 m",
-        "punten": "(460)"
-      },
-      {
-        "onderdeel": "150 meter",
-        "prestatie": "20,02 s",
-        "punten": "(617)"
-      },
-      {
-        "onderdeel": "verspringen",
-        "prestatie": "5,06 m",
-        "punten": "(632)"
-      },
-      {
-        "onderdeel": "speerwerpen",
-        "prestatie": "27,86 m",
-        "punten": "(461)"
-      },
-      {
-        "onderdeel": "600 meter",
-        "prestatie": "1.42,02 s",
-        "punten": "(661)"
-      }
     ],
     "plaats": "Lisse",
     "datum": "07/08-07-2018"
