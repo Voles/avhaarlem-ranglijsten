@@ -9,7 +9,7 @@ export default [
   {
     "onderdeel": "150 meter",
     "naam": "Babs Koeman",
-    "prestatie": "21,03 s",
+    "prestatie": "21,03",
     "plaats": "Naaldwijk",
     "datum": "20-08-2017"
   },
@@ -51,49 +51,49 @@ export default [
   {
     "onderdeel": "60 meter horden",
     "naam": "Joanna Andrews",
-    "prestatie": "10,14 s (9,9)",
+    "prestatie": "10,14 (9,9)",
     "plaats": "Krommenie",
     "datum": "28-05-1992"
   },
   {
     "onderdeel": "hoogspringen",
     "naam": "Baltine de Wit",
-    "prestatie": "1,55 m",
+    "prestatie": "1.55",
     "plaats": "Enschede",
     "datum": "16-09-1995"
   },
   {
     "onderdeel": "polsstokhoogspringen",
     "naam": "Babs Koeman",
-    "prestatie": "1,85 m",
+    "prestatie": "1.85",
     "plaats": "Haarlem",
     "datum": "19-05-2017"
   },
   {
     "onderdeel": "verspringen",
     "naam": "Marjanne van Sambeek",
-    "prestatie": "5,12 m",
+    "prestatie": "5.12",
     "plaats": "Amsterdam",
     "datum": "13-06-1992"
   },
   {
     "onderdeel": "kogelstoten",
     "naam": "Sanna Piscaer",
-    "prestatie": "11,80 m",
+    "prestatie": "11.80",
     "plaats": "Hilversum",
     "datum": "18-06-1994"
   },
   {
     "onderdeel": "discuswerpen",
     "naam": "Anne Kuperus",
-    "prestatie": "23,23 m",
+    "prestatie": "23.23",
     "plaats": "Amsterdam",
     "datum": "08-09-2013"
   },
   {
     "onderdeel": "speerwerpen",
     "naam": "Babs Koeman",
-    "prestatie": "31,48 m",
+    "prestatie": "31.48",
     "plaats": "Naaldwijk",
     "datum": "20-08-2017"
   },
@@ -105,7 +105,7 @@ export default [
       "Marjanne van Sambeek",
       "Joanna Andrews"
     ],
-    "prestatie": "33,54 s (33,3)",
+    "prestatie": "33,54 (33,3)",
     "plaats": "Santpoort",
     "datum": "22-06-1991"
   },
@@ -117,32 +117,32 @@ export default [
     "prestatie": [
       {
         "onderdeel": "60 meter horden",
-        "prestatie": "10,41s",
+        "prestatie": "10,41",
         "punten": "(554)"
       },
       {
         "onderdeel": "hoogspringen",
-        "prestatie": "1,47 m",
+        "prestatie": "1.47",
         "punten": "(599)"
       },
       {
         "onderdeel": "speerwerpen",
-        "prestatie": "28,59 m",
+        "prestatie": "28.59",
         "punten": "(473)"
       },
       {
         "onderdeel": "verspringen",
-        "prestatie": "4,91 m",
+        "prestatie": "4.91",
         "punten": "(603)"
       },
       {
         "onderdeel": "kogelstoten",
-        "prestatie": "9,52 m",
+        "prestatie": "9.52",
         "punten": "(499)"
       },
       {
         "onderdeel": "600 m",
-        "prestatie": "1.46,00s",
+        "prestatie": "1.46,00",
         "punten": "(602)"
       },
       {
