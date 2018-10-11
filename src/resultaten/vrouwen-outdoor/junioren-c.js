@@ -178,6 +178,11 @@ export default [
         "prestatie": "1.42,02 s",
         "punten": "(661)"
       },
+      {
+        "onderdeel": "Totaal",
+        "prestatie": "",
+        "punten": "3999 pnt"
+      }
     ],
     "plaats": "Lisse",
     "datum": "07/08-07-2018"
