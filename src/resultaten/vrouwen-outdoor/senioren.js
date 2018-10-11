@@ -98,6 +98,55 @@ export default [
     "datum": "13-09-1991"
   },
   {
+    "onderdeel": "15 km",
+    "naam": "Marianne van de Linde",
+    "prestatie": "52.29",
+    "datum": "21-11-1993",
+    "plaats": "Nijmegen"
+  },
+  {
+    "onderdeel": "10 engelse mijl",
+    "naam": "Marianne van de Linde",
+    "prestatie": "55.34",
+    "datum": "1992",
+    "plaats": "?"
+  },
+  {
+    "onderdeel": "20 km",
+    "naam": "Marianne van de Linde",
+    "prestatie": "1.12.03",
+    "datum": "30-04-1991",
+    "plaats": "Beverwijk"
+  },
+  {
+    "onderdeel": "halve marathon (21,98 km)",
+    "naam": "Marianne van de Linde",
+    "prestatie": "1.13.35",
+    "datum": "04-10-1992",
+    "plaats": "Breda"
+  },
+  {
+    "onderdeel": "25 km",
+    "naam": "Heidi van der Plas",
+    "prestatie": "2.08.06",
+    "datum": "23-02-1991",
+    "plaats": "Aerdenhout"
+  },
+  {
+    "onderdeel": "30 km",
+    "naam": "Marianne van de Linde",
+    "prestatie": "1.53.37",
+    "datum": "20-03-1994",
+    "plaats": "Spaarnwoude"
+  },
+  {
+    "onderdeel": "marathon (42,195 km)",
+    "naam": "Marianne van de Linde",
+    "prestatie": "2.41.52",
+    "datum": "25-10-1992",
+    "plaats": "Frankfurt (D)"
+  },
+  {
     "onderdeel": "100 meter horden",
     "naam": "Brenda Stoete",
     "prestatie": "15,14 (14,9)",
