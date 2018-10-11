@@ -37,7 +37,7 @@ export default [
   {
     "onderdeel": "600 meter",
     "naam": "Kristen Niedrach",
-    "prestatie": "1:36,92",
+    "prestatie": "1.36,92",
     "plaats": "Haarlem",
     "datum": "25-03-2018"
   },
