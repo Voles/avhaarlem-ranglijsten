@@ -238,13 +238,6 @@ export default [
     "datum": "01-07-2017"
   },
   {
-    "onderdeel": "4 x 800 meter",
-    "naam": "vacant",
-    "prestatie": "",
-    "plaats": "",
-    "datum": ""
-  },
-  {
     "onderdeel": "Zweedse estafette",
     "naam": ["Albertine Vermeer", "Kristen Niedrach", "Femke van der Wolf", "Evelien Verbruggen"],
     "prestatie": "2.21,72",
