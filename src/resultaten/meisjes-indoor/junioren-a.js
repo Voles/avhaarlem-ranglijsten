@@ -78,7 +78,7 @@ export default [
       {
         "onderdeel": "60 meter horden",
         "prestatie": "9,72",
-        "prestatie": "(756)"
+        "punten": "(756)"
       },
       {
         "onderdeel": "hoogspringen",

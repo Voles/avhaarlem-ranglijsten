@@ -79,40 +79,40 @@ export default [
   {
     "onderdeel": "vijfkamp",
     "naam": "Tara van Schie",
+    "plaats": "Gent (B)",
+    "datum": "03-02-2008",
     "prestatie": [
       {
         "onderdeel": "60 meter horden",
-        "naam": "9,72",
-        "prestatie": "(756)"
+        "prestatie": "9,72",
+        "punten": "(756)"
       },
       {
         "onderdeel": "hoogspringen",
-        "naam": "1,56",
-        "prestatie": "(689)"
+        "prestatie": "1,56",
+        "punten": "(689)"
       },
       {
         "onderdeel": "kogelstoten",
-        "naam": "9,72",
-        "prestatie": "(511)"
+        "prestatie": "9,72",
+        "punten": "(511)"
       },
       {
         "onderdeel": "verspringen",
-        "naam": "5,38",
-        "prestatie": "(665)"
+        "prestatie": "5,38",
+        "punten": "(665)"
       },
       {
         "onderdeel": "800 meter",
-        "naam": "3.07,09",
-        "prestatie": "(302)"
+        "prestatie": "3.07,09",
+        "punten": "(302)"
       },
       {
         "onderdeel": "Totaal",
-        "naam": "",
-        "prestatie": "2932"
+        "prestatie": "",
+        "punten": "2932"
       }
-    ],
-    "plaats": "Gent (B)",
-    "datum": "03-02-2008"
+    ]
   }
 ].map(resultaat => {
   resultaat.categorie = 'Senioren';
