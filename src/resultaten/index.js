@@ -1,10 +1,12 @@
 import vrouwenOutdoor from './vrouwen-outdoor/index';
+import meisjesOutdoor from './meisjes-outdoor/index';
 
 export const laatsteWijzigingGemaaktOp = new Date(2018, 9, 22);
 
 export default []
   .concat(
-    vrouwenOutdoor
+    vrouwenOutdoor,
+    meisjesOutdoor
   )
 
 export const resultatenNaarTabellen = resultaten => {
@@ -12,7 +14,7 @@ export const resultatenNaarTabellen = resultaten => {
     .reduce((accumulator, currentValue) => {
       const { categorie, locatie, geslacht } = currentValue;
       const key = `${categorie}-${geslacht}-${locatie}`;
-      const titel = `${categorie} ${geslacht} ${locatie}`;
+      const titel = `${geslacht} ${categorie} ${locatie}`;
 
       accumulator[key] = accumulator[key] || { titel , rijen: []};
       accumulator[key].rijen.push(currentValue);
