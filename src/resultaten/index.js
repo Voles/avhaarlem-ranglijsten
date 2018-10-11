@@ -1,4 +1,5 @@
 import vrouwenOutdoor from './vrouwen-outdoor/index';
+import vrouwenIndoor from './vrouwen-indoor/index';
 import meisjesOutdoor from './meisjes-outdoor/index';
 
 export const laatsteWijzigingGemaaktOp = new Date(2018, 9, 22);
@@ -6,6 +7,7 @@ export const laatsteWijzigingGemaaktOp = new Date(2018, 9, 22);
 export default []
   .concat(
     vrouwenOutdoor,
+    vrouwenIndoor,
     meisjesOutdoor
   )
 
