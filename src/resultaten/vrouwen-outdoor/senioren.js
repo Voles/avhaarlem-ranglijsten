@@ -114,56 +114,56 @@ export default [
   {
     "onderdeel": "hoogspringen",
     "naam": "Anja Smits",
-    "prestatie": "1,65",
+    "prestatie": "1.65",
     "plaats": "Arnhem",
     "datum": "20-05-1973"
   },
   {
     "onderdeel": "polsstokhoogspringen",
     "naam": "Mette Elgersma (B)",
-    "prestatie": "2,60",
+    "prestatie": "2.60",
     "plaats": "Alkmaar",
     "datum": "27-05-2018"
   },
   {
     "onderdeel": "verspringen",
     "naam": "Mieke van der Kolk",
-    "prestatie": "6,21",
+    "prestatie": "6.21",
     "plaats": "Assen",
     "datum": "16-07-1994"
   },
   {
     "onderdeel": "hinkstapspringen",
     "naam": "Mieke van der Kolk",
-    "prestatie": "12,24",
+    "prestatie": "12.24",
     "plaats": "Assen",
     "datum": "17-07-1994"
   },
   {
     "onderdeel": "kogelstoten",
     "naam": "Toos Stoete",
-    "prestatie": "11,16",
+    "prestatie": "11.16",
     "plaats": "Haarlem",
     "datum": "12-04-1992"
   },
   {
     "onderdeel": "discuswerpen",
     "naam": "Toos Stoete",
-    "prestatie": "31,28",
+    "prestatie": "31.28",
     "plaats": "Santpoort",
     "datum": "17-06-1992"
   },
   {
     "onderdeel": "speerwerpen",
     "naam": "Toos Stoete",
-    "prestatie": "44,96",
+    "prestatie": "44.96",
     "plaats": "Haarlem",
     "datum": "20-04-1992"
   },
   {
     "onderdeel": "kogelslingeren",
     "naam": "Iris Komen",
-    "prestatie": "22,46",
+    "prestatie": "22.46",
     "plaats": "Amsterdam",
     "datum": "18-06-2017"
   },
@@ -177,14 +177,14 @@ export default [
   {
     "onderdeel": "4 x 200 meter",
     "naam": ["Bente Elgersma","Sabine Hannema","Mirthe Wiltink","Albertine Vermeer"],
-    "prestatie": "1:56,73",
+    "prestatie": "1.56,73",
     "plaats": "Haarlem",
     "datum": "15-06-2018"
   },
   {
     "onderdeel": "4 x 400 meter",
     "naam": ["Bente Elgersma","Kristen Niedrach","Mirthe Wiltink","Femke van der Wolf"],
-    "prestatie": "4:19,14",
+    "prestatie": "4.19,14",
     "plaats": "Naaldwijk",
     "datum": "01-07-2017"
   },
@@ -198,7 +198,7 @@ export default [
   {
     "onderdeel": "Zweedse estafette",
     "naam": ["Albertine Vermeer", "Kristen Niedrach", "Femke van der Wolf", "Evelien Verbruggen"],
-    "prestatie": "2:21,72",
+    "prestatie": "2.21,72",
     "plaats": "Gouda",
     "datum": "22-04-2018"
   },
@@ -213,12 +213,12 @@ export default [
       },
       {
         onderdeel: 'hoogspringen',
-        prestatie: '1,54',
+        prestatie: '1.54',
         punten: '(666)'
       },
       {
         onderdeel: 'kogelstoten',
-        prestatie: '9,72',
+        prestatie: '9.72',
         punten: '(511)'
       },
       {
@@ -228,12 +228,12 @@ export default [
       },
       {
         onderdeel: 'verspringen',
-        prestatie: '5,36',
+        prestatie: '5.36',
         punten: '(660)'
       },
       {
         onderdeel: 'speerwerpen',
-        prestatie: '26,99',
+        prestatie: '26.99',
         punten: '(420)'
       },
       {
