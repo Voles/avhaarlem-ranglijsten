@@ -98,51 +98,51 @@ export default [
     "datum": "13-09-1991"
   },
   {
-    "onderdeel": "15 km",
+    "onderdeel": "15000 meter",
     "naam": "Marianne van de Linde",
-    "prestatie": "52.29",
+    "prestatie": "52.29,0",
     "datum": "21-11-1993",
     "plaats": "Nijmegen"
   },
   {
-    "onderdeel": "10 engelse mijl",
+    "onderdeel": "10 Engelse mijl",
     "naam": "Marianne van de Linde",
-    "prestatie": "55.34",
+    "prestatie": "55.34,0",
     "datum": "1992",
     "plaats": "?"
   },
   {
-    "onderdeel": "20 km",
+    "onderdeel": "20000 meter",
     "naam": "Marianne van de Linde",
-    "prestatie": "1.12.03",
+    "prestatie": "1:12.03,0",
     "datum": "30-04-1991",
     "plaats": "Beverwijk"
   },
   {
     "onderdeel": "halve marathon (21,98 km)",
     "naam": "Marianne van de Linde",
-    "prestatie": "1.13.35",
+    "prestatie": "1:13.35,0",
     "datum": "04-10-1992",
     "plaats": "Breda"
   },
   {
-    "onderdeel": "25 km",
+    "onderdeel": "25000 meter",
     "naam": "Heidi van der Plas",
-    "prestatie": "2.08.06",
+    "prestatie": "2:08.06,0",
     "datum": "23-02-1991",
     "plaats": "Aerdenhout"
   },
   {
-    "onderdeel": "30 km",
+    "onderdeel": "30000 meter",
     "naam": "Marianne van de Linde",
-    "prestatie": "1.53.37",
+    "prestatie": "1:53.37,0",
     "datum": "20-03-1994",
     "plaats": "Spaarnwoude"
   },
   {
-    "onderdeel": "marathon (42,195 km)",
+    "onderdeel": "Marathon (42195 meter)",
     "naam": "Marianne van de Linde",
-    "prestatie": "2.41.52",
+    "prestatie": "2:41.52,0",
     "datum": "25-10-1992",
     "plaats": "Frankfurt (D)"
   },
@@ -236,13 +236,6 @@ export default [
     "prestatie": "4.19,14",
     "plaats": "Naaldwijk",
     "datum": "01-07-2017"
-  },
-  {
-    "onderdeel": "4 x 800 meter",
-    "naam": "vacant",
-    "prestatie": "",
-    "plaats": "",
-    "datum": ""
   },
   {
     "onderdeel": "Zweedse estafette",
