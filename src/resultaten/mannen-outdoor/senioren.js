@@ -304,7 +304,7 @@ export default [
       {
         "onderdeel": "Totaal",
         "prestatie": "",
-        "punten": "6545 pnt (Het puntenaantal is gecorrigeerd naar de nieuwe IAAF telling van 1985.)"
+        "punten": "6545 pnt"
       }
     ]
   }
