@@ -1,3 +1,9 @@
+Meerdere deelnemers naar array
+http://live.datatables.net/firobila/1/edit
+
+HTML table to JSON
+http://www.convertjson.com/html-table-to-json.htm
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
