@@ -184,6 +184,8 @@ export default [
   {
     "onderdeel": "negenkamp",
     "naam": "Walter Kruk",
+    "plaats": "Vught",
+    "datum": "27/28-06-1987",
     "prestatie": [
       {
         "onderdeel": "100 meter",
