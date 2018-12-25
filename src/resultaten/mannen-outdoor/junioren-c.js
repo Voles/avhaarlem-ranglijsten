@@ -98,8 +98,8 @@ export default [
     "datum": "14-06-1986"
   },
   {
-    "onderdeel": ["Patrick Been","Stefan van Keulen","Martijn te Velden","Ricardo Wielingen"],
-    "naam": "",
+    "onderdeel":"4 x 100 meter",
+    "naam": ["Patrick Been","Stefan van Keulen","Martijn te Velden","Ricardo Wielingen"],
     "prestatie": "",
     "plaats": "Beverwijk",
     "datum": "13-06-1987"
