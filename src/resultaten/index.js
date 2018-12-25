@@ -1,6 +1,7 @@
 import vrouwenOutdoor from './vrouwen-outdoor/index';
 import vrouwenIndoor from './vrouwen-indoor/index';
 import mannenOutdoor from './mannen-outdoor/index';
+import mannenIndoor from './mannen-indoor/index';
 
 export const laatsteWijzigingGemaaktOp = new Date(2018, 9, 22);
 
@@ -8,7 +9,8 @@ export default []
   .concat(
     vrouwenOutdoor,
     vrouwenIndoor,
-    mannenOutdoor
+    mannenOutdoor,
+    mannenIndoor
   )
 
 export const resultatenNaarTabellen = resultaten => {
@@ -27,4 +29,4 @@ export const resultatenNaarTabellen = resultaten => {
   return Object
     .keys(hash)
     .map(key => hash[key]);
-}
+};
