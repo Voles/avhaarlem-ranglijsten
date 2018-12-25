@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "100 meter",
@@ -14,7 +16,7 @@ export default [
     "datum": "26-08-1981"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Jurgen Wielart",
     "prestatie": "45,83",
     "plaats": "Amsterdam",

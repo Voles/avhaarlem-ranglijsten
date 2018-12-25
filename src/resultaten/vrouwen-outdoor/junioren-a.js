@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "100 meter",
@@ -14,7 +16,7 @@ export default [
     "datum": "26-05-1990"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Brenda Stoete",
     "prestatie": "60,64 (60,5)",
     "plaats": "Santpoort",

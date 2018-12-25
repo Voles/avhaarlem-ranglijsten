@@ -1,76 +1,85 @@
+import {
+  ACHTHONDERD_METER,
+  DRIEHONDERD_METER, DUIZEND_METER, DUIZENDVIJFHONDERD_METER, EEN_MIJL,
+  HONDERD_METER,
+  HONDERDVIJFTIG_METER, TWEEDUIZEND_METER,
+  TWEEHONDERD_METER,
+  VIERHONDERD_METER, ZESHONDERD_METER
+} from "../../constants/onderdelen";
+
 export default [
   {
-    "onderdeel": "100 meter",
+    "onderdeel": HONDERD_METER,
     "naam": "Mieke van der Kolk",
     "prestatie": "12,34 (12,1)",
     "plaats": "Santpoort",
     "datum": "04-07-1993"
   },
   {
-    "onderdeel": "150 meter",
+    "onderdeel": HONDERDVIJFTIG_METER,
     "naam": "Albertine Vermeer",
     "prestatie": "19,81",
     "plaats": "Haarlem",
     "datum": "25-03-2018"
   },
   {
-    "onderdeel": "200 meter",
+    "onderdeel": TWEEHONDERD_METER,
     "naam": "Brenda Stoete",
     "prestatie": "25,94 (25,7)",
     "plaats": "Amsterdam",
     "datum": "26-05-1990"
   },
   {
-    "onderdeel": "300 meter",
+    "onderdeel": DRIEHONDERD_METER,
     "naam": "Albertine Vermeer",
     "prestatie": "42,91",
     "plaats": "Haarlem",
     "datum": "25-03-2018"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Albertine Vermeer",
     "prestatie": "57,74",
     "plaats": "Lisse",
     "datum": "19-05-2018"
   },
   {
-    "onderdeel": "600 meter",
+    "onderdeel": ZESHONDERD_METER,
     "naam": "Kristen Niedrach",
     "prestatie": "1.36,92",
     "plaats": "Haarlem",
     "datum": "25-03-2018"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Kristen Niedrach",
     "prestatie": "2.08,93",
     "plaats": "Grootebroek",
     "datum": "14-07-2018"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Larissa Scholten",
     "prestatie": "2.57,26",
     "plaats": "Lisse",
     "datum": "14-05-2011"
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Larissa Scholten",
     "prestatie": "4.39,07",
     "plaats": "Utrecht",
     "datum": "25-05-2012"
   },
   {
-    "onderdeel": "1 mijl (1609 m)",
+    "onderdeel": EEN_MIJL,
     "naam": "Sabine Hannema",
     "prestatie": "5.54,79",
     "plaats": "Haarlem",
     "datum": "15-06-2018"
   },
   {
-    "onderdeel": "2000 meter",
+    "onderdeel": TWEEDUIZEND_METER,
     "naam": "Marianne van de Linde",
     "prestatie": "6.30,0",
     "plaats": "Haarlem",

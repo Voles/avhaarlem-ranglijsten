@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "50 meter h.t.",
@@ -14,7 +16,7 @@ export default [
     "datum": "24-02-1973"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Chantal Bruijn",
     "prestatie": "62,75",
     "plaats": "Den Haag",

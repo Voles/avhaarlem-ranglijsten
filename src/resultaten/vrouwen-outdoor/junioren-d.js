@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "60 meter",
@@ -14,7 +16,7 @@ export default [
     "datum": "20-08-2017"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "1.05,03",
     "plaats": "Barendrecht",

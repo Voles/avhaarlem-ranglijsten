@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
     {
       "onderdeel": "100 meter",
@@ -28,7 +30,7 @@ export default [
       "datum": "21-05-1980"
     },
     {
-      "onderdeel": "400 meter",
+      "onderdeel": VIERHONDERD_METER,
       "naam": "Mario Westbroek",
       "prestatie": "47,14",
       "plaats": "Den Haag",

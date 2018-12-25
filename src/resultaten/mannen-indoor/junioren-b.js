@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "30 meter",
@@ -28,7 +30,7 @@ export default [
     "datum": "23-12-1984"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Pim Pauel",
     "prestatie": "54,21",
     "plaats": "Apeldoorn",

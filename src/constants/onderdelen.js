@@ -1,0 +1,11 @@
+export const HONDERD_METER = '100 meter';
+export const HONDERDVIJFTIG_METER = '150 meter';
+export const TWEEHONDERD_METER = '200 meter';
+export const DRIEHONDERD_METER = '300 meter';
+export const VIERHONDERD_METER = '400 meter';
+export const ZESHONDERD_METER = '600 meter';
+export const ACHTHONDERD_METER = '800 meter';
+export const DUIZEND_METER = '1000 meter';
+export const DUIZENDVIJFHONDERD_METER = '1500 meter';
+export const EEN_MIJL = '1 mijl (1609 m)';
+export const TWEEDUIZEND_METER = '2000 meter';

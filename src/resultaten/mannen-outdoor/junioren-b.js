@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "100 meter",
@@ -14,7 +16,7 @@ export default [
     "datum": "20-08-1978"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Casper Sloos",
     "prestatie": "49,64 (49,5)",
     "plaats": "Den Haag",

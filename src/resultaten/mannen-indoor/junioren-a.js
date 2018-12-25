@@ -1,3 +1,11 @@
+import {
+  ACHTHONDERD_METER,
+  DUIZEND_METER,
+  DUIZENDVIJFHONDERD_METER,
+  TWEEHONDERD_METER,
+  VIERHONDERD_METER
+} from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "50 meter",
@@ -14,35 +22,35 @@ export default [
     "datum": "28-01-1979"
   },
   {
-    "onderdeel": "200 meter",
+    "onderdeel": TWEEHONDERD_METER,
     "naam": "Allan Ellsworth",
     "prestatie": "22,54 (22,3)",
     "plaats": "Dortmund (D)",
     "datum": "08-03-1981"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Allan Ellsworth",
     "prestatie": "48,53",
     "plaats": "Rotterdam",
     "datum": "13-02-1983"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Ron Koridon",
     "prestatie": "1.57,5",
     "plaats": "Rotterdam",
     "datum": "20-02-1971"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Stein Metten",
     "prestatie": "2.54,19",
     "plaats": "Gent (B)",
     "datum": "27-02-2005"
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Paul Jaspers",
     "prestatie": "3.51,0",
     "plaats": "Dortmund (D)",

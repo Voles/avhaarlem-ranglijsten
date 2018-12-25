@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "50 meter",
@@ -14,7 +16,7 @@ export default [
     "datum": "29-11-1992"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Jirina van Kesteren",
     "prestatie": "63,45",
     "plaats": "Zuidbroek",

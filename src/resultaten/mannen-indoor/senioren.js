@@ -1,3 +1,5 @@
+import { VIERHONDERD_METER } from "../../constants/onderdelen";
+
 export default [
   {
     "onderdeel": "50 meter",
@@ -21,7 +23,7 @@ export default [
     "datum": "05-01-2013"
   },
   {
-    "onderdeel": "400 meter",
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Allan Ellsworth",
     "prestatie": "47,90",
     "plaats": "Maastricht",
