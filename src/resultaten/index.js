@@ -3,7 +3,7 @@ import vrouwenIndoor from './vrouwen-indoor/index';
 import mannenOutdoor from './mannen-outdoor/index';
 import mannenIndoor from './mannen-indoor/index';
 
-export const laatsteWijzigingGemaaktOp = new Date(2018, 9, 22);
+export const laatsteWijzigingGemaaktOp = new Date(2018, 11, 25);
 
 export default []
   .concat(
