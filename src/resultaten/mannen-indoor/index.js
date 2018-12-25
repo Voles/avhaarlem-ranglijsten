@@ -1,5 +1,5 @@
 import senioren from './senioren';
-// import juniorenA from './junioren-a';
+import juniorenA from './junioren-a';
 // import juniorenB from './junioren-b';
 // import juniorenC from './junioren-c';
 // import juniorenD from './junioren-d';
@@ -8,7 +8,7 @@ import senioren from './senioren';
 export default []
   .concat(
     senioren,
-    // juniorenA,
+    juniorenA,
     // juniorenB,
     // juniorenC,
     // juniorenD,
