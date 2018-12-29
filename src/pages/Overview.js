@@ -83,9 +83,7 @@ class Overview extends Component {
             <div className="row">
               <div className="col-12">
                 <p className="lead">
-                  Laatste wijziging gemaakt op {laatsteWijzigingGemaaktOp.toLocaleDateString()}. Clubrecord
-                  toevoegen? <a href="https://www.avhaarlem.nl/contact/" target="_blank" rel="noopener noreferrer">Neem
-                  contact op</a>.
+                  Clubrecord toevoegen? <a href="mailto:clubrecord@avhaarlem.nl" target="_blank" rel="noopener noreferrer">Neem contact op</a>.
                 </p>
               </div>
             </div>
