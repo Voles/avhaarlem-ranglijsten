@@ -46,14 +46,15 @@ export const DUIZENDVIJFHONDERD_METER_STEEPLECHASE = '1 500 m steeplechase';
 export const TWEEDUIZEND_METER_STEEPLECHASE = '2 000 m steeplechase';
 export const DRIEDUIZEND_METER_STEEPLECHASE = '3 000 m steeplechase';
 
-export const HOOGSPRINGEN = 'hoogspringen';
-export const VERSPRINGEN = 'verspringen';
-export const KOGELSTOTEN= 'kogelstoten';
-export const KOGELSLINGEREN = 'kogelslingeren';
-export const VIJFKAMP = 'vijfkamp';
-export const ZESKAMP = 'zeskamp';
-export const ZEVENKAMP = 'zevenkamp';
-export const POLSSTOKHOOGSPRINGEN = 'polsstokhoogspringen';
-export const HINKSTAPSPRINGEN = 'hinkstapspringen';
-export const DISCUSWERPEN = 'discuswerpen';
-export const SPEERWERPEN = 'speerwerpen';
+export const HOOGSPRINGEN = 'Hoogspringen';
+export const VERSPRINGEN = 'Verspringen';
+export const KOGELSTOTEN= 'Kogelstoten';
+export const KOGELSLINGEREN = 'Kogelslingeren';
+export const POLSSTOKHOOGSPRINGEN = 'Polsstokhoogspringen';
+export const HINKSTAPSPRINGEN = 'Hinkstapspringen';
+export const DISCUSWERPEN = 'Discuswerpen';
+export const SPEERWERPEN = 'Speerwerpen';
+
+export const VIJFKAMP = 'Vijfkamp';
+export const ZESKAMP = 'Zeskamp';
+export const ZEVENKAMP = 'Zevenkamp';
