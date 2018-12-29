@@ -3,7 +3,7 @@ import {
   DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
   HONDERD_METER, HONDERD_METER_HORDEN, HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
   TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_HONDERD_METER,
-  VIERHONDERD_METER, VIERHONDERD_METER_HORDEN
+  VIERHONDERD_METER, VIERHONDERD_METER_HORDEN, ZEVENKAMP
 } from "../../constants/onderdelen";
 
 export default [
@@ -127,7 +127,7 @@ export default [
     "datum": "10-06-2018"
   },
   {
-    "onderdeel": "zevenkamp",
+    "onderdeel": ZEVENKAMP,
     "naam": "Tara van Schie",
     "prestatie": [
       {

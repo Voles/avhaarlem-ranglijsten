@@ -13,7 +13,7 @@ import {
   TWEEHONDERD_METER,
   VERSPRINGEN,
   VIERHONDERD_METER,
-  ZESHONDERD_METER
+  ZESHONDERD_METER, ZEVENKAMP
 } from "../../constants/onderdelen";
 
 export default [
@@ -158,7 +158,7 @@ export default [
     "datum": "17-06-1996"
   },
   {
-    "onderdeel": "zevenkamp",
+    "onderdeel": ZEVENKAMP,
     "naam": "Babs Koeman",
     "prestatie": [
       {

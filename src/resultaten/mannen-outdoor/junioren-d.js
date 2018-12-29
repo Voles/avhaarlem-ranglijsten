@@ -4,7 +4,7 @@ import {
   DUIZEND_METER,
   HOOGSPRINGEN, KOGELSTOTEN, SPEERWERPEN,
   VERSPRINGEN,
-  VIJFDUIZEND_METER
+  VIJFDUIZEND_METER, ZEVENKAMP
 } from '../../constants/onderdelen';
 
 export default [
@@ -93,7 +93,7 @@ export default [
     "datum": "30-06-2018"
   },
   {
-    "onderdeel": "zevenkamp",
+    "onderdeel": ZEVENKAMP,
     "naam": "Pim Pauel",
     "plaats": "Schoonhoven",
     "datum": "02/03-07-2011",
