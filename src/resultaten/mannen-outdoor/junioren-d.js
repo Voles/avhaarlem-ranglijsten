@@ -2,14 +2,14 @@ import {
   DISCUSWERPEN,
   DRIEDUIZEND_METER,
   DUIZEND_METER,
-  HOOGSPRINGEN, KOGELSTOTEN, SPEERWERPEN,
+  HOOGSPRINGEN, KOGELSTOTEN, SPEERWERPEN, TACHTIG_METER, TACHTIG_METER_HORDEN,
   VERSPRINGEN,
   VIJFDUIZEND_METER, ZEVENKAMP
 } from '../../constants/onderdelen';
 
 export default [
   {
-    "onderdeel": "80 meter",
+    "onderdeel": TACHTIG_METER,
     "naam": "Michael Parkinson",
     "prestatie": "10,44 s (10,2)",
     "plaats": "Haarlem",
@@ -37,7 +37,7 @@ export default [
     "datum": "20-09-2018"
   },
   {
-    "onderdeel": "80 meter horden",
+    "onderdeel": TACHTIG_METER_HORDEN,
     "naam": "Derk Hoefman",
     "prestatie": "13,13 s",
     "plaats": "Leiden",
@@ -99,7 +99,7 @@ export default [
     "datum": "02/03-07-2011",
     "prestatie": [
       {
-        "onderdeel": "80 meter",
+        "onderdeel": TACHTIG_METER,
         "prestatie": "11,14 s (10,9)",
         "punten": "(596)"
       },
@@ -114,7 +114,7 @@ export default [
         "punten": "(514)"
       },
       {
-        "onderdeel": "80 meter horden",
+        "onderdeel": TACHTIG_METER_HORDEN,
         "prestatie": "14,24 s (14,0)",
         "punten": "(466)"
       },
@@ -134,7 +134,7 @@ export default [
         "punten": "(554)"
       },
       {
-        "onderdeel": "80 meter",
+        "onderdeel": TACHTIG_METER,
         "prestatie": "11,14 s (10,9)",
         "punten": "(596)"
       }

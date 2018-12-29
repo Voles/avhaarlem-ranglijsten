@@ -9,7 +9,7 @@ import {
   HOOGSPRINGEN,
   KOGELSTOTEN,
   POLSSTOKHOOGSPRINGEN,
-  SPEERWERPEN,
+  SPEERWERPEN, TACHTIG_METER, TACHTIG_METER_HORDEN,
   TWEEHONDERD_METER,
   VERSPRINGEN,
   VIERHONDERD_METER,
@@ -18,14 +18,14 @@ import {
 
 export default [
   {
-    "onderdeel": "80 meter",
+    "onderdeel": TACHTIG_METER,
     "naam": "Aneska de Windt",
     "prestatie": "10,64 (10,4)",
     "plaats": "",
     "datum": "1988"
   },
   {
-    "onderdeel": "80 meter",
+    "onderdeel": TACHTIG_METER,
     "naam": "Marjanne van Sambeek",
     "prestatie": "10,64 (10,4)",
     "plaats": "Amsterdam",
@@ -88,7 +88,7 @@ export default [
     "datum": "25-05-2018"
   },
   {
-    "onderdeel": "80 meter horden",
+    "onderdeel": TACHTIG_METER_HORDEN,
     "naam": "Marije Zandstra",
     "prestatie": "12,84 (12,6)",
     "plaats": "Zaandam",
@@ -162,7 +162,7 @@ export default [
     "naam": "Babs Koeman",
     "prestatie": [
       {
-        "onderdeel": "80 meter horden",
+        "onderdeel": TACHTIG_METER_HORDEN,
         "prestatie": "13,17 s",
         "punten": "(569)"
       },
