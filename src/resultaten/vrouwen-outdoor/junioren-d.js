@@ -1,8 +1,14 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER, DISCUSWERPEN,
+  DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, VERSPRINGEN,
+  VIERHONDERD_METER,
+  ZESHONDERD_METER,
+  ZESTIG_METER, ZESTIG_METER_HORDEN
+} from "../../constants/onderdelen";
 
 export default [
   {
-    "onderdeel": "60 meter",
+    "onderdeel": ZESTIG_METER,
     "naam": "Marjanne van Sambeek",
     "prestatie": "8,14 s (7,9)",
     "plaats": "Krommenie",
@@ -23,70 +29,70 @@ export default [
     "datum": "09-09-2017"
   },
   {
-    "onderdeel": "600 meter",
+    "onderdeel": ZESHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "1.45,26",
     "plaats": "Zoetermeer",
     "datum": "23-09-2017"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "2.41,46",
     "plaats": "Beverwijk",
     "datum": "27-05-2016"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Pien Roozen",
     "prestatie": "3.15,85",
     "plaats": "Amsterdam",
     "datum": "07-09-2003"
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "5.37,07",
     "plaats": "Hoofddorp",
     "datum": "15-04-2016"
   },
   {
-    "onderdeel": "60 meter horden",
+    "onderdeel": ZESTIG_METER_HORDEN,
     "naam": "Joanna Andrews",
     "prestatie": "10,14 (9,9)",
     "plaats": "Krommenie",
     "datum": "28-05-1992"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Baltine de Wit",
     "prestatie": "1.55",
     "plaats": "Enschede",
     "datum": "16-09-1995"
   },
   {
-    "onderdeel": "polsstokhoogspringen",
+    "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Babs Koeman",
     "prestatie": "1.85",
     "plaats": "Haarlem",
     "datum": "19-05-2017"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Marjanne van Sambeek",
     "prestatie": "5.12",
     "plaats": "Amsterdam",
     "datum": "13-06-1992"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Sanna Piscaer",
     "prestatie": "11.80",
     "plaats": "Hilversum",
     "datum": "18-06-1994"
   },
   {
-    "onderdeel": "discuswerpen",
+    "onderdeel": DISCUSWERPEN,
     "naam": "Anne Kuperus",
     "prestatie": "23.23",
     "plaats": "Amsterdam",
@@ -118,12 +124,12 @@ export default [
     "datum": "08/09-07-2017",
     "prestatie": [
       {
-        "onderdeel": "60 meter horden",
+        "onderdeel": ZESTIG_METER_HORDEN,
         "prestatie": "10,41",
         "punten": "(554)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1.47",
         "punten": "(599)"
       },
@@ -133,12 +139,12 @@ export default [
         "punten": "(473)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "4.91",
         "punten": "(603)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "9.52",
         "punten": "(499)"
       },

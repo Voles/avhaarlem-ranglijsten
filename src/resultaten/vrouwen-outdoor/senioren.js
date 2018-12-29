@@ -1,10 +1,10 @@
 import {
-  ACHTHONDERD_METER,
-  DRIEHONDERD_METER, DUIZEND_METER, DUIZENDVIJFHONDERD_METER, EEN_MIJL,
+  ACHTHONDERD_METER, DISCUSWERPEN, DRIEDUIZEND_METER,
+  DRIEHONDERD_METER, DUIZEND_METER, DUIZENDVIJFHONDERD_METER, EEN_MIJL, HINKSTAPSPRINGEN,
   HONDERD_METER,
-  HONDERDVIJFTIG_METER, TWEEDUIZEND_METER,
-  TWEEHONDERD_METER,
-  VIERHONDERD_METER, ZESHONDERD_METER
+  HONDERDVIJFTIG_METER, HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, TWEEDUIZEND_METER,
+  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_TWEEHONDERD_METER,
+  VIERHONDERD_METER, VIERHONDERD_METER_HORDEN, VIJFDUIZEND_METER, ZESHONDERD_METER, ZWEEDSE_ESTAFETTE
 } from "../../constants/onderdelen";
 
 export default [
@@ -86,14 +86,14 @@ export default [
     "datum": "13-04-1989"
   },
   {
-    "onderdeel": "3000 meter",
+    "onderdeel": DRIEDUIZEND_METER,
     "naam": "Marianne van de Linde",
     "prestatie": "9.22,86",
     "plaats": "Haarlem",
     "datum": "24-07-1992"
   },
   {
-    "onderdeel": "5000 meter",
+    "onderdeel": VIJFDUIZEND_METER,
     "naam": "Marianne van de Linde",
     "prestatie": "16.22,4",
     "plaats": "Santpoort",
@@ -163,49 +163,49 @@ export default [
     "datum": "19-06-1994"
   },
   {
-    "onderdeel": "400 meter horden",
+    "onderdeel": VIERHONDERD_METER_HORDEN,
     "naam": "Albertine Vermeer",
     "prestatie": "1.04,44",
     "plaats": "Alkmaar",
     "datum": "27-05-2018"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Anja Smits",
     "prestatie": "1.65",
     "plaats": "Arnhem",
     "datum": "20-05-1973"
   },
   {
-    "onderdeel": "polsstokhoogspringen",
+    "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Mette Elgersma (B)",
     "prestatie": "2.60",
     "plaats": "Alkmaar",
     "datum": "27-05-2018"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Mieke van der Kolk",
     "prestatie": "6.21",
     "plaats": "Assen",
     "datum": "16-07-1994"
   },
   {
-    "onderdeel": "hinkstapspringen",
+    "onderdeel": HINKSTAPSPRINGEN,
     "naam": "Mieke van der Kolk",
     "prestatie": "12.24",
     "plaats": "Assen",
     "datum": "17-07-1994"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Toos Stoete",
     "prestatie": "11.16",
     "plaats": "Haarlem",
     "datum": "12-04-1992"
   },
   {
-    "onderdeel": "discuswerpen",
+    "onderdeel": DISCUSWERPEN,
     "naam": "Toos Stoete",
     "prestatie": "31.28",
     "plaats": "Santpoort",
@@ -219,7 +219,7 @@ export default [
     "datum": "20-04-1992"
   },
   {
-    "onderdeel": "kogelslingeren",
+    "onderdeel": KOGELSLINGEREN,
     "naam": "Iris Komen",
     "prestatie": "22.46",
     "plaats": "Amsterdam",
@@ -233,7 +233,7 @@ export default [
     "datum": "19-06-1994"
   },
   {
-    "onderdeel": "4 x 200 meter",
+    "onderdeel": VIER_KEER_TWEEHONDERD_METER,
     "naam": ["Bente Elgersma","Sabine Hannema","Mirthe Wiltink","Albertine Vermeer"],
     "prestatie": "1.56,73",
     "plaats": "Haarlem",
@@ -247,7 +247,7 @@ export default [
     "datum": "01-07-2017"
   },
   {
-    "onderdeel": "Zweedse estafette",
+    "onderdeel": ZWEEDSE_ESTAFETTE,
     "naam": ["Albertine Vermeer", "Kristen Niedrach", "Femke van der Wolf", "Evelien Verbruggen"],
     "prestatie": "2.21,72",
     "plaats": "Gouda",

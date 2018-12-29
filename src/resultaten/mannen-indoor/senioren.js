@@ -1,22 +1,38 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER,
+  DRIEDUIZEND_METER,
+  DUIZEND_METER,
+  DUIZENDVIJFHONDERD_METER,
+  HINKSTAPSPRINGEN,
+  HOOGSPRINGEN, KOGELSTOTEN,
+  POLSSTOKHOOGSPRINGEN,
+  TWEEHONDERD_METER,
+  VERSPRINGEN, VIER_KEER_TWEEHONDERD_METER,
+  VIERHONDERD_METER,
+  VIJF_KILOMETER_SNELWANDELEN,
+  VIJFTIG_METER,
+  VIJFTIG_METER_HORDEN,
+  ZESTIG_METER,
+  ZESTIG_METER_HORDEN, ZEVENKAMP, ZWEEDSE_ESTAFETTE
+} from "../../constants/onderdelen";
 
 export default [
   {
-    "onderdeel": "50 meter",
+    "onderdeel": VIJFTIG_METER,
     "naam": "Guus Groskamp",
     "prestatie": "6,08",
     "plaats": "Zwolle",
     "datum": "20-01-1996"
   },
   {
-    "onderdeel": "60 meter",
+    "onderdeel": ZESTIG_METER,
     "naam": "Mario Westbroek",
     "prestatie": "6,82",
     "plaats": "Rotterdam",
     "datum": "21-02-1982"
   },
   {
-    "onderdeel": "200 meter",
+    "onderdeel": TWEEHONDERD_METER,
     "naam": "Jurgen Wielart",
     "prestatie": "21,99",
     "plaats": "Apeldoorn",
@@ -30,148 +46,148 @@ export default [
     "datum": "02-02-1984"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Jan de Ruiter",
     "prestatie": "1.54,74",
     "plaats": "Den Haag",
     "datum": "16-02-1991"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "vacant",
     "prestatie": "",
     "plaats": "",
     "datum": ""
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Stijn Jaspers",
     "prestatie": "3.44,8",
     "plaats": "Amerika",
     "datum": "11-02-1983"
   },
   {
-    "onderdeel": "3000 meter",
+    "onderdeel": DRIEDUIZEND_METER,
     "naam": "Paul Jaspers",
     "prestatie": "8.04,01",
     "plaats": "Den Haag",
     "datum": "04-02-1989"
   },
   {
-    "onderdeel": "50 meter horden",
+    "onderdeel": VIJFTIG_METER_HORDEN,
     "naam": "Marc Kok",
     "prestatie": "6,88",
     "plaats": "Zwolle",
     "datum": "21-01-1989"
   },
   {
-    "onderdeel": "60 meter horden",
+    "onderdeel": ZESTIG_METER_HORDEN,
     "naam": "Marc Kok",
     "prestatie": "8,06",
     "plaats": "Den Haag",
     "datum": "05-02-1989"
   },
   {
-    "onderdeel": "5 km snelwandelen",
+    "onderdeel": VIJF_KILOMETER_SNELWANDELEN,
     "naam": "Frank van Ravensberg",
     "prestatie": "22.04,9",
     "plaats": "Zuid-Laren",
     "datum": "12-02-1984"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Ruud Wielart",
     "prestatie": "2,26",
     "plaats": "Rotterdam",
     "datum": "17-02-1980"
   },
   {
-    "onderdeel": "polsstokhoogspringen",
+    "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Pim Göbel",
     "prestatie": "4,86",
     "plaats": "Zwolle",
     "datum": "31-01-1981"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Hein Macknack (A)",
     "prestatie": "7,43",
     "plaats": "Maastricht",
     "datum": "02-02-1985"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Hein Macknack",
     "prestatie": "7,43",
     "plaats": "Den Haag",
     "datum": "07-02-1987"
   },
   {
-    "onderdeel": "hinkstapspringen",
+    "onderdeel": HINKSTAPSPRINGEN,
     "naam": "Anne Jan van der Veen",
     "prestatie": "15,51",
     "plaats": "Zuid-Laren",
     "datum": "12-02-1984"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Rob Bakker",
     "prestatie": "16,98",
     "plaats": "Den Haag",
     "datum": "31-01-1993"
   },
   {
-    "onderdeel": "4 x 200 meter",
+    "onderdeel": VIER_KEER_TWEEHONDERD_METER,
     "naam": ["Niels Terol", "Roel van Ree", "Erik van der Veen", "Ger Wessel"],
     "prestatie": "1.32,82",
     "plaats": "Den Haag",
     "datum": "08-02-1998"
   },
   {
-    "onderdeel": "Zweedse Estafette",
+    "onderdeel": ZWEEDSE_ESTAFETTE,
     "naam": ["Job Wiltink", "Daan Oppenhuis", "Dik de Groot", "Stefan Scholte"],
     "prestatie": "2.11,51",
     "plaats": "Apeldoorn",
     "datum": "10-03-2018"
   },
   {
-    "onderdeel": "7-kamp",
+    "onderdeel": ZEVENKAMP,
     "naam": "Less Brown",
     "plaats": "Zwolle",
     "datum": "21/22-01-1984",
     "prestatie": [
       {
-        "onderdeel": "60 meter",
+        "onderdeel": ZESTIG_METER,
         "prestatie": "7,64 (7,4)",
         "punten": "(668)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "5,74",
         "punten": "(531)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "13,59",
         "punten": "(703)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1,80",
         "punten": "(627)"
       },
       {
-        "onderdeel": "60 meter horden",
+        "onderdeel": ZESTIG_METER_HORDEN,
         "prestatie": "9,34 (9,1)",
         "punten": "(673)"
       },
       {
-        "onderdeel": "polsstokhoogspringen",
+        "onderdeel": POLSSTOKHOOGSPRINGEN,
         "prestatie": "3,40",
         "punten": "(457)"
       },
       {
-        "onderdeel": "1000 m",
+        "onderdeel": DUIZEND_METER,
         "prestatie": "3.07,1",
         "punten": "(596)"
       },

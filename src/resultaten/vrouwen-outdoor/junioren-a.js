@@ -1,15 +1,21 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER, DISCUSWERPEN,
+  DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
+  HONDERD_METER, HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN,
+  TWEEHONDERD_METER, VERSPRINGEN,
+  VIERHONDERD_METER, VIERHONDERD_METER_HORDEN
+} from "../../constants/onderdelen";
 
 export default [
   {
-    "onderdeel": "100 meter",
+    "onderdeel": HONDERD_METER,
     "naam": "Brenda Stoete (B)",
     "prestatie": "12,74 (12,5)",
     "plaats": "Krommenie",
     "datum": "24-07-1988"
   },
   {
-    "onderdeel": "200 meter",
+    "onderdeel": TWEEHONDERD_METER,
     "naam": "Brenda Stoete",
     "prestatie": "25,94 (25,7)",
     "plaats": "Amsterdam",
@@ -23,21 +29,21 @@ export default [
     "datum": "29-04-1990"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Ingrid de Jager",
     "prestatie": "2.16,5",
     "plaats": "Arnhem",
     "datum": "27-06-1974"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Larissa Scholten (C)",
     "prestatie": "3.10,64",
     "plaats": "Utrecht",
     "datum": "22-06-2002"
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Larissa Scholten",
     "prestatie": "5.02,39",
     "plaats": "Utrecht",
@@ -51,49 +57,49 @@ export default [
     "datum": "20-05-1973"
   },
   {
-    "onderdeel": "400 meter horden",
+    "onderdeel": VIERHONDERD_METER_HORDEN,
     "naam": "Jirina van Kesteren",
     "prestatie": "67,75",
     "plaats": "Helmond",
     "datum": "24-06-2005"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Anja Smits",
     "prestatie": "1.65",
     "plaats": "Arnhem",
     "datum": "20-05-1973"
   },
   {
-    "onderdeel": "polsstokhoogspringen",
+    "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Mette Elgersma (B)",
     "prestatie": "2.60",
     "plaats": "Alkmaar",
     "datum": "27-05-2018"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Anja Smits",
     "prestatie": "5.73",
     "plaats": "Arnhem",
     "datum": "20-05-1973"
   },
   {
-    "onderdeel": "hinkstapspringen",
+    "onderdeel": HINKSTAPSPRINGEN,
     "naam": "Sanne Immer",
     "prestatie": "11.16 m (rw +0,0 m/s)",
     "plaats": "Sittard",
     "datum": "26-06-2004"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Baltine de Wit",
     "prestatie": "10.79",
     "plaats": "Haarlem",
     "datum": "23-05-2001"
   },
   {
-    "onderdeel": "discuswerpen",
+    "onderdeel": DISCUSWERPEN,
     "naam": "Brenda Stoete",
     "prestatie": "23.26",
     "plaats": "Beverwijk",
@@ -107,7 +113,7 @@ export default [
     "datum": "12-06-1994"
   },
   {
-    "onderdeel": "kogelslingeren",
+    "onderdeel": KOGELSLINGEREN,
     "naam": "vacant",
     "prestatie": "",
     "plaats": "",
@@ -137,22 +143,22 @@ export default [
         "punten": "(633)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1.54",
         "punten": "(666)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "9.72",
         "punten": "(511)"
       },
       {
-        "onderdeel": "200 meter",
+        "onderdeel": TWEEHONDERD_METER,
         "prestatie": "26,31",
         "punten": "(770)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "5.36",
         "punten": "(660)"
       },
@@ -162,7 +168,7 @@ export default [
         "punten": "(420)"
       },
       {
-        "onderdeel": "800 meter",
+        "onderdeel": ACHTHONDERD_METER,
         "prestatie": "2.46,43",
         "punten": "(501)"
       },

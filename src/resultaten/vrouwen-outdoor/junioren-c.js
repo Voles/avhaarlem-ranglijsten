@@ -1,4 +1,10 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER, DISCUSWERPEN,
+  DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN,
+  TWEEHONDERD_METER, VERSPRINGEN,
+  VIERHONDERD_METER,
+  ZESHONDERD_METER
+} from "../../constants/onderdelen";
 
 export default [
   {
@@ -23,7 +29,7 @@ export default [
     "datum": "03-07-2004"
   },
   {
-    "onderdeel": "200 meter",
+    "onderdeel": TWEEHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "28,46",
     "plaats": "Edam",
@@ -44,28 +50,28 @@ export default [
     "datum": "10-06-2018"
   },
   {
-    "onderdeel": "600 meter",
+    "onderdeel": ZESHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "1.41,62",
     "plaats": "Amstelveen",
     "datum": "21-05-2018"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "2.31,56",
     "plaats": "Haarlem",
     "datum": "08-06-2018"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Larissa Scholten",
     "prestatie": "3.10,64",
     "plaats": "Utrecht",
     "datum": "22-06-2002"
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "5.15,44",
     "plaats": "Assendelft",
@@ -86,7 +92,7 @@ export default [
     "datum": "22-06-2018"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Sanne Immer",
     "prestatie": "1.60",
     "plaats": "Krommenie",
@@ -100,28 +106,28 @@ export default [
     "datum": "26-08-2000"
   },
   {
-    "onderdeel": "polsstokhoogspringen",
+    "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Mette Elgersma",
     "prestatie": "2.40",
     "plaats": "Heerhugowaard",
     "datum": "02-06-2017"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Marjanne van Sambeek",
     "prestatie": "5.31",
     "plaats": "Beverwijk",
     "datum": "05-06-1993"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Wendy IJzerman",
     "prestatie": "12.07",
     "plaats": "Amersfoort",
     "datum": "24-04-1993"
   },
   {
-    "onderdeel": "discuswerpen",
+    "onderdeel": DISCUSWERPEN,
     "naam": "Wendy IJzerman",
     "prestatie": "24.92",
     "plaats": "Beverwijk",
@@ -151,12 +157,12 @@ export default [
         "punten": "(569)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1.47 m",
         "punten": "(599)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "8.75 m",
         "punten": "(460)"
       },
@@ -166,7 +172,7 @@ export default [
         "punten": "(617)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "5.06 m",
         "punten": "(632)"
       },
@@ -176,7 +182,7 @@ export default [
         "punten": "(461)"
       },
       {
-        "onderdeel": "600 meter",
+        "onderdeel": ZESHONDERD_METER,
         "prestatie": "1.42,02 s",
         "punten": "(661)"
       },

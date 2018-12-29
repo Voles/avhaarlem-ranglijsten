@@ -1,22 +1,28 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER, DRIEDUIZEND_METER, HINKSTAPSPRINGEN, HOOGSPRINGEN,
+  KOGELSTOTEN,
+  TWEEHONDERD_METER, VERSPRINGEN,
+  VIERHONDERD_METER, VIJFKAMP, VIJFTIG_METER,
+  ZESTIG_METER, ZESTIG_METER_HORDEN
+} from "../../constants/onderdelen";
 
 export default [
   {
-    "onderdeel": "50 meter",
+    "onderdeel": VIJFTIG_METER,
     "naam": "Marjanne van Sambeek",
     "prestatie": "7,04 (6,8)",
     "plaats": "Amsterdam",
     "datum": "05-02-1995"
   },
   {
-    "onderdeel": "60 meter",
+    "onderdeel": ZESTIG_METER,
     "naam": "Brenda Stoete",
     "prestatie": "7,99",
     "plaats": "Den Haag",
     "datum": "26-01-1992"
   },
   {
-    "onderdeel": "200 meter",
+    "onderdeel": TWEEHONDERD_METER,
     "naam": "Brenda Stoete",
     "prestatie": "26,61",
     "plaats": "Den Haag",
@@ -30,82 +36,82 @@ export default [
     "datum": "13-02-2010"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Jirina van Kesteren",
     "prestatie": "2.32,41",
     "plaats": "Zuidbroek",
     "datum": "25-01-2004"
   },
   {
-    "onderdeel": "3000 meter",
+    "onderdeel": DRIEDUIZEND_METER,
     "naam": "Marianne van de Linde",
     "prestatie": "9.32,21",
     "plaats": "Den Haag",
     "datum": "16-02-1992"
   },
   {
-    "onderdeel": "60 meter horden",
+    "onderdeel": ZESTIG_METER_HORDEN,
     "naam": "Anja Smits",
     "prestatie": "9,34 (9,1)",
     "plaats": "Leiden",
     "datum": "24-02-1973"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Tara van Schie",
     "prestatie": "1.56",
     "plaats": "Gent (B)",
     "datum": "03-02-2008"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Mieke van der Kolk",
     "prestatie": "6.16",
     "plaats": "Zwolle",
     "datum": "22-01-1994"
   },
   {
-    "onderdeel": "hinkstapspringen",
+    "onderdeel": HINKSTAPSPRINGEN,
     "naam": "Mieke van der Kolk",
     "prestatie": "12.10",
     "plaats": "Den Haag",
     "datum": "20-02-1994"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Wendy IJzerman",
     "prestatie": "11.20",
     "plaats": "Den Haag",
     "datum": "26-01-1997"
   },
   {
-    "onderdeel": "vijfkamp",
+    "onderdeel": VIJFKAMP,
     "naam": "Tara van Schie",
     "plaats": "Gent (B)",
     "datum": "03-02-2008",
     "prestatie": [
       {
-        "onderdeel": "60 meter horden",
+        "onderdeel": ZESTIG_METER_HORDEN,
         "prestatie": "9,72",
         "punten": "(756)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1.56",
         "punten": "(689)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "9.72",
         "punten": "(511)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "5.38",
         "punten": "(665)"
       },
       {
-        "onderdeel": "800 meter",
+        "onderdeel": ACHTHONDERD_METER,
         "prestatie": "3.07,09",
         "punten": "(302)"
       },

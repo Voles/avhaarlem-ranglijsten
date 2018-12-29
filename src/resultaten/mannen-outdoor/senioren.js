@@ -1,15 +1,21 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER, DISCUSWERPEN, DRIEDUIZEND_METER, DRIEDUIZEND_METER_STEEPLE_CHASE,
+  DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
+  HONDERD_METER, HONDERDENTIEN_METER_HORDEN, HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN,
+  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_TWEEHONDERD_METER,
+  VIERHONDERD_METER, VIERHONDERD_METER_HORDEN, VIJFDUIZEND_METER, ZWEEDSE_ESTAFETTE
+} from "../../constants/onderdelen";
 
 export default [
   {
-    "onderdeel": "100 meter",
+    "onderdeel": HONDERD_METER,
     "naam": "Sammy Monsels",
     "prestatie": "10,49",
     "plaats": "Nijmegen",
     "datum": "19-07-1981"
   },
   {
-    "onderdeel": "200 meter",
+    "onderdeel": TWEEHONDERD_METER,
     "naam": "Sammy Monsels",
     "prestatie": "21,03",
     "plaats": "Koblenz (D)",
@@ -23,21 +29,21 @@ export default [
     "datum": "21-07-2013"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Jurgen Wielart",
     "prestatie": "1.48,08",
     "plaats": "Leuven (B)",
     "datum": "19-08-2017"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Paul Jaspers",
     "prestatie": "2.26,3",
     "plaats": "Leiden",
     "datum": "16-09-1983"
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Stijn Jaspers",
     "prestatie": "3.40,29",
     "plaats": "Hengelo",
@@ -58,14 +64,14 @@ export default [
     "datum": "17-08-1983"
   },
   {
-    "onderdeel": "3000 meter",
+    "onderdeel": DRIEDUIZEND_METER,
     "naam": "Stijn Jaspers",
     "prestatie": "7.47,40",
     "plaats": "Brussel (B)",
     "datum": "24-08-1984"
   },
   {
-    "onderdeel": "5000 meter",
+    "onderdeel": VIJFDUIZEND_METER,
     "naam": "Stijn Jaspers",
     "prestatie": "13.24,46",
     "plaats": "Leuven (B)",
@@ -79,21 +85,21 @@ export default [
     "datum": "14-06-2014"
   },
   {
-    "onderdeel": "110 meter horden",
+    "onderdeel": HONDERDENTIEN_METER_HORDEN,
     "naam": "Marc Kok",
     "prestatie": "14,73",
     "plaats": "Krommenie",
     "datum": "25-06-1989"
   },
   {
-    "onderdeel": "400 meter horden",
+    "onderdeel": VIERHONDERD_METER_HORDEN,
     "naam": "Frank Versteeg",
     "prestatie": "53,88",
     "plaats": "Hengelo",
     "datum": "21-05-1988"
   },
   {
-    "onderdeel": "3000 meter steeple chase",
+    "onderdeel": DRIEDUIZEND_METER_STEEPLE_CHASE,
     "naam": "Evert van Ravensberg",
     "prestatie": "8.48,0",
     "plaats": "Roosendaal",
@@ -128,49 +134,49 @@ export default [
     "datum": "24-10-1982"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Ruud Wielart",
     "prestatie": "2,28",
     "plaats": "Leiden",
     "datum": "01-09-1979"
   },
   {
-    "onderdeel": "polsstokhoogspringen",
+    "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Pim Göbel",
     "prestatie": "4,90",
     "plaats": "Merksem (B)",
     "datum": "22-06-1980"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Hein Macknack",
     "prestatie": "7,56",
     "plaats": "Amsterdam",
     "datum": "29-05-1988"
   },
   {
-    "onderdeel": "hinkstapspringen",
+    "onderdeel": HINKSTAPSPRINGEN,
     "naam": "Aafbrecht vd Veen",
     "prestatie": "16,11",
     "plaats": "Vught",
     "datum": "03-08-1986"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Rob Bakker",
     "prestatie": "17,01",
     "plaats": "Zoetermeer",
     "datum": "04-06-1992"
   },
   {
-    "onderdeel": "discuswerpen",
+    "onderdeel": DISCUSWERPEN,
     "naam": "Les Brown",
     "prestatie": "50,02",
     "plaats": "Krommenie",
     "datum": "11-07-1982"
   },
   {
-    "onderdeel": "kogelslingeren",
+    "onderdeel": KOGELSLINGEREN,
     "naam": "Schelto Scheltens",
     "prestatie": "56,18",
     "plaats": "Lisse",
@@ -203,7 +209,7 @@ export default [
     "datum": "13-09-1980"
   },
   {
-    "onderdeel": "4 x 200 meter",
+    "onderdeel": VIER_KEER_TWEEHONDERD_METER,
     "naam": [
       "Jan Willen v.d. Wal",
       "Nilo Emerenciana",
@@ -241,7 +247,7 @@ export default [
     "datum": "12-09-1981"
   },
   {
-    "onderdeel": "Zweedse estafette",
+    "onderdeel": ZWEEDSE_ESTAFETTE,
     "naam": ["Jurgen Wielart", "Vester van Heijningen", "Sjoerd Dekker", "Stefan Scholte"],
     "prestatie": "1.58,31",
     "plaats": "Gouda",
@@ -254,22 +260,22 @@ export default [
     "datum": "15/16-09-1962",
     "prestatie": [
       {
-        "onderdeel": "100 meter",
+        "onderdeel": HONDERD_METER,
         "prestatie": "11,44 (11,2)",
         "punten": "(765)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "6,68",
         "punten": "(739)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "13,64",
         "punten": "(706)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1,65",
         "punten": "(504)"
       },
@@ -279,17 +285,17 @@ export default [
         "punten": "(693)"
       },
       {
-        "onderdeel": "110 meter horden",
+        "onderdeel": HONDERDENTIEN_METER_HORDEN,
         "prestatie": "15,94 (15,7)",
         "punten": "(740)"
       },
       {
-        "onderdeel": "discuswerpen",
+        "onderdeel": DISCUSWERPEN,
         "prestatie": "39,30",
         "punten": "(650)"
       },
       {
-        "onderdeel": "polsstokhoogspringen",
+        "onderdeel": POLSSTOKHOOGSPRINGEN,
         "prestatie": "3,25",
         "punten": "(418)"
       },

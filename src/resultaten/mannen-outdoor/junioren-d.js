@@ -1,3 +1,12 @@
+import {
+  DISCUSWERPEN,
+  DRIEDUIZEND_METER,
+  DUIZEND_METER,
+  HOOGSPRINGEN, KOGELSTOTEN,
+  VERSPRINGEN,
+  VIJFDUIZEND_METER
+} from '../../constants/onderdelen';
+
 export default [
   {
     "onderdeel": "80 meter",
@@ -7,21 +16,21 @@ export default [
     "datum": "06-08-1988"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Peter Markwat",
     "prestatie": "3.04,3 s",
     "plaats": "Haarlem",
     "datum": "06-10-1991"
   },
   {
-    "onderdeel": "3000 meter",
+    "onderdeel": DRIEDUIZEND_METER,
     "naam": "Ryan Eelman",
     "prestatie": "12:23,00",
     "plaats": "Haarlem",
     "datum": "20-09-2018"
   },
   {
-    "onderdeel": "5000 meter",
+    "onderdeel": VIJFDUIZEND_METER,
     "naam": "Derk Hoefman",
     "prestatie": "21:09,70",
     "plaats": "Haarlem",
@@ -35,28 +44,28 @@ export default [
     "datum": "19-09-2018"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Marvin Isselt",
     "prestatie": "1,60 m",
     "plaats": "Amstelveen",
     "datum": "02-06-1984"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Edward Leter",
     "prestatie": "5,40 m",
     "plaats": "Beverwijk",
     "datum": "01-09-1984"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Dennis Kruithof",
     "prestatie": "12,30 m",
     "plaats": "Zaandam",
     "datum": "20-05-1978"
   },
   {
-    "onderdeel": "discuswerpen",
+    "onderdeel": DISCUSWERPEN,
     "naam": "Dennis Kruithof",
     "prestatie": "35,32 m",
     "plaats": "Haarlem",
@@ -95,12 +104,12 @@ export default [
         "punten": "(596)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "4,70 m",
         "punten": "(560)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "9,82 m",
         "punten": "(514)"
       },
@@ -110,7 +119,7 @@ export default [
         "punten": "(466)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1,45 m",
         "punten": "(582)"
       },
@@ -120,7 +129,7 @@ export default [
         "punten": "(529)"
       },
       {
-        "onderdeel": "1000 m",
+        "onderdeel": DUIZEND_METER,
         "prestatie": "3.18,8 s",
         "punten": "(554)"
       },

@@ -1,15 +1,21 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER, DISCUSWERPEN,
+  DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
+  HONDERD_METER, HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN,
+  TWEEHONDERD_METER, VERSPRINGEN,
+  VIERHONDERD_METER, VIERHONDERD_METER_HORDEN
+} from "../../constants/onderdelen";
 
 export default [
   {
-    "onderdeel": "100 meter",
+    "onderdeel": HONDERD_METER,
     "naam": "Brenda Stoete",
     "prestatie": "12,74 (12,5)",
     "plaats": "Krommenie",
     "datum": "24-07-1988"
   },
   {
-    "onderdeel": "200 meter",
+    "onderdeel": TWEEHONDERD_METER,
     "naam": "Tara van Schie",
     "prestatie": "26,17 (-0,2 m/s)",
     "plaats": "Best",
@@ -23,21 +29,21 @@ export default [
     "datum": "16-09-1990"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Jirina van Kesteren",
     "prestatie": "2.26,18",
     "plaats": "Emmeloord",
     "datum": "26-09-2004"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Larissa Scholten (C)",
     "prestatie": "3.10,64",
     "plaats": "Utrecht",
     "datum": "22-06-2002"
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Jirina van Kesteren",
     "prestatie": "5.25,81",
     "plaats": "Haarlem",
@@ -51,14 +57,14 @@ export default [
     "datum": "30-06-2007"
   },
   {
-    "onderdeel": "400 meter horden",
+    "onderdeel": VIERHONDERD_METER_HORDEN,
     "naam": "Jirina van Kesteren",
     "prestatie": "68,82",
     "plaats": "Sittard",
     "datum": "25-06-2004"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Sanne Immer (C)",
     "prestatie": "1.60",
     "plaats": "Krommenie",
@@ -72,35 +78,35 @@ export default [
     "datum": "26-06-2000"
   },
   {
-    "onderdeel": "polsstokhoogspringen",
+    "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Mette Elgersma",
     "prestatie": "2.60",
     "plaats": "Alkmaar",
     "datum": "27-05-2018"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Tara van Schie",
     "prestatie": "5.42",
     "plaats": "Utrecht",
     "datum": "08-07-2007"
   },
   {
-    "onderdeel": "hinkstapspringen",
+    "onderdeel": HINKSTAPSPRINGEN,
     "naam": "Tara van Schie",
     "prestatie": "10.63",
     "plaats": "Utrecht",
     "datum": "08-07-2007"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Tara van Schie",
     "prestatie": "12.14",
     "plaats": "Valkenswaard",
     "datum": "01-09-2007"
   },
   {
-    "onderdeel": "discuswerpen",
+    "onderdeel": DISCUSWERPEN,
     "naam": "Baltine de Wit",
     "prestatie": "29.70",
     "plaats": "Haarlem",
@@ -130,22 +136,22 @@ export default [
         "punten": "(805)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1.51",
         "punten": "(632)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "11.41",
         "punten": "(622)"
       },
       {
-        "onderdeel": "200 meter",
+        "onderdeel": TWEEHONDERD_METER,
         "prestatie": "26.17",
         "punten": "(782)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "5.31",
         "punten": "(645)"
       },
@@ -155,7 +161,7 @@ export default [
         "punten": "(405)"
       },
       {
-        "onderdeel": "800 meter",
+        "onderdeel": ACHTHONDERD_METER,
         "prestatie": "2.46,79",
         "punten": "(497)"
       }

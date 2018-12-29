@@ -1,3 +1,8 @@
+export const DERTIG_METER = '30 meter';
+export const VIJFENDERTIG_METER = '35 meter';
+export const VEERTIG_METER = '40 meter';
+export const VIJFTIG_METER = '50 meter';
+export const ZESTIG_METER = '60 meter';
 export const HONDERD_METER = '100 meter';
 export const HONDERDVIJFTIG_METER = '150 meter';
 export const TWEEHONDERD_METER = '200 meter';
@@ -9,3 +14,28 @@ export const DUIZEND_METER = '1000 meter';
 export const DUIZENDVIJFHONDERD_METER = '1500 meter';
 export const EEN_MIJL = '1 mijl (1609 m)';
 export const TWEEDUIZEND_METER = '2000 meter';
+export const DRIEDUIZEND_METER = '3000 meter';
+export const VIJFDUIZEND_METER = '5000 meter';
+export const VEERTIG_METER_HORDEN = '40 meter horden';
+export const VIJFTIG_METER_HORDEN = '60 meter horden';
+export const ZESTIG_METER_HORDEN = '60 meter horden';
+export const HONDERDENTIEN_METER_HORDEN = '110 meter horden';
+export const VIERHONDERD_METER_HORDEN = '400 meter horden';
+export const VIER_KEER_TWEEHONDERD_METER = '4 x 200 m';
+export const ZWEEDSE_ESTAFETTE = 'Zweedse estafette';
+
+export const DRIE_KILOMETER_SNELWANDELEN = '3 km snelwandelen';
+export const VIJF_KILOMETER_SNELWANDELEN = '5 km snelwandelen';
+export const TIEN_KILOMETER_SNELWANDELEN = '10 km snelwandelen';
+export const TWEEDUIZEND_METER_STEEPLE_CHASE = '2000 m steeple chase';
+export const DRIEDUIZEND_METER_STEEPLE_CHASE = '3000 m steeple chase';
+
+export const HOOGSPRINGEN = 'hoogspringen';
+export const VERSPRINGEN = 'verspringen';
+export const KOGELSTOTEN= 'kogelstoten';
+export const KOGELSLINGEREN = 'kogelslingeren';
+export const VIJFKAMP = 'vijfkamp';
+export const ZEVENKAMP = 'zevenkamp';
+export const POLSSTOKHOOGSPRINGEN = 'polsstokhoogspringen';
+export const HINKSTAPSPRINGEN = 'hinkstapspringen';
+export const DISCUSWERPEN = 'discuswerpen';

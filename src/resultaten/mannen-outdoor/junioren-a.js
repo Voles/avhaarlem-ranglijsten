@@ -1,29 +1,45 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER, DISCUSWERPEN,
+  DRIEDUIZEND_METER,
+  DRIEDUIZEND_METER_STEEPLE_CHASE,
+  DUIZEND_METER,
+  DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
+  HONDERD_METER,
+  HONDERDENTIEN_METER_HORDEN,
+  HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN,
+  POLSSTOKHOOGSPRINGEN,
+  TIEN_KILOMETER_SNELWANDELEN,
+  TWEEDUIZEND_METER_STEEPLE_CHASE,
+  TWEEHONDERD_METER, VERSPRINGEN,
+  VIERHONDERD_METER,
+  VIERHONDERD_METER_HORDEN,
+  VIJFDUIZEND_METER
+} from "../../constants/onderdelen";
 
 export default [
     {
-      "onderdeel": "100 meter",
+      "onderdeel": HONDERD_METER,
       "naam": "Chris Berger",
       "prestatie": "10,74 (10,5)",
       "plaats": "Hilversum",
       "datum": "17-08-1930"
     },
     {
-      "onderdeel": "100 meter",
+      "onderdeel": HONDERD_METER,
       "naam": "Mario Westbroek",
       "prestatie": "",
       "plaats": "Merksem (B)",
       "datum": "26-08-1978"
     },
     {
-      "onderdeel": "200 meter",
+      "onderdeel": TWEEHONDERD_METER,
       "naam": "Chris Berger",
       "prestatie": "21,34 (21,1)",
       "plaats": "Amsterdam",
       "datum": "15-06-1930"
     },
     {
-      "onderdeel": "200 meter",
+      "onderdeel": TWEEHONDERD_METER,
       "naam": "Mario Westbroek",
       "prestatie": "",
       "plaats": "Haarlem",
@@ -37,70 +53,70 @@ export default [
       "datum": "04-07-1980"
     },
     {
-      "onderdeel": "800 meter",
+      "onderdeel": ACHTHONDERD_METER,
       "naam": "Stijn Jaspers",
       "prestatie": "1.51,3",
       "plaats": "Sittard",
       "datum": "10-08-1980"
     },
     {
-      "onderdeel": "1000 meter",
+      "onderdeel": DUIZEND_METER,
       "naam": "Paul Jaspers",
       "prestatie": "2.26,3",
       "plaats": "Leiden",
       "datum": "16-09-1983"
     },
     {
-      "onderdeel": "1500 meter",
+      "onderdeel": DUIZENDVIJFHONDERD_METER,
       "naam": "Paul Jaspers",
       "prestatie": "3.43,8",
       "plaats": "Neerpelt (B)",
       "datum": "02-08-1984"
     },
     {
-      "onderdeel": "3000 meter",
+      "onderdeel": DRIEDUIZEND_METER,
       "naam": "Paul Jaspers",
       "prestatie": "7.57,62",
       "plaats": "Hechtel (B)",
       "datum": "14-08-1984"
     },
     {
-      "onderdeel": "5000 meter",
+      "onderdeel": VIJFDUIZEND_METER,
       "naam": "Paul Jaspers",
       "prestatie": "14.34,38",
       "plaats": "Amsterdam",
       "datum": "02-09-1984"
     },
     {
-      "onderdeel": "110 meter horden",
+      "onderdeel": HONDERDENTIEN_METER_HORDEN,
       "naam": "Ruud Wielart",
       "prestatie": "15,64 (15,4)",
       "plaats": "Amsterdam",
       "datum": "25-06-1972"
     },
     {
-      "onderdeel": "400 meter horden",
+      "onderdeel": VIERHONDERD_METER_HORDEN,
       "naam": "Rob Strik",
       "prestatie": "56,04 (55,9)",
       "plaats": "Haarlem",
       "datum": "09-07-1967"
     },
     {
-      "onderdeel": "2000 meter steeple chase",
+      "onderdeel": TWEEDUIZEND_METER_STEEPLE_CHASE,
       "naam": "Paul Jaspers",
       "prestatie": "6.09,2",
       "plaats": "Veldhoven",
       "datum": "20-05-1982"
     },
     {
-      "onderdeel": "3000 meter steeple chase",
+      "onderdeel": DRIEDUIZEND_METER_STEEPLE_CHASE,
       "naam": "Evert van Ravensberg",
       "prestatie": "10.20,6",
       "plaats": "Haarlem",
       "datum": "02-07-1972"
     },
     {
-      "onderdeel": "10000 meter snelwandelen",
+      "onderdeel": TIEN_KILOMETER_SNELWANDELEN,
       "naam": "Frank van Ravensberg",
       "prestatie": "47.20,4",
       "plaats": "Drachten",
@@ -114,49 +130,49 @@ export default [
       "datum": "03-08-1979"
     },
     {
-      "onderdeel": "hoogspringen",
+      "onderdeel": HOOGSPRINGEN,
       "naam": "Ruud Wielart",
       "prestatie": "2,13",
       "plaats": "Brussel (B)",
       "datum": "30-06-1973"
     },
     {
-      "onderdeel": "polsstokhoogspringen",
+      "onderdeel": POLSSTOKHOOGSPRINGEN,
       "naam": "Arno van Vugt",
       "prestatie": "4,40",
       "plaats": "Haarlem",
       "datum": "29-05-1982"
     },
     {
-      "onderdeel": "verspringen",
+      "onderdeel": VERSPRINGEN,
       "naam": "Hein Macknack",
       "prestatie": "7,33",
       "plaats": "Utrecht",
       "datum": "01-09-1985"
     },
     {
-      "onderdeel": "hinkstapspringen",
+      "onderdeel": HINKSTAPSPRINGEN,
       "naam": "Hein Macknack (B)",
       "prestatie": "15,02",
       "plaats": "Utrecht",
       "datum": "26-08-1984"
     },
     {
-      "onderdeel": "kogelstoten",
+      "onderdeel": KOGELSTOTEN,
       "naam": "Leo van der Veer",
       "prestatie": "14,66",
       "plaats": "Brugge (B)",
       "datum": "02-10-1966"
     },
     {
-      "onderdeel": "discuswerpen",
+      "onderdeel": DISCUSWERPEN,
       "naam": "Martijn Spruit",
       "prestatie": "47,28",
       "plaats": "Den Haag",
       "datum": "26-06-1994"
     },
     {
-      "onderdeel": "kogelslingeren",
+      "onderdeel": KOGELSLINGEREN,
       "naam": "Martijn Spruit",
       "prestatie": "34,44",
       "plaats": "Groningen",
@@ -197,22 +213,22 @@ export default [
       "datum": "01/02-10-1994",
       "prestatie": [
         {
-          "onderdeel": "100 meter",
+          "onderdeel": HONDERD_METER,
           "prestatie": "11,64 (11,4)",
           "punten": "(723)"
         },
         {
-          "onderdeel": "verspringen",
+          "onderdeel": VERSPRINGEN,
           "prestatie": "6,34",
           "punten": "(661)"
         },
         {
-          "onderdeel": "kogelstoten",
+          "onderdeel": KOGELSTOTEN,
           "prestatie": "11,66",
           "punten": "(586)"
         },
         {
-          "onderdeel": "hoogspringen",
+          "onderdeel": HOOGSPRINGEN,
           "prestatie": "1,72",
           "punten": "(560)"
         },
@@ -222,17 +238,17 @@ export default [
           "punten": "(493)"
         },
         {
-          "onderdeel": "110 meter horden",
+          "onderdeel": HONDERDENTIEN_METER_HORDEN,
           "prestatie": "17,04 (16,8)",
           "punten": "(620)"
         },
         {
-          "onderdeel": "discuswerpen",
+          "onderdeel": DISCUSWERPEN,
           "prestatie": "37,64",
           "punten": "(617)"
         },
         {
-          "onderdeel": "polsstokhoogspringen",
+          "onderdeel": POLSSTOKHOOGSPRINGEN,
           "prestatie": "3,80",
           "punten": "(562)"
         },

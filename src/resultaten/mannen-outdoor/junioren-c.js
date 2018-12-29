@@ -1,27 +1,35 @@
+import {
+  ACHTHONDERD_METER, DISCUSWERPEN,
+  DUIZEND_METER,
+  DUIZENDVIJFHONDERD_METER,
+  HONDERD_METER,
+  HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, VERSPRINGEN
+} from '../../constants/onderdelen';
+
 export default [
   {
-    "onderdeel": "100 meter",
+    "onderdeel": HONDERD_METER,
     "naam": "Kan Dinkla",
     "prestatie": "11,76 s (rw +1,4 m/s)",
     "plaats": "Emmeloord",
     "datum": "25-09-2004"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Vincent van der Lans",
     "prestatie": "2.05,5 s",
     "plaats": "Haarlem",
     "datum": "18-09-1996"
   },
   {
-    "onderdeel": "1000 meter",
+    "onderdeel": DUIZEND_METER,
     "naam": "Vincent van der Lans",
     "prestatie": "2.47,2 s",
     "plaats": "Haarlem",
     "datum": "06-10-1996"
   },
   {
-    "onderdeel": "1500 meter",
+    "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Walter Salzmann",
     "prestatie": "4.29,7 s",
     "plaats": "Amsterdam",
@@ -49,35 +57,35 @@ export default [
     "datum": "25-08-1985"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Niels Pijnaker",
     "prestatie": "1,80 m",
     "plaats": "Krommenie",
     "datum": "04-09-2004"
   },
   {
-    "onderdeel": "polsstokhoogspringen",
+    "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Olivier Barreveld",
     "prestatie": "3,10 m",
     "plaats": "Hoorn",
     "datum": "19-09-1992"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Eldridge Isselt",
     "prestatie": "6,34 m",
     "plaats": "Amsterdam",
     "datum": "25-08-1991"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Eric Noom",
     "prestatie": "14,11 m",
     "plaats": "Amsterdam",
     "datum": "28-08-1983"
   },
   {
-    "onderdeel": "discuswerpen",
+    "onderdeel": DISCUSWERPEN,
     "naam": "Dennis Kruithof",
     "prestatie": "46,50 m",
     "plaats": "Haarlem",
@@ -111,22 +119,22 @@ export default [
     "datum": "1/2-7-2006",
     "prestatie": [
       {
-        "onderdeel": "100 meter",
+        "onderdeel": HONDERD_METER,
         "prestatie": "12,44 s (12,2)",
         "punten": "(753)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "5,68 m",
         "punten": "(751)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "10,84 m",
         "punten": "(562)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1,65 m",
         "punten": "(741)"
       },
@@ -136,7 +144,7 @@ export default [
         "punten": "(712)"
       },
       {
-        "onderdeel": "discuswerpen",
+        "onderdeel": DISCUSWERPEN,
         "prestatie": "32,03 m",
         "punten": "(505)"
       },
@@ -146,7 +154,7 @@ export default [
         "punten": "(639)"
       },
       {
-        "onderdeel": "1000 m",
+        "onderdeel": DUIZEND_METER,
         "prestatie": "3.00,9",
         "punten": "(692)"
       },

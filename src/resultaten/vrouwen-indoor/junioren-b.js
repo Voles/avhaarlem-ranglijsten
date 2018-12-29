@@ -1,15 +1,21 @@
-import { VIERHONDERD_METER } from "../../constants/onderdelen";
+import {
+  ACHTHONDERD_METER, HOOGSPRINGEN, KOGELSTOTEN, VERSPRINGEN,
+  VIERHONDERD_METER, VIJFKAMP,
+  VIJFTIG_METER,
+  ZESTIG_METER,
+  ZESTIG_METER_HORDEN
+} from "../../constants/onderdelen";
 
 export default [
   {
-    "onderdeel": "50 meter",
+    "onderdeel": VIJFTIG_METER,
     "naam": "Marjanne van Sambeek",
     "prestatie": "7,04 (6,8)",
     "plaats": "Amsterdam",
     "datum": "05-02-1995"
   },
   {
-    "onderdeel": "60 meter",
+    "onderdeel": ZESTIG_METER,
     "naam": "Marjanne van Sambeek (C)",
     "prestatie": "8,34 (8,1)",
     "plaats": "Den Haag",
@@ -23,75 +29,75 @@ export default [
     "datum": "25-01-2004"
   },
   {
-    "onderdeel": "800 meter",
+    "onderdeel": ACHTHONDERD_METER,
     "naam": "Jirina van Kesteren",
     "prestatie": "2.32,41",
     "plaats": "Zuidbroek",
     "datum": "25-01-2004"
   },
   {
-    "onderdeel": "60 meter horden",
+    "onderdeel": ZESTIG_METER_HORDEN,
     "naam": "Tara van Schie",
     "prestatie": "9,90",
     "plaats": "Gent (B)",
     "datum": "11-02-2007"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Joanna Andrews (C)",
     "prestatie": "1,50",
     "plaats": "Den Haag",
     "datum": "17-01-1993"
   },
   {
-    "onderdeel": "hoogspringen",
+    "onderdeel": HOOGSPRINGEN,
     "naam": "Jessica Ramakers (C)",
     "prestatie": "1,50",
     "plaats": "Den Haag",
     "datum": "17-01-1993"
   },
   {
-    "onderdeel": "verspringen",
+    "onderdeel": VERSPRINGEN,
     "naam": "Tara van Schie",
     "prestatie": "5,12",
     "plaats": "Groningen",
     "datum": "29-01-2006"
   },
   {
-    "onderdeel": "kogelstoten",
+    "onderdeel": KOGELSTOTEN,
     "naam": "Wendy IJzerman",
     "prestatie": "12,37",
     "plaats": "Den Haag",
     "datum": "26-02-1995"
   },
   {
-    "onderdeel": "vijfkamp",
+    "onderdeel": VIJFKAMP,
     "naam": "Tara van Schie",
     "plaats": "Gent (B)",
     "datum": "11-02-2007",
     "prestatie": [
       {
-        "onderdeel": "60 meter horden",
+        "onderdeel": ZESTIG_METER_HORDEN,
         "prestatie": "9,90",
         "punten": "(731)"
       },
       {
-        "onderdeel": "hoogspringen",
+        "onderdeel": HOOGSPRINGEN,
         "prestatie": "1,39",
         "punten": "(502)"
       },
       {
-        "onderdeel": "kogelstoten",
+        "onderdeel": KOGELSTOTEN,
         "prestatie": "10,94",
         "punten": "(591)"
       },
       {
-        "onderdeel": "verspringen",
+        "onderdeel": VERSPRINGEN,
         "prestatie": "4,86",
         "punten": "(522)"
       },
       {
-        "onderdeel": "800 meter",
+        "onderdeel": ACHTHONDERD_METER,
         "prestatie": "3.00,98",
         "punten": "(356)"
       },
