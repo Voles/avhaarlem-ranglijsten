@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
+import FilterButton from './FilterButton';
 
 class Filters extends Component {
   render() {
     return (
       <div className="Filters">
         <div className="btn-group btn-group-sm mr-3">
-          <button type="button" className="btn btn-outline-secondary">Vrouwen</button>
-          <button type="button" className="btn btn-outline-secondary">Mannen</button>
+          <FilterButton type="secondary" label="vrouwen">Vrouwen</FilterButton>
+          <FilterButton type="secondary" label="mannen">Mannen</FilterButton>
         </div>
 
         <div className="btn-group btn-group-sm mr-3">
-          <button type="button" className="btn btn-outline-success">Indoor</button>
-          <button type="button" className="btn btn-outline-success">Outdoor</button>
+          <FilterButton type="success" label="indoor">Indoor</FilterButton>
+          <FilterButton type="success" label="outdoor">Outdoor</FilterButton>
         </div>
 
         <div className="btn-group btn-group-sm" role="group" aria-label="Third group">
-          <button type="button" className="btn btn-outline-primary">Senioren</button>
-          <button type="button" className="btn btn-outline-primary">Junioren A</button>
-          <button type="button" className="btn btn-outline-primary">Junioren B</button>
-          <button type="button" className="btn btn-outline-primary">Junioren C</button>
-          <button type="button" className="btn btn-outline-primary">Junioren D</button>
-          <button type="button" className="btn btn-outline-primary">Lange-afstand</button>
+          <FilterButton type="primary" label="senioren">Senioren</FilterButton>
+          <FilterButton type="primary" label="junioren-a">Junioren A</FilterButton>
+          <FilterButton type="primary" label="junioren-b">Junioren B</FilterButton>
+          <FilterButton type="primary" label="junioren-c">Junioren C</FilterButton>
+          <FilterButton type="primary" label="junioren-d">Junioren D</FilterButton>
+          <FilterButton type="primary" label="lange-afstand">Lange-afstand</FilterButton>
         </div>
       </div>
     );

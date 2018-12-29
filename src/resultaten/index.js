@@ -20,7 +20,13 @@ export const resultatenNaarTabellen = resultaten => {
       const key = `${categorie}-${geslacht}-${locatie}`;
       const titel = `${geslacht} ${categorie} ${locatie}`;
 
-      accumulator[key] = accumulator[key] || { titel , rijen: []};
+      accumulator[key] = accumulator[key] || {
+        titel,
+        geslacht: geslacht.toLowerCase(),
+        categorie: categorie.toLowerCase().replace(' ', '-'),
+        locatie: locatie.toLowerCase(),
+        rijen: []
+      };
       accumulator[key].rijen.push(currentValue);
 
       return accumulator;
