@@ -44,11 +44,11 @@ export default [
     "datum": "17-01-1993"
   },
   {
-    "onderdeel": "Jessica Ramakers (C)",
-    "naam": "Den Haag",
-    "prestatie": "17-01-1993",
-    "plaats": "",
-    "datum": ""
+    "onderdeel": "hoogspringen",
+    "naam": "Jessica Ramakers (C)",
+    "prestatie": "1,50",
+    "plaats": "Den Haag",
+    "datum": "17-01-1993"
   },
   {
     "onderdeel": "verspringen",
