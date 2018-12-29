@@ -1,16 +1,16 @@
 import {
   ACHTHONDERD_METER, DISCUSWERPEN,
-  DRIEDUIZEND_METER,
+  DRIEDUIZEND_METER, DRIEHONDERD_METER_HORDEN,
   DUIZEND_METER,
-  DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
+  DUIZENDVIJFHONDERD_METER, DUIZENDVIJFHONDERD_METER_STEEPLECHASE, HINKSTAPSPRINGEN,
   HONDERD_METER,
   HONDERDENTIEN_METER_HORDEN,
   HOOGSPRINGEN, KOGELSLINGEREN,
   KOGELSTOTEN,
-  POLSSTOKHOOGSPRINGEN,
+  POLSSTOKHOOGSPRINGEN, SPEERWERPEN, TIEN_KILOMETER_SNELWANDELEN,
   TWEEDUIZEND_METER_STEEPLECHASE,
   TWEEHONDERD_METER,
-  VERSPRINGEN,
+  VERSPRINGEN, VIER_KEER_HONDERD_METER, VIER_KEER_VIERHONDERD_METER,
   VIERHONDERD_METER,
   VIERHONDERD_METER_HORDEN, VIJF_KILOMETER_SNELWANDELEN
 } from "../../constants/onderdelen";
@@ -73,7 +73,7 @@ export default [
     "datum": "28-06-1987"
   },
   {
-    "onderdeel": "300 meter horden",
+    "onderdeel": DRIEHONDERD_METER_HORDEN,
     "naam": "Chris van der Werff",
     "prestatie": "39,04 (38,8)",
     "plaats": "Beverwijk",
@@ -87,7 +87,7 @@ export default [
     "datum": "14-05-2004"
   },
   {
-    "onderdeel": "1500 meter steeple chase",
+    "onderdeel": DUIZENDVIJFHONDERD_METER_STEEPLECHASE,
     "naam": "Paul Jaspers",
     "prestatie": "4.24,7",
     "plaats": "Nijmegen",
@@ -108,7 +108,7 @@ export default [
     "datum": "25-06-1977"
   },
   {
-    "onderdeel": "10 km snelwandelen",
+    "onderdeel": TIEN_KILOMETER_SNELWANDELEN,
     "naam": "Frank van Ravensberg",
     "prestatie": "49.47,2",
     "plaats": "Rotterdam",
@@ -171,21 +171,21 @@ export default [
     "datum": "27-09-1992"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Niels Terol",
     "prestatie": "56,86",
     "plaats": "Breda",
     "datum": "28-06-1992"
   },
   {
-    "onderdeel": "4 x 100 meter",
+    "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": ["Tony v/d Prijt","Chris van der Werff","Jerry Brouwer","Walter Kruk"],
     "prestatie": "44,64 (44,5)",
     "plaats": "Spijkenisse",
     "datum": "26-09-1987"
   },
   {
-    "onderdeel": "4 x 400 meter",
+    "onderdeel": VIER_KEER_VIERHONDERD_METER,
     "naam": "vacant (limit 3.50,00)",
     "prestatie": "",
     "plaats": "",
@@ -240,7 +240,7 @@ export default [
         "punten": "(457)"
       },
       {
-        "onderdeel": "speerwerpen",
+        "onderdeel": SPEERWERPEN,
         "prestatie": "47,06",
         "punten": "(545)"
       },

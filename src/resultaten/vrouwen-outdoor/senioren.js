@@ -1,10 +1,28 @@
 import {
-  ACHTHONDERD_METER, DISCUSWERPEN, DRIEDUIZEND_METER,
-  DRIEHONDERD_METER, DUIZEND_METER, DUIZENDVIJFHONDERD_METER, EEN_MIJL, HINKSTAPSPRINGEN,
-  HONDERD_METER,
-  HONDERDVIJFTIG_METER, HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, TWEEDUIZEND_METER,
-  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_TWEEHONDERD_METER,
-  VIERHONDERD_METER, VIERHONDERD_METER_HORDEN, VIJFDUIZEND_METER, ZESHONDERD_METER, ZWEEDSE_ESTAFETTE
+  ACHTHONDERD_METER, DERTIG_KILOMETER,
+  DISCUSWERPEN,
+  DRIEDUIZEND_METER,
+  DRIEHONDERD_METER,
+  DUIZEND_METER,
+  DUIZENDVIJFHONDERD_METER,
+  EEN_ENGELSE_MIJL, HALVE_MARATHON,
+  HINKSTAPSPRINGEN,
+  HONDERD_METER, HONDERD_METER_HORDEN,
+  HONDERDVIJFTIG_METER,
+  HOOGSPRINGEN,
+  KOGELSLINGEREN,
+  KOGELSTOTEN, MARATHON,
+  POLSSTOKHOOGSPRINGEN, SPEERWERPEN, TIEN_ENGELSE_MIJL,
+  TIEN_KILOMETER,
+  TWEEDUIZEND_METER,
+  TWEEHONDERD_METER, TWINTIG_KILOMETER,
+  VERSPRINGEN, VIER_KEER_HONDERD_METER,
+  VIER_KEER_TWEEHONDERD_METER, VIER_KEER_VIERHONDERD_METER,
+  VIERHONDERD_METER,
+  VIERHONDERD_METER_HORDEN,
+  VIJFDUIZEND_METER, VIJFENTWINTIG_KILOMETER, VIJFTIEN_KILOMETER,
+  ZESHONDERD_METER, ZEVENKAMP,
+  ZWEEDSE_ESTAFETTE
 } from "../../constants/onderdelen";
 
 export default [
@@ -72,7 +90,7 @@ export default [
     "datum": "25-05-2012"
   },
   {
-    "onderdeel": EEN_MIJL,
+    "onderdeel": EEN_ENGELSE_MIJL,
     "naam": "Sabine Hannema",
     "prestatie": "5.54,79",
     "plaats": "Haarlem",
@@ -100,63 +118,63 @@ export default [
     "datum": "08-07-1984"
   },
   {
-    "onderdeel": "10000 meter",
+    "onderdeel": TIEN_KILOMETER,
     "naam": "Marianne van de Linde",
     "prestatie": "33.44,0",
     "plaats": "Santpoort",
     "datum": "13-09-1991"
   },
   {
-    "onderdeel": "15000 meter",
+    "onderdeel": VIJFTIEN_KILOMETER,
     "naam": "Marianne van de Linde",
     "prestatie": "52.29,0",
     "datum": "21-11-1993",
     "plaats": "Nijmegen"
   },
   {
-    "onderdeel": "10 Engelse mijl",
+    "onderdeel": TIEN_ENGELSE_MIJL,
     "naam": "Marianne van de Linde",
     "prestatie": "55.34,0",
     "datum": "1992",
     "plaats": "?"
   },
   {
-    "onderdeel": "20000 meter",
+    "onderdeel": TWINTIG_KILOMETER,
     "naam": "Marianne van de Linde",
     "prestatie": "1:12.03,0",
     "datum": "30-04-1991",
     "plaats": "Beverwijk"
   },
   {
-    "onderdeel": "halve marathon (21,98 km)",
+    "onderdeel": HALVE_MARATHON,
     "naam": "Marianne van de Linde",
     "prestatie": "1:13.35,0",
     "datum": "04-10-1992",
     "plaats": "Breda"
   },
   {
-    "onderdeel": "25000 meter",
+    "onderdeel": VIJFENTWINTIG_KILOMETER,
     "naam": "Heidi van der Plas",
     "prestatie": "2:08.06,0",
     "datum": "23-02-1991",
     "plaats": "Aerdenhout"
   },
   {
-    "onderdeel": "30000 meter",
+    "onderdeel": DERTIG_KILOMETER,
     "naam": "Marianne van de Linde",
     "prestatie": "1:53.37,0",
     "datum": "20-03-1994",
     "plaats": "Spaarnwoude"
   },
   {
-    "onderdeel": "Marathon (42195 meter)",
+    "onderdeel": MARATHON,
     "naam": "Marianne van de Linde",
     "prestatie": "2:41.52,0",
     "datum": "25-10-1992",
     "plaats": "Frankfurt (D)"
   },
   {
-    "onderdeel": "100 meter horden",
+    "onderdeel": HONDERD_METER_HORDEN,
     "naam": "Brenda Stoete",
     "prestatie": "15,14 (14,9)",
     "plaats": "Santpoort",
@@ -212,7 +230,7 @@ export default [
     "datum": "17-06-1992"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Toos Stoete",
     "prestatie": "44.96",
     "plaats": "Haarlem",
@@ -226,7 +244,7 @@ export default [
     "datum": "18-06-2017"
   },
   {
-    "onderdeel": "4 x 100 meter",
+    "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": ["Brenda Stoete", "Carla v/d Klei", "Jaqueline Konerman", "Mieke v/d Kolk"],
     "prestatie": "49,24 (49,1)",
     "plaats": "Santpoort",
@@ -240,7 +258,7 @@ export default [
     "datum": "15-06-2018"
   },
   {
-    "onderdeel": "4 x 400 meter",
+    "onderdeel": VIER_KEER_VIERHONDERD_METER,
     "naam": ["Bente Elgersma","Kristen Niedrach","Mirthe Wiltink","Femke van der Wolf"],
     "prestatie": "4.19,14",
     "plaats": "Naaldwijk",
@@ -254,41 +272,41 @@ export default [
     "datum": "22-04-2018"
   },
   {
-    "onderdeel": "Zevenkamp",
+    "onderdeel": ZEVENKAMP,
     "naam": "Tara van Schie",
     "prestatie": [
       {
-        onderdeel: '100m horden',
+        onderdeel: HONDERD_METER_HORDEN,
         prestatie: '16,68',
         punten: '(633)'
       },
       {
-        onderdeel: 'hoogspringen',
+        onderdeel: HOOGSPRINGEN,
         prestatie: '1.54',
         punten: '(666)'
       },
       {
-        onderdeel: 'kogelstoten',
+        onderdeel: KOGELSTOTEN,
         prestatie: '9.72',
         punten: '(511)'
       },
       {
-        onderdeel: '200 meter',
+        onderdeel: TWEEHONDERD_METER,
         prestatie: '26,31',
         punten: '(770)'
       },
       {
-        onderdeel: 'verspringen',
+        onderdeel: VERSPRINGEN,
         prestatie: '5.36',
         punten: '(660)'
       },
       {
-        onderdeel: 'speerwerpen',
+        onderdeel: SPEERWERPEN,
         prestatie: '26.99',
         punten: '(420)'
       },
       {
-        onderdeel: '800 meter',
+        onderdeel: ACHTHONDERD_METER,
         prestatie: '2.46,42',
         punten: '(501)'
       },

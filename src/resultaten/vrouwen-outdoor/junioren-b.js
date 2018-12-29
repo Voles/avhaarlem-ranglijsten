@@ -1,8 +1,8 @@
 import {
   ACHTHONDERD_METER, DISCUSWERPEN,
   DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
-  HONDERD_METER, HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN,
-  TWEEHONDERD_METER, VERSPRINGEN,
+  HONDERD_METER, HONDERD_METER_HORDEN, HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
+  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_HONDERD_METER,
   VIERHONDERD_METER, VIERHONDERD_METER_HORDEN
 } from "../../constants/onderdelen";
 
@@ -50,7 +50,7 @@ export default [
     "datum": "13-08-2003"
   },
   {
-    "onderdeel": "100 meter horden",
+    "onderdeel": HONDERD_METER_HORDEN,
     "naam": "Tara van Schie",
     "prestatie": "15,28 (+1,2 m/s)",
     "plaats": "Best",
@@ -113,14 +113,14 @@ export default [
     "datum": "18-04-1999"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Ingeborg Zandbergen",
     "prestatie": "31.30",
     "plaats": "Alphen aan den Rijn",
     "datum": "12-06-1994"
   },
   {
-    "onderdeel": "4 x 100 meter",
+    "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": ["Babs Koeman", "Mette Elgersma", "Anna Hovinga", "Marjolein Groot"],
     "prestatie": "53,84",
     "plaats": "Heerhugowaard",
@@ -131,7 +131,7 @@ export default [
     "naam": "Tara van Schie",
     "prestatie": [
       {
-        "onderdeel": "100 meter horden",
+        "onderdeel": HONDERD_METER_HORDEN,
         "prestatie": "15,28",
         "punten": "(805)"
       },
@@ -156,7 +156,7 @@ export default [
         "punten": "(645)"
       },
       {
-        "onderdeel": "speerwerpen",
+        "onderdeel": SPEERWERPEN,
         "prestatie": "26.19",
         "punten": "(405)"
       },

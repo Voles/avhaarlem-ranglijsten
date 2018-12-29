@@ -7,10 +7,10 @@ import {
   HONDERD_METER,
   HONDERDENTIEN_METER_HORDEN,
   HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN,
-  POLSSTOKHOOGSPRINGEN,
+  POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
   TIEN_KILOMETER_SNELWANDELEN,
   TWEEDUIZEND_METER_STEEPLECHASE,
-  TWEEHONDERD_METER, VERSPRINGEN,
+  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_VIERHONDERD_METER,
   VIERHONDERD_METER,
   VIERHONDERD_METER_HORDEN,
   VIJFDUIZEND_METER
@@ -179,7 +179,7 @@ export default [
       "datum": "27-06-1993"
     },
     {
-      "onderdeel": "speerwerpen",
+      "onderdeel": SPEERWERPEN,
       "naam": "Niels Terol",
       "prestatie": "63,50",
       "plaats": "Hengelo",
@@ -193,7 +193,7 @@ export default [
       "datum": "09-10-1983"
     },
     {
-      "onderdeel": "4 x 400 meter",
+      "onderdeel": VIER_KEER_VIERHONDERD_METER,
       "naam": ["Daan van Rijsbergen","Stijn Jaspers","Bart van Rijsbergen","Raymond Hoefman"],
       "prestatie": "3.22,90",
       "plaats": "Den Haag",
@@ -253,7 +253,7 @@ export default [
           "punten": "(562)"
         },
         {
-          "onderdeel": "speerwerpen",
+          "onderdeel": SPEERWERPEN,
           "prestatie": "56,12",
           "punten": "(680)"
         },

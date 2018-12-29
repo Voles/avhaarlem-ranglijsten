@@ -1,69 +1,78 @@
+import {
+  DERTIG_KILOMETER,
+  HALVE_MARATHON, HONDERD_KILOMETER, MARATHON,
+  TIEN_ENGELSE_MIJL,
+  TIEN_KILOMETER,
+  TWINTIG_KILOMETER, VIJFENDERTIG_KILOMETER, VIJFENTWINTIG_KILOMETER,
+  VIJFTIEN_KILOMETER
+} from '../../constants/onderdelen';
+
 export default [
   {
-    "onderdeel": "10 km",
+    "onderdeel": TIEN_KILOMETER,
     "naam": "Tom Wiggers",
     "prestatie": "29.05",
     "datum": "12-02-2012",
     "plaats": "Schoorl"
   },
   {
-    "onderdeel": "15 km",
+    "onderdeel": VIJFTIEN_KILOMETER,
     "naam": "Tom Wiggers",
     "prestatie": "44.42",
     "datum": "17-11-2013",
     "plaats": "Nijmegen"
   },
   {
-    "onderdeel": "10 Engelse mijl",
+    "onderdeel": TIEN_ENGELSE_MIJL,
     "naam": "Tom Wiggers",
     "prestatie": "47.24",
     "datum": "06-10-2013",
     "plaats": "Bergen"
   },
   {
-    "onderdeel": "20 km",
+    "onderdeel": TWINTIG_KILOMETER,
     "naam": "Kees van Dommele",
     "prestatie": "1.03.55",
     "datum": "30-04-1991",
     "plaats": "Beverwijk"
   },
   {
-    "onderdeel": "halve marathon",
+    "onderdeel": HALVE_MARATHON,
     "naam": "Tom Wiggers",
     "prestatie": "1.03,40",
     "datum": "13-01-2013",
     "plaats": "Egmond"
   },
   {
-    "onderdeel": "25 km",
+    "onderdeel": VIJFENTWINTIG_KILOMETER,
     "naam": "Kees van Dommele",
     "prestatie": "1.21.08",
     "datum": "23-09-1989",
     "plaats": "Zevenbergen"
   },
   {
-    "onderdeel": "30 km",
+    "onderdeel": DERTIG_KILOMETER,
     "naam": "Kees van Dommele",
     "prestatie": "1.42.42",
     "datum": "01-04-1990",
     "plaats": "Spaarnwoude"
   },
   {
-    "onderdeel": "35 km",
+    "onderdeel": VIJFENDERTIG_KILOMETER,
     "naam": "Krijn Kroezen",
     "prestatie": "2.23.13",
     "datum": "20-06-1964",
     "plaats": "Vught"
   },
   {
-    "onderdeel": "marathon (42,195 km)",
+    "onderdeel": MARATHON,
     "naam": "Kees van Dommele",
     "prestatie": "2.25.02",
     "datum": "03-02-1990",
     "plaats": "Apeldoorn"
   },
   {
-    "onderdeel": "100 km",
+    "onderdeel": HONDERD_KILOMETER,
     "naam": "Wim Kluyskens",
     "prestatie": "7.39.53",
     "datum": "24-09-1977",

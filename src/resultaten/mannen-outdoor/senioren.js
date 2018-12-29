@@ -1,9 +1,26 @@
 import {
-  ACHTHONDERD_METER, DISCUSWERPEN, DRIEDUIZEND_METER, DRIEDUIZEND_METER_STEEPLECHASE,
-  DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
-  HONDERD_METER, HONDERDENTIEN_METER_HORDEN, HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN,
-  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_TWEEHONDERD_METER,
-  VIERHONDERD_METER, VIERHONDERD_METER_HORDEN, VIJFDUIZEND_METER, ZWEEDSE_ESTAFETTE
+  ACHTHONDERD_METER,
+  DISCUSWERPEN,
+  DRIEDUIZEND_METER,
+  DRIEDUIZEND_METER_STEEPLECHASE,
+  DUIZEND_METER,
+  DUIZENDVIJFHONDERD_METER,
+  EEN_ENGELSE_MIJL,
+  HINKSTAPSPRINGEN,
+  HONDERD_METER,
+  HONDERDENTIEN_METER_HORDEN,
+  HOOGSPRINGEN,
+  KOGELSLINGEREN,
+  KOGELSTOTEN,
+  POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
+  TIEN_KILOMETER, TIEN_KILOMETER_SNELWANDELEN,
+  TWEEHONDERD_METER,
+  VERSPRINGEN, VIER_KEER_HONDERD_METER,
+  VIER_KEER_TWEEHONDERD_METER, VIER_KEER_VIERHONDERD_METER,
+  VIERHONDERD_METER,
+  VIERHONDERD_METER_HORDEN,
+  VIJFDUIZEND_METER,
+  ZWEEDSE_ESTAFETTE
 } from "../../constants/onderdelen";
 
 export default [
@@ -50,7 +67,7 @@ export default [
     "datum": "12-07-1983"
   },
   {
-    "onderdeel": "1 engelse mijl (1609 m)",
+    "onderdeel": EEN_ENGELSE_MIJL,
     "naam": "Stijn Jaspers",
     "prestatie": "3.57,28",
     "plaats": "Koblenz (D)",
@@ -78,7 +95,7 @@ export default [
     "datum": "01-06-1984"
   },
   {
-    "onderdeel": "10000 meter",
+    "onderdeel": TIEN_KILOMETER,
     "naam": "Tom Wiggers",
     "prestatie": "28.33,74",
     "plaats": "Leiden",
@@ -106,7 +123,7 @@ export default [
     "datum": "28-08-1979"
   },
   {
-    "onderdeel": "10 km snelwandelen",
+    "onderdeel": TIEN_KILOMETER_SNELWANDELEN,
     "naam": "Frank van Ravensberg",
     "prestatie": "44.38,4",
     "plaats": "Rotterdam",
@@ -183,21 +200,21 @@ export default [
     "datum": "07-05-1994"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Niels Terol",
     "prestatie": "67,08",
     "plaats": "Haarlem",
     "datum": "13-06-1997"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Niels Terol",
     "prestatie": "67,08",
     "plaats": "Groningen",
     "datum": "11-07-1998"
   },
   {
-    "onderdeel": "4 x 100 meter",
+    "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": [
       "Sammy Monsels",
       "Mario Westbroek",
@@ -221,7 +238,7 @@ export default [
     "datum": "23-05-1982"
   },
   {
-    "onderdeel": "4 x 400 meter",
+    "onderdeel": VIER_KEER_VIERHONDERD_METER,
     "naam": [
       "Nilo Emerenciana",
       "Allen Ellsworth",
@@ -300,7 +317,7 @@ export default [
         "punten": "(418)"
       },
       {
-        "onderdeel": "speerwerpen",
+        "onderdeel": SPEERWERPEN,
         "prestatie": "54,90",
         "punten": "(661)"
       },

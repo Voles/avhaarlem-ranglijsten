@@ -1,7 +1,17 @@
 import {
-  ACHTHONDERD_METER, DISCUSWERPEN,
-  DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN,
-  TWEEHONDERD_METER, VERSPRINGEN,
+  ACHTHONDERD_METER,
+  DISCUSWERPEN,
+  DRIEHONDERD_METER,
+  DRIEHONDERD_METER_HORDEN,
+  DUIZEND_METER,
+  DUIZENDVIJFHONDERD_METER,
+  HONDERDVIJFTIG_METER,
+  HOOGSPRINGEN,
+  KOGELSTOTEN,
+  POLSSTOKHOOGSPRINGEN,
+  SPEERWERPEN,
+  TWEEHONDERD_METER,
+  VERSPRINGEN,
   VIERHONDERD_METER,
   ZESHONDERD_METER
 } from "../../constants/onderdelen";
@@ -22,7 +32,7 @@ export default [
     "datum": "21-08-1993"
   },
   {
-    "onderdeel": "150 meter",
+    "onderdeel": HONDERDVIJFTIG_METER,
     "naam": "Tara van Schie",
     "prestatie": "19,54 (10,3)",
     "plaats": "Beverwijk",
@@ -36,7 +46,7 @@ export default [
     "datum": "13-05-2018"
   },
   {
-    "onderdeel": "300 meter",
+    "onderdeel": DRIEHONDERD_METER,
     "naam": "Babs Koeman",
     "prestatie": "47,84",
     "plaats": "Haarlem",
@@ -85,7 +95,7 @@ export default [
     "datum": "14-06-1997"
   },
   {
-    "onderdeel": "300 meter horden",
+    "onderdeel": DRIEHONDERD_METER_HORDEN,
     "naam": "Babs Koeman",
     "prestatie": "48,66",
     "plaats": "Heiloo",
@@ -134,7 +144,7 @@ export default [
     "datum": "05-06-1993"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Iris Komen",
     "prestatie": "31.63",
     "plaats": "Santpoort",
@@ -167,7 +177,7 @@ export default [
         "punten": "(460)"
       },
       {
-        "onderdeel": "150 meter",
+        "onderdeel": HONDERDVIJFTIG_METER,
         "prestatie": "20,02 s",
         "punten": "(617)"
       },
@@ -177,7 +187,7 @@ export default [
         "punten": "(632)"
       },
       {
-        "onderdeel": "speerwerpen",
+        "onderdeel": SPEERWERPEN,
         "prestatie": "27.86 m",
         "punten": "(461)"
       },

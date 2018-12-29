@@ -1,8 +1,8 @@
 import {
   ACHTHONDERD_METER, DISCUSWERPEN,
   DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
-  HONDERD_METER, HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN,
-  TWEEHONDERD_METER, VERSPRINGEN,
+  HONDERD_METER, HONDERD_METER_HORDEN, HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
+  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_HONDERD_METER, VIER_KEER_VIERHONDERD_METER,
   VIERHONDERD_METER, VIERHONDERD_METER_HORDEN
 } from "../../constants/onderdelen";
 
@@ -50,7 +50,7 @@ export default [
     "datum": "08-07-2007"
   },
   {
-    "onderdeel": "100 meter horden",
+    "onderdeel": HONDERD_METER_HORDEN,
     "naam": "Anja Smits",
     "prestatie": "15,24 (15,0)",
     "plaats": "Arnhem",
@@ -106,7 +106,7 @@ export default [
     "datum": "27-05-1988"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Ingeborg Zandbergen (B)",
     "prestatie": "31.10",
     "plaats": "Alphen aan den Rijn",
@@ -120,14 +120,14 @@ export default [
     "datum": ""
   },
   {
-    "onderdeel": "4 x 100 meter",
+    "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": ["Aneska de Windt","Chantal Bruyn","Kivelly Grotendorst","Brenda Stoete"],
     "prestatie": "50,64 (50,5)",
     "plaats": "Lisse",
     "datum": "24-06-1990"
   },
   {
-    "onderdeel": "4 x 400 meter",
+    "onderdeel": VIER_KEER_VIERHONDERD_METER,
     "naam": "vacant",
     "prestatie": "",
     "plaats": "",
@@ -138,7 +138,7 @@ export default [
     "naam": "Tara van Schie",
     "prestatie": [
       {
-        "onderdeel": "100 meter horden",
+        "onderdeel": HONDERD_METER_HORDEN,
         "prestatie": "16,68",
         "punten": "(633)"
       },
@@ -163,7 +163,7 @@ export default [
         "punten": "(660)"
       },
       {
-        "onderdeel": "speerwerpen",
+        "onderdeel": SPEERWERPEN,
         "prestatie": "26.99",
         "punten": "(420)"
       },

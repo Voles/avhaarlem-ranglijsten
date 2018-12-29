@@ -1,9 +1,9 @@
 import {
-  ACHTHONDERD_METER, DISCUSWERPEN,
+  ACHTHONDERD_METER, DISCUSWERPEN, DRIEHONDERD_METER_HORDEN,
   DUIZEND_METER,
   DUIZENDVIJFHONDERD_METER,
-  HONDERD_METER,
-  HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, VERSPRINGEN
+  HONDERD_METER, HONDERD_METER_HORDEN,
+  HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, SPEERWERPEN, VERSPRINGEN, VIER_KEER_HONDERD_METER
 } from '../../constants/onderdelen';
 
 export default [
@@ -50,7 +50,7 @@ export default [
     "datum": "17-08-1985"
   },
   {
-    "onderdeel": "300 meter horden",
+    "onderdeel": DRIEHONDERD_METER_HORDEN,
     "naam": "Chris van der Werff",
     "prestatie": "41,74 s (41,5)",
     "plaats": "Amsterdam",
@@ -92,21 +92,21 @@ export default [
     "datum": "21-06-1980"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Dennis Kruithof",
     "prestatie": "50,76 m",
     "plaats": "Haarlem",
     "datum": "23-08-1980"
   },
   {
-    "onderdeel": "4 x 100 meter",
+    "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": ["Patrick Been","Marvin Isselt","Edward Leter","Tony v/d Prijt"],
     "prestatie": "47,54 s (47,4)",
     "plaats": "Beverwijk",
     "datum": "14-06-1986"
   },
   {
-    "onderdeel":"4 x 100 meter",
+    "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": ["Patrick Been","Stefan van Keulen","Martijn te Velden","Ricardo Wielingen"],
     "prestatie": "",
     "plaats": "Beverwijk",
@@ -139,7 +139,7 @@ export default [
         "punten": "(741)"
       },
       {
-        "onderdeel": "100 meter horden",
+        "onderdeel": HONDERD_METER_HORDEN,
         "prestatie": "15,14 s (14,9)",
         "punten": "(712)"
       },
@@ -149,7 +149,7 @@ export default [
         "punten": "(505)"
       },
       {
-        "onderdeel": "speerwerpen",
+        "onderdeel": SPEERWERPEN,
         "prestatie": "39,94 m",
         "punten": "(639)"
       },

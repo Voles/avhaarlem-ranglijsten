@@ -1,9 +1,18 @@
 import {
-  ACHTHONDERD_METER, DISCUSWERPEN,
-  DUIZEND_METER, DUIZENDVIJFHONDERD_METER, HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, VERSPRINGEN,
+  ACHTHONDERD_METER,
+  DISCUSWERPEN,
+  DUIZEND_METER,
+  DUIZENDVIJFHONDERD_METER,
+  HONDERDVIJFTIG_METER,
+  HOOGSPRINGEN,
+  KOGELSTOTEN,
+  POLSSTOKHOOGSPRINGEN,
+  SPEERWERPEN,
+  VERSPRINGEN, VIER_KEER_ZESTIG_METER,
   VIERHONDERD_METER,
-  ZESHONDERD_METER,
-  ZESTIG_METER, ZESTIG_METER_HORDEN
+  ZESHONDERD_METER, ZESKAMP,
+  ZESTIG_METER,
+  ZESTIG_METER_HORDEN
 } from "../../constants/onderdelen";
 
 export default [
@@ -15,7 +24,7 @@ export default [
     "datum": "28-05-1992"
   },
   {
-    "onderdeel": "150 meter",
+    "onderdeel": HONDERDVIJFTIG_METER,
     "naam": "Babs Koeman",
     "prestatie": "21,03",
     "plaats": "Naaldwijk",
@@ -99,14 +108,14 @@ export default [
     "datum": "08-09-2013"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Babs Koeman",
     "prestatie": "31.48",
     "plaats": "Naaldwijk",
     "datum": "20-08-2017"
   },
   {
-    "onderdeel": "4 x 60 meter",
+    "onderdeel": VIER_KEER_ZESTIG_METER,
     "naam": [
       "Jessica Ramakers",
       "Wendy Twisk",
@@ -118,7 +127,7 @@ export default [
     "datum": "22-06-1991"
   },
   {
-    "onderdeel": "zeskamp",
+    "onderdeel": ZESKAMP,
     "naam": "Babs Koeman",
     "plaats": "Lisse",
     "datum": "08/09-07-2017",
@@ -134,7 +143,7 @@ export default [
         "punten": "(599)"
       },
       {
-        "onderdeel": "speerwerpen",
+        "onderdeel": SPEERWERPEN,
         "prestatie": "28.59",
         "punten": "(473)"
       },
@@ -149,7 +158,7 @@ export default [
         "punten": "(499)"
       },
       {
-        "onderdeel": "600 m",
+        "onderdeel": ZESHONDERD_METER,
         "prestatie": "1.46,00",
         "punten": "(602)"
       },

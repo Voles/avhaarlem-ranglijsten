@@ -2,7 +2,7 @@ import {
   DISCUSWERPEN,
   DRIEDUIZEND_METER,
   DUIZEND_METER,
-  HOOGSPRINGEN, KOGELSTOTEN,
+  HOOGSPRINGEN, KOGELSTOTEN, SPEERWERPEN,
   VERSPRINGEN,
   VIJFDUIZEND_METER
 } from '../../constants/onderdelen';
@@ -72,7 +72,7 @@ export default [
     "datum": "01-07-1978"
   },
   {
-    "onderdeel": "speerwerpen",
+    "onderdeel": SPEERWERPEN,
     "naam": "Thomas Wouterse",
     "prestatie": "42,00 m",
     "plaats": "Alkmaar",
@@ -124,7 +124,7 @@ export default [
         "punten": "(582)"
       },
       {
-        "onderdeel": "speerwerpen",
+        "onderdeel": SPEERWERPEN,
         "prestatie": "32,18 m",
         "punten": "(529)"
       },
