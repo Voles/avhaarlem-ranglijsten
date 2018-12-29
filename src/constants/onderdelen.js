@@ -36,9 +36,11 @@ export const HONDERDENTIEN_METER_HORDEN = '110 m horden';
 export const DRIEHONDERD_METER_HORDEN = '300 m horden';
 export const VIERHONDERD_METER_HORDEN = '400 m horden';
 export const VIER_KEER_ZESTIG_METER = '4 x 60 m';
+export const VIER_KEER_TACHTIG_METER = '4 x 80 m';
 export const VIER_KEER_HONDERD_METER = '4 x 100 m';
 export const VIER_KEER_TWEEHONDERD_METER = '4 x 200 m';
 export const VIER_KEER_VIERHONDERD_METER = '4 x 400 m';
+export const VIER_KEER_ACHTHONDERD_METER = '4 x 800 m';
 export const ZWEEDSE_ESTAFETTE = 'Zweedse estafette';
 
 export const DRIE_KILOMETER_SNELWANDELEN = '3 km snelwandelen';
@@ -47,6 +49,8 @@ export const TIEN_KILOMETER_SNELWANDELEN = '10 km snelwandelen';
 export const DUIZENDVIJFHONDERD_METER_STEEPLECHASE = '1 500 m steeplechase';
 export const TWEEDUIZEND_METER_STEEPLECHASE = '2 000 m steeplechase';
 export const DRIEDUIZEND_METER_STEEPLECHASE = '3 000 m steeplechase';
+
+export const EEN_UUR = '1 uur';
 
 export const HOOGSPRINGEN = 'Hoogspringen';
 export const VERSPRINGEN = 'Verspringen';

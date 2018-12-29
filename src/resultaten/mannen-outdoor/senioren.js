@@ -15,7 +15,7 @@ import {
   POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
   TIEN_KILOMETER, TIEN_KILOMETER_SNELWANDELEN,
   TWEEHONDERD_METER,
-  VERSPRINGEN, VIER_KEER_HONDERD_METER,
+  VERSPRINGEN, VIER_KEER_ACHTHONDERD_METER, VIER_KEER_HONDERD_METER,
   VIER_KEER_TWEEHONDERD_METER, VIER_KEER_VIERHONDERD_METER,
   VIERHONDERD_METER,
   VIERHONDERD_METER_HORDEN,
@@ -250,7 +250,7 @@ export default [
     "datum": "14-07-1982"
   },
   {
-    "onderdeel": "4 x 800 meter",
+    "onderdeel": VIER_KEER_ACHTHONDERD_METER,
     "naam": ["Richard Cabri", "Dan Portegijs", "Evert van Ravensberg", "Michel Hulsman"],
     "prestatie": "7.50,1",
     "plaats": "Den Haag",

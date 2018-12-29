@@ -3,14 +3,14 @@ import {
   DRIEDUIZEND_METER,
   DRIEDUIZEND_METER_STEEPLECHASE,
   DUIZEND_METER,
-  DUIZENDVIJFHONDERD_METER, HINKSTAPSPRINGEN,
+  DUIZENDVIJFHONDERD_METER, EEN_UUR, HINKSTAPSPRINGEN,
   HONDERD_METER,
   HONDERDENTIEN_METER_HORDEN,
   HOOGSPRINGEN, KOGELSLINGEREN, KOGELSTOTEN,
   POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
   TIEN_KILOMETER_SNELWANDELEN,
   TWEEDUIZEND_METER_STEEPLECHASE,
-  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_VIERHONDERD_METER,
+  TWEEHONDERD_METER, VERSPRINGEN, VIER_KEER_ACHTHONDERD_METER, VIER_KEER_VIERHONDERD_METER,
   VIERHONDERD_METER,
   VIERHONDERD_METER_HORDEN,
   VIJFDUIZEND_METER
@@ -123,7 +123,7 @@ export default [
       "datum": "06-10-1979 NR"
     },
     {
-      "onderdeel": "1 uur snelwandelen",
+      "onderdeel": EEN_UUR,
       "naam": "Frank van Ravensberg",
       "prestatie": "12.837,85m",
       "plaats": "Zaandam",
@@ -200,7 +200,7 @@ export default [
       "datum": "14-09-1980"
     },
     {
-      "onderdeel": "4 x 800 meter",
+      "onderdeel": VIER_KEER_ACHTHONDERD_METER,
       "naam": ["Bart van Rijsbergen","Raymond Hoefman","Roland de Ruig","Stijn Jaspers"],
       "prestatie": "8.16,5",
       "plaats": "Den Haag",

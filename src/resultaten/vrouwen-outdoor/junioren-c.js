@@ -11,7 +11,7 @@ import {
   POLSSTOKHOOGSPRINGEN,
   SPEERWERPEN, TACHTIG_METER, TACHTIG_METER_HORDEN,
   TWEEHONDERD_METER,
-  VERSPRINGEN,
+  VERSPRINGEN, VIER_KEER_TACHTIG_METER,
   VIERHONDERD_METER,
   ZESHONDERD_METER, ZEVENKAMP
 } from "../../constants/onderdelen";
@@ -151,7 +151,7 @@ export default [
     "datum": "24-05-2014"
   },
   {
-    "onderdeel": "4 x 80 meter",
+    "onderdeel": VIER_KEER_TACHTIG_METER,
     "naam": ["Sanna Piscaer", "Janna de Waard", "Marije Zandstra", "Baltine de Wit"],
     "prestatie": "41,94 (41,7)",
     "plaats": "Heerhugowaard",

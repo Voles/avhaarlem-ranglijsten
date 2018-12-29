@@ -1,5 +1,5 @@
 import {
-  DERTIG_KILOMETER,
+  DERTIG_KILOMETER, EEN_UUR,
   HALVE_MARATHON, HONDERD_KILOMETER, MARATHON,
   TIEN_KILOMETER,
   TWINTIG_KILOMETER, VIJFENDERTIG_KILOMETER,
@@ -86,7 +86,7 @@ export default [
     "plaats": ""
   },
   {
-    "onderdeel": "1 uur",
+    "onderdeel": EEN_UUR,
     "naam": "vacant",
     "prestatie": "",
     "datum": "",

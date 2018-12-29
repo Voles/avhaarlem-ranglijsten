@@ -1,5 +1,5 @@
 import {
-  DERTIG_KILOMETER,
+  DERTIG_KILOMETER, EEN_UUR,
   HALVE_MARATHON, HONDERD_KILOMETER, MARATHON,
   TIEN_ENGELSE_MIJL,
   TIEN_KILOMETER,
@@ -79,7 +79,7 @@ export default [
     "plaats": "Winschoten"
   },
   {
-    "onderdeel": "1 uur",
+    "onderdeel": EEN_UUR,
     "naam": "Kees van Dommele",
     "prestatie": "18,262 km",
     "datum": "04-06-1990",
