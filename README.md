@@ -4,6 +4,8 @@ http://live.datatables.net/firobila/1/edit
 HTML table to JSON
 http://www.convertjson.com/html-table-to-json.htm
 
+[Wedstrijdreglement](https://www.atletiekunie.nl/sites/default/files/Wedstrijdreglement_2018-2019.pdf)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
