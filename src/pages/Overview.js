@@ -19,6 +19,15 @@ class Overview extends Component {
       , true);
   }
 
+  atLeastOneCategoryIsSet(categories) {
+    return categories
+      .reduce((accumulator, currentValue) =>
+          accumulator === true ?
+            true :
+            this.categoryIsSet(currentValue)
+        , false);
+  }
+
   render() {
     const data = resultatenNaarTabellen(resultaten);
 
@@ -44,7 +53,24 @@ class Overview extends Component {
             data
               .filter(tabel => {
                 const { geslacht, categorie, locatie } = tabel;
-                return this.allCategoriesAreSet([ geslacht, categorie, locatie ]);
+                const geslachtIsSet = this.atLeastOneCategoryIsSet(['mannen', 'vrouwen']);
+                const locatieIsSet = this.atLeastOneCategoryIsSet(['indoor', 'outdoor']);
+                const categoryIsSet = this.atLeastOneCategoryIsSet([ 'senioren', 'junioren-a', 'junioren-b', 'junioren-c', 'junioren-d', 'lange-afstand' ]);
+
+                const categoriesToCheck = [];
+                if (geslachtIsSet) {
+                  categoriesToCheck.push(geslacht);
+                }
+
+                if (locatieIsSet) {
+                  categoriesToCheck.push(locatie);
+                }
+
+                if (categoryIsSet) {
+                  categoriesToCheck.push(categorie);
+                }
+
+                return this.allCategoriesAreSet(categoriesToCheck);
               })
               .map((tabel, index) =>
                 <RanglijstSectie title={tabel.titel} key={index}>
