@@ -8,7 +8,7 @@ import {
   HOOGSPRINGEN, KOGELSLINGEREN,
   KOGELSTOTEN,
   POLSSTOKHOOGSPRINGEN,
-  TWEEDUIZEND_METER_STEEPLE_CHASE,
+  TWEEDUIZEND_METER_STEEPLECHASE,
   TWEEHONDERD_METER,
   VERSPRINGEN,
   VIERHONDERD_METER,
@@ -94,7 +94,7 @@ export default [
     "datum": "05-06-1982"
   },
   {
-    "onderdeel": TWEEDUIZEND_METER_STEEPLE_CHASE,
+    "onderdeel": TWEEDUIZEND_METER_STEEPLECHASE,
     "naam": "Paul Jaspers",
     "prestatie": "6.09,2",
     "plaats": "Veldhoven",
