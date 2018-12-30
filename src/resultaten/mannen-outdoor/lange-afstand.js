@@ -87,7 +87,7 @@ export default [
   },
   {
     "onderdeel": "10×10 km",
-    "naam": "Team AV Haarlem bestaande uit: Daan, Niels, Viktor, Frank, Marco, Boudewijn, Adrie, Cor, Sander en Gerlies",
+    "naam": ["Daan", "Niels", "Viktor", "Frank", "Marco", "Boudewijn", "Adrie", "Cor", "Sander", "Gerlies"],
     "prestatie": "7.24.54",
     "datum": "10-09-2016",
     "plaats": "Winschoten"
