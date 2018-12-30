@@ -41,6 +41,7 @@ export const VIER_KEER_HONDERD_METER = '4 x 100 m';
 export const VIER_KEER_TWEEHONDERD_METER = '4 x 200 m';
 export const VIER_KEER_VIERHONDERD_METER = '4 x 400 m';
 export const VIER_KEER_ACHTHONDERD_METER = '4 x 800 m';
+export const VIER_KEER_DUIZENDVIJFHONDERD_METER = '4 x 1500 m';
 export const ZWEEDSE_ESTAFETTE = 'Zweedse estafette';
 
 export const DRIE_KILOMETER_SNELWANDELEN = '3 km snelwandelen';

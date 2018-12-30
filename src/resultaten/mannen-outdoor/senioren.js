@@ -13,9 +13,9 @@ import {
   KOGELSLINGEREN,
   KOGELSTOTEN,
   POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
-  TIEN_KILOMETER, TIEN_KILOMETER_SNELWANDELEN, TIENKAMP,
+  TIEN_KILOMETER, TIEN_KILOMETER_SNELWANDELEN, TIENKAMP, TWEEDUIZEND_METER,
   TWEEHONDERD_METER,
-  VERSPRINGEN, VIER_KEER_ACHTHONDERD_METER, VIER_KEER_HONDERD_METER,
+  VERSPRINGEN, VIER_KEER_ACHTHONDERD_METER, VIER_KEER_DUIZENDVIJFHONDERD_METER, VIER_KEER_HONDERD_METER,
   VIER_KEER_TWEEHONDERD_METER, VIER_KEER_VIERHONDERD_METER,
   VIERHONDERD_METER,
   VIERHONDERD_METER_HORDEN,
@@ -74,7 +74,7 @@ export default [
     "datum": "25-08-1982"
   },
   {
-    "onderdeel": "2000 meter",
+    "onderdeel": TWEEDUIZEND_METER,
     "naam": "Stijn Jaspers",
     "prestatie": "5.05,9",
     "plaats": "Arnhem",
@@ -257,7 +257,7 @@ export default [
     "datum": "01-07-1978"
   },
   {
-    "onderdeel": "4 x 1500 meter",
+    "onderdeel": VIER_KEER_DUIZENDVIJFHONDERD_METER,
     "naam": ["Dan Portegijs", "Pieter Fris", "Evert van Ravensberg", "Stijn Jaspers"],
     "prestatie": "15.56,73",
     "plaats": "Vught",

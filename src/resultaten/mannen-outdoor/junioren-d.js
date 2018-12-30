@@ -3,7 +3,7 @@ import {
   DRIEDUIZEND_METER,
   DUIZEND_METER,
   HOOGSPRINGEN, KOGELSTOTEN, SPEERWERPEN, TACHTIG_METER, TACHTIG_METER_HORDEN,
-  VERSPRINGEN,
+  VERSPRINGEN, VIER_KEER_TACHTIG_METER,
   VIJFDUIZEND_METER, ZEVENKAMP
 } from '../../constants/onderdelen';
 
@@ -86,7 +86,7 @@ export default [
     "datum": "13-10-1977"
   },
   {
-    "onderdeel": "4×80 meter",
+    "onderdeel": VIER_KEER_TACHTIG_METER,
     "naam": [ "Tymo Bouman", "Chivaro Friendwijk", "Derk Hoefman", "Sven Koolmoes" ],
     "prestatie": "41,12 s",
     "plaats": "Amsterdam",
