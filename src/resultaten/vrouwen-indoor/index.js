@@ -3,7 +3,6 @@ import juniorenA from './junioren-a';
 import juniorenB from './junioren-b';
 import juniorenC from './junioren-c';
 import juniorenD from './junioren-d';
-import langeAfstand from './lange-afstand';
 
 export default []
   .concat(
@@ -11,11 +10,10 @@ export default []
     juniorenA,
     juniorenB,
     juniorenC,
-    juniorenD,
-    langeAfstand
+    juniorenD
   )
   .map(resultaat => {
     resultaat.geslacht = 'Vrouwen';
-    resultaat.locatie = 'outdoor';
+    resultaat.locatie = 'indoor';
     return resultaat;
   })

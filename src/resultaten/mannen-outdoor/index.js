@@ -15,7 +15,7 @@ export default []
     langeAfstand
   )
   .map(resultaat => {
-    resultaat.geslacht = 'Vrouwen';
+    resultaat.geslacht = 'Mannen';
     resultaat.locatie = 'outdoor';
     return resultaat;
-  })
+  });

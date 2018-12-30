@@ -6323,3 +6323,12 @@ h1 {
 
 .Ranglijst table.table tbody tr {
   background: none; }
+
+.FilterButton.btn:not(.active):active {
+  background-color: white; }
+  .FilterButton.btn:not(.active):active.btn-outline-success {
+    color: #28a745; }
+  .FilterButton.btn:not(.active):active.btn-outline-primary {
+    color: #007bff; }
+  .FilterButton.btn:not(.active):active.btn-outline-secondary {
+    color: #6c757d; }

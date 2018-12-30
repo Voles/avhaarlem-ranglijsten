@@ -17,3 +17,19 @@ h1 {
     background: none;
   }
 }
+
+.FilterButton.btn:not(.active):active {
+  background-color: white;
+
+  &.btn-outline-success {
+    color: $success;
+  }
+
+  &.btn-outline-primary {
+    color: $primary;
+  }
+
+  &.btn-outline-secondary {
+    color: $secondary;
+  }
+}

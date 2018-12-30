@@ -11,7 +11,10 @@ class Ranglijst extends Component {
 
     const renderNaam = naam =>
       Array.isArray(naam) ?
-        naam.map((naam, index) => <span className="text-nowrap d-block" key={index}>{ naam }</span>) :
+        naam
+          .map((naam, index) => <span className="text-nowrap" key={index}>{ naam }</span>)
+          // reduce via https://stackoverflow.com/a/44738250
+          .reduce((acc, x) => acc === null ? [x] : [acc, ', ', x], null):
         <span className="text-nowrap">{ naam }</span>;
 
     const renderPrestatie = prestatie =>
