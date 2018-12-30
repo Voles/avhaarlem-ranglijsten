@@ -86,7 +86,7 @@ export default [
     "plaats": "Dordrecht"
   },
   {
-    "onderdeel": "10×10 km",
+    "onderdeel": "10 x 10 km",
     "naam": ["Daan", "Niels", "Viktor", "Frank", "Marco", "Boudewijn", "Adrie", "Cor", "Sander", "Gerlies"],
     "prestatie": "7.24.54",
     "datum": "10-09-2016",
