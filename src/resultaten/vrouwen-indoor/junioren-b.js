@@ -10,14 +10,14 @@ export default [
   {
     "onderdeel": VIJFTIG_METER,
     "naam": "Marjanne van Sambeek",
-    "prestatie": "7,04 (6,8)",
+    "prestatie": "7,04",
     "plaats": "Amsterdam",
     "datum": "05-02-1995"
   },
   {
     "onderdeel": ZESTIG_METER,
     "naam": "Marjanne van Sambeek (C)",
-    "prestatie": "8,34 (8,1)",
+    "prestatie": "8,34",
     "plaats": "Den Haag",
     "datum": "29-11-1992"
   },
@@ -45,28 +45,28 @@ export default [
   {
     "onderdeel": HOOGSPRINGEN,
     "naam": "Joanna Andrews (C)",
-    "prestatie": "1,50",
+    "prestatie": "1.50",
     "plaats": "Den Haag",
     "datum": "17-01-1993"
   },
   {
     "onderdeel": HOOGSPRINGEN,
     "naam": "Jessica Ramakers (C)",
-    "prestatie": "1,50",
+    "prestatie": "1.50",
     "plaats": "Den Haag",
     "datum": "17-01-1993"
   },
   {
     "onderdeel": VERSPRINGEN,
     "naam": "Tara van Schie",
-    "prestatie": "5,12",
+    "prestatie": "5.12",
     "plaats": "Groningen",
     "datum": "29-01-2006"
   },
   {
     "onderdeel": KOGELSTOTEN,
     "naam": "Wendy IJzerman",
-    "prestatie": "12,37",
+    "prestatie": "12.37",
     "plaats": "Den Haag",
     "datum": "26-02-1995"
   },
@@ -83,17 +83,17 @@ export default [
       },
       {
         "onderdeel": HOOGSPRINGEN,
-        "prestatie": "1,39",
+        "prestatie": "1.39",
         "punten": "(502)"
       },
       {
         "onderdeel": KOGELSTOTEN,
-        "prestatie": "10,94",
+        "prestatie": "10.94",
         "punten": "(591)"
       },
       {
         "onderdeel": VERSPRINGEN,
-        "prestatie": "4,86",
+        "prestatie": "4.86",
         "punten": "(522)"
       },
       {
