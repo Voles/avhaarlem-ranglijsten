@@ -10,21 +10,21 @@ export default [
   {
     "onderdeel": HONDERD_METER,
     "naam": "Brenda Stoete",
-    "prestatie": "12,74 (12,5)",
+    "prestatie": "12,74",
     "plaats": "Krommenie",
     "datum": "24-07-1988"
   },
   {
     "onderdeel": TWEEHONDERD_METER,
     "naam": "Tara van Schie",
-    "prestatie": "26,17 (-0,2 m/s)",
+    "prestatie": "26,17",
     "plaats": "Best",
     "datum": "30-06-2007"
   },
   {
     "onderdeel": VIERHONDERD_METER,
     "naam": "Chantal Bruyn",
-    "prestatie": "61,74 (61,6)",
+    "prestatie": "61,74",
     "plaats": "Haarlem",
     "datum": "16-09-1990"
   },
@@ -52,7 +52,7 @@ export default [
   {
     "onderdeel": HONDERD_METER_HORDEN,
     "naam": "Tara van Schie",
-    "prestatie": "15,28 (+1,2 m/s)",
+    "prestatie": "15,28",
     "plaats": "Best",
     "datum": "30-06-2007"
   },
@@ -69,13 +69,6 @@ export default [
     "prestatie": "1.60",
     "plaats": "Krommenie",
     "datum": "19-08-2000"
-  },
-  {
-    "onderdeel": "",
-    "naam": "Sanne Immer (C)",
-    "prestatie": "1.60",
-    "plaats": "Amsterdam",
-    "datum": "26-06-2000"
   },
   {
     "onderdeel": POLSSTOKHOOGSPRINGEN,
