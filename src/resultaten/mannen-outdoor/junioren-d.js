@@ -1,4 +1,5 @@
 import {
+  BALWERPEN,
   DISCUSWERPEN,
   DRIEDUIZEND_METER,
   DUIZEND_METER,
@@ -79,7 +80,7 @@ export default [
     "datum": "12-05-2001"
   },
   {
-    "onderdeel": "balwerpen",
+    "onderdeel": BALWERPEN,
     "naam": "Dennis Kruithof",
     "prestatie": "60 m",
     "plaats": "Haarlem",

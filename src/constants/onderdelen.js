@@ -53,6 +53,7 @@ export const DRIEDUIZEND_METER_STEEPLECHASE = '3 000 m steeplechase';
 
 export const EEN_UUR = '1 uur';
 
+export const BALWERPEN = 'Balwerpen';
 export const HOOGSPRINGEN = 'Hoogspringen';
 export const VERSPRINGEN = 'Verspringen';
 export const KOGELSTOTEN= 'Kogelstoten';
