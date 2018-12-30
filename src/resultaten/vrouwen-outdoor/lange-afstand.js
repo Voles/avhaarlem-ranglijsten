@@ -1,6 +1,6 @@
 import {
   DERTIG_KILOMETER, EEN_UUR,
-  HALVE_MARATHON, HONDERD_KILOMETER, MARATHON,
+  HALVE_MARATHON, HONDERD_KILOMETER, MARATHON, TIEN_ENGELSE_MIJL,
   TIEN_KILOMETER,
   TWINTIG_KILOMETER, VIJFENDERTIG_KILOMETER,
   VIJFENTWINTIG_KILOMETER,
@@ -30,7 +30,7 @@ export default [
     "plaats": "Breda"
   },
   {
-    "onderdeel": "10 engelse mijl",
+    "onderdeel": TIEN_ENGELSE_MIJL,
     "naam": "Marianne van de Linde",
     "prestatie": "55.34",
     "datum": "1992",
