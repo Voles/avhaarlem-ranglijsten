@@ -10,7 +10,7 @@ export default [
   {
     "onderdeel": VIJFTIG_METER,
     "naam": "Marjanne van Sambeek",
-    "prestatie": "7,24 (7,0)",
+    "prestatie": "7,24",
     "plaats": "Utrecht",
     "datum": "29-02-1992"
   },
@@ -38,7 +38,7 @@ export default [
   {
     "onderdeel": VIJFTIG_METER_HORDEN,
     "naam": "Joanna Andrews",
-    "prestatie": "8,84 (8,6)",
+    "prestatie": "8,84",
     "plaats": "Utrecht",
     "datum": "23-02-1992"
   },
@@ -52,21 +52,21 @@ export default [
   {
     "onderdeel": HOOGSPRINGEN,
     "naam": "Joanna Andrews",
-    "prestatie": "1,45",
+    "prestatie": "1.45",
     "plaats": "Zaandam",
     "datum": "15-02-1992"
   },
   {
     "onderdeel": VERSPRINGEN,
     "naam": "Babs Koeman",
-    "prestatie": "4,67",
+    "prestatie": "4.67",
     "plaats": "Zoetermeer",
     "datum": "17-12-2016"
   },
   {
     "onderdeel": KOGELSTOTEN,
     "naam": "Sanna Piscaer",
-    "prestatie": "10,45",
+    "prestatie": "10.45",
     "plaats": "Den Haag",
     "datum": "06-03-1994"
   }
