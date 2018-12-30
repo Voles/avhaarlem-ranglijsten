@@ -38,7 +38,7 @@ class FilterButton extends Component {
     const activeClass = this.categoryIsActive(label) ? 'active' : '';
     return (
       <button type="button"
-              className={`btn btn-outline-${type} ${activeClass}`}
+              className={`FilterButton btn btn-outline-${type} ${activeClass}`}
               onClick={() => this.onFilterClicked(label)}>
         {this.props.children}
       </button>
