@@ -10,21 +10,21 @@ export default [
   {
     "onderdeel": HONDERD_METER,
     "naam": "Brenda Stoete (B)",
-    "prestatie": "12,74 (12,5)",
+    "prestatie": "12,74",
     "plaats": "Krommenie",
     "datum": "24-07-1988"
   },
   {
     "onderdeel": TWEEHONDERD_METER,
     "naam": "Brenda Stoete",
-    "prestatie": "25,94 (25,7)",
+    "prestatie": "25,94",
     "plaats": "Amsterdam",
     "datum": "26-05-1990"
   },
   {
     "onderdeel": VIERHONDERD_METER,
     "naam": "Brenda Stoete",
-    "prestatie": "60,64 (60,5)",
+    "prestatie": "60,64",
     "plaats": "Santpoort",
     "datum": "29-04-1990"
   },
@@ -52,7 +52,7 @@ export default [
   {
     "onderdeel": HONDERD_METER_HORDEN,
     "naam": "Anja Smits",
-    "prestatie": "15,24 (15,0)",
+    "prestatie": "15,24",
     "plaats": "Arnhem",
     "datum": "20-05-1973"
   },
@@ -87,7 +87,7 @@ export default [
   {
     "onderdeel": HINKSTAPSPRINGEN,
     "naam": "Sanne Immer",
-    "prestatie": "11.16 m (rw +0,0 m/s)",
+    "prestatie": "11.16",
     "plaats": "Sittard",
     "datum": "26-06-2004"
   },
@@ -113,25 +113,11 @@ export default [
     "datum": "12-06-1994"
   },
   {
-    "onderdeel": KOGELSLINGEREN,
-    "naam": "vacant",
-    "prestatie": "",
-    "plaats": "",
-    "datum": ""
-  },
-  {
     "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": ["Aneska de Windt","Chantal Bruyn","Kivelly Grotendorst","Brenda Stoete"],
-    "prestatie": "50,64 (50,5)",
+    "prestatie": "50,64",
     "plaats": "Lisse",
     "datum": "24-06-1990"
-  },
-  {
-    "onderdeel": VIER_KEER_VIERHONDERD_METER,
-    "naam": "vacant",
-    "prestatie": "",
-    "plaats": "",
-    "datum": ""
   },
   {
     "onderdeel": ZEVENKAMP,
