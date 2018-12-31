@@ -93,6 +93,6 @@ export default [
     "plaats": ""
   }
 ].map(resultaat => {
-  resultaat.categorie = 'Wegatletiek';
+  resultaat.categorie = 'Lange afstand';
   return resultaat;
 });

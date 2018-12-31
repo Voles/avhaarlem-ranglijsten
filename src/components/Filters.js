@@ -21,7 +21,7 @@ class Filters extends Component {
           <FilterButton type="primary" label="junioren-b">Junioren B</FilterButton>
           <FilterButton type="primary" label="junioren-c">Junioren C</FilterButton>
           <FilterButton type="primary" label="junioren-d">Junioren D</FilterButton>
-          <FilterButton type="primary" label="wegatletiek">Wegatletiek</FilterButton>
+          <FilterButton type="primary" label="lange-afstand">Lange-afstand</FilterButton>
         </div>
       </div>
     );

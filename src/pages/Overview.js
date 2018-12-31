@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Ranglijst from "../components/Ranglijst";
 import RanglijstSectie from "../components/RanglijstSectie";
 import Filters from "../components/Filters";
-import resultaten, { resultatenNaarTabellen } from '../resultaten/index';
+import resultaten, { resultatenNaarTabellen, laatsteWijzigingGemaaktOp } from '../resultaten/index';
 
 class Overview extends Component {
   categoryIsSet(label) {
@@ -55,7 +55,7 @@ class Overview extends Component {
                 const { geslacht, categorie, locatie } = tabel;
                 const geslachtIsSet = this.atLeastOneCategoryIsSet(['mannen', 'vrouwen']);
                 const locatieIsSet = this.atLeastOneCategoryIsSet(['indoor', 'outdoor']);
-                const categoryIsSet = this.atLeastOneCategoryIsSet([ 'senioren', 'junioren-a', 'junioren-b', 'junioren-c', 'junioren-d', 'wegatletiek' ]);
+                const categoryIsSet = this.atLeastOneCategoryIsSet([ 'senioren', 'junioren-a', 'junioren-b', 'junioren-c', 'junioren-d', 'lange-afstand' ]);
 
                 const categoriesToCheck = [];
                 if (geslachtIsSet) {

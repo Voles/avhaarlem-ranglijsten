@@ -18,10 +18,7 @@ export const resultatenNaarTabellen = resultaten => {
     .reduce((accumulator, currentValue) => {
       const { categorie, locatie, geslacht } = currentValue;
       const key = `${categorie}-${geslacht}-${locatie}`;
-
-      const titel = categorie.toLowerCase() === 'wegatletiek' ?
-        `${geslacht} ${categorie}` :
-        `${geslacht} ${categorie} ${locatie}`;
+      const titel = `${geslacht} ${categorie} ${locatie}`;
 
       accumulator[key] = accumulator[key] || {
         titel,
