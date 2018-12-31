@@ -18,18 +18,21 @@ h1 {
   }
 }
 
-.FilterButton.btn:not(.active):active {
-  background-color: white;
+.FilterButton.btn:not(.active) {
+  &:active,
+  &:hover {
+    background-color: white;
 
-  &.btn-outline-success {
-    color: $success;
-  }
+    &.btn-outline-success {
+      color: $success;
+    }
 
-  &.btn-outline-primary {
-    color: $primary;
-  }
+    &.btn-outline-primary {
+      color: $primary;
+    }
 
-  &.btn-outline-secondary {
-    color: $secondary;
+    &.btn-outline-secondary {
+      color: $secondary;
+    }
   }
 }
