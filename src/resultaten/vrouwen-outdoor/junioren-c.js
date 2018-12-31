@@ -34,7 +34,7 @@ export default [
   {
     "onderdeel": HONDERDVIJFTIG_METER,
     "naam": "Tara van Schie",
-    "prestatie": "19,54 (10,3)",
+    "prestatie": "19,54",
     "plaats": "Beverwijk",
     "datum": "03-07-2004"
   },
@@ -90,7 +90,7 @@ export default [
   {
     "onderdeel": TACHTIG_METER_HORDEN,
     "naam": "Marije Zandstra",
-    "prestatie": "12,84 (12,6)",
+    "prestatie": "12,84",
     "plaats": "Zaandam",
     "datum": "14-06-1997"
   },
@@ -107,13 +107,6 @@ export default [
     "prestatie": "1.60",
     "plaats": "Krommenie",
     "datum": "19-08-2000"
-  },
-  {
-    "onderdeel": "",
-    "naam": "Sanne Immer",
-    "prestatie": "1.60",
-    "plaats": "Amsterdam",
-    "datum": "26-08-2000"
   },
   {
     "onderdeel": POLSSTOKHOOGSPRINGEN,
@@ -153,7 +146,7 @@ export default [
   {
     "onderdeel": VIER_KEER_TACHTIG_METER,
     "naam": ["Sanna Piscaer", "Janna de Waard", "Marije Zandstra", "Baltine de Wit"],
-    "prestatie": "41,94 (41,7)",
+    "prestatie": "41,94",
     "plaats": "Heerhugowaard",
     "datum": "17-06-1996"
   },
@@ -163,37 +156,37 @@ export default [
     "prestatie": [
       {
         "onderdeel": TACHTIG_METER_HORDEN,
-        "prestatie": "13,17 s",
+        "prestatie": "13,17",
         "punten": "(569)"
       },
       {
         "onderdeel": HOOGSPRINGEN,
-        "prestatie": "1.47 m",
+        "prestatie": "1.47",
         "punten": "(599)"
       },
       {
         "onderdeel": KOGELSTOTEN,
-        "prestatie": "8.75 m",
+        "prestatie": "8.75",
         "punten": "(460)"
       },
       {
         "onderdeel": HONDERDVIJFTIG_METER,
-        "prestatie": "20,02 s",
+        "prestatie": "20,02",
         "punten": "(617)"
       },
       {
         "onderdeel": VERSPRINGEN,
-        "prestatie": "5.06 m",
+        "prestatie": "5.06",
         "punten": "(632)"
       },
       {
         "onderdeel": SPEERWERPEN,
-        "prestatie": "27.86 m",
+        "prestatie": "27.86",
         "punten": "(461)"
       },
       {
         "onderdeel": ZESHONDERD_METER,
-        "prestatie": "1.42,02 s",
+        "prestatie": "1.42,02",
         "punten": "(661)"
       },
       {

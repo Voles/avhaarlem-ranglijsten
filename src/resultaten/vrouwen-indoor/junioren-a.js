@@ -1,22 +1,22 @@
 import {
   ACHTHONDERD_METER,
   DUIZENDVIJFHONDERD_METER, HOOGSPRINGEN, KOGELSTOTEN, VERSPRINGEN,
-  VIERHONDERD_METER, VIJFKAMP, VIJFTIG_METER_HORDEN,
+  VIERHONDERD_METER, VIJFKAMP, VIJFTIG_METER_HORDEN, VIJFTIG_METER,
   ZESTIG_METER, ZESTIG_METER_HORDEN
 } from "../../constants/onderdelen";
 
 export default [
   {
-    "onderdeel": "50 meter h.t.",
+    "onderdeel": VIJFTIG_METER,
     "naam": "Marjanne van Sambeek (B)",
-    "prestatie": "7,04 (6,8)",
+    "prestatie": "7,04",
     "plaats": "Amsterdam",
     "datum": "05-02-1995"
   },
   {
     "onderdeel": ZESTIG_METER,
     "naam": "Anja Smits",
-    "prestatie": "8,24 (8,0)",
+    "prestatie": "8,24",
     "plaats": "Leiden",
     "datum": "24-02-1973"
   },
@@ -51,28 +51,28 @@ export default [
   {
     "onderdeel": ZESTIG_METER_HORDEN,
     "naam": "Anja Smits",
-    "prestatie": "9,34 (9,1)",
+    "prestatie": "9,34",
     "plaats": "Leiden",
     "datum": "24-02-1973"
   },
   {
     "onderdeel": HOOGSPRINGEN,
     "naam": "Tara van Schie",
-    "prestatie": "1,56",
+    "prestatie": "1.56",
     "plaats": "Gent (B)",
     "datum": "03-02-2008"
   },
   {
     "onderdeel": VERSPRINGEN,
     "naam": "Anja Smits",
-    "prestatie": "5,56",
+    "prestatie": "5.56",
     "plaats": "Leiden",
     "datum": "10-02-1973"
   },
   {
     "onderdeel": KOGELSTOTEN,
     "naam": "Wendy IJzerman",
-    "prestatie": "11,20",
+    "prestatie": "11.20",
     "plaats": "Den Haag",
     "datum": "26-01-1997"
   },
@@ -89,17 +89,17 @@ export default [
       },
       {
         "onderdeel": HOOGSPRINGEN,
-        "prestatie": "1,56",
+        "prestatie": "1.56",
         "punten": "(689)"
       },
       {
         "onderdeel": KOGELSTOTEN,
-        "prestatie": "9,72",
+        "prestatie": "9.72",
         "punten": "(511)"
       },
       {
         "onderdeel": VERSPRINGEN,
-        "prestatie": "5,38",
+        "prestatie": "5.38",
         "punten": "(665)"
       },
       {

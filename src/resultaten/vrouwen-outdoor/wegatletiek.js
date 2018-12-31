@@ -23,13 +23,6 @@ export default [
     "plaats": "Nijmegen"
   },
   {
-    "onderdeel": VIJFTIEN_KILOMETER,
-    "naam": "Marianne van de Linde",
-    "prestatie": "",
-    "datum": "01-05-1994",
-    "plaats": "Breda"
-  },
-  {
     "onderdeel": TIEN_ENGELSE_MIJL,
     "naam": "Marianne van de Linde",
     "prestatie": "55.34",
@@ -39,59 +32,38 @@ export default [
   {
     "onderdeel": TWINTIG_KILOMETER,
     "naam": "Marianne van de Linde",
-    "prestatie": "1.12.03",
+    "prestatie": "1:12.03",
     "datum": "30-04-1991",
     "plaats": "Beverwijk"
   },
   {
     "onderdeel": HALVE_MARATHON,
     "naam": "Marianne van de Linde",
-    "prestatie": "1.13.35",
+    "prestatie": "1:13.35",
     "datum": "04-10-1992",
     "plaats": "Breda"
   },
   {
     "onderdeel": VIJFENTWINTIG_KILOMETER,
     "naam": "Heidi van der Plas",
-    "prestatie": "2.08.06",
+    "prestatie": "2:08.06",
     "datum": "23-02-1991",
     "plaats": "Aerdenhout"
   },
   {
     "onderdeel": DERTIG_KILOMETER,
     "naam": "Marianne van de Linde",
-    "prestatie": "1.53.37",
+    "prestatie": "1:53.37",
     "datum": "20-03-1994",
     "plaats": "Spaarnwoude"
   },
   {
-    "onderdeel": VIJFENDERTIG_KILOMETER,
-    "naam": "vacant",
-    "prestatie": "",
-    "datum": "",
-    "plaats": ""
-  },
-  {
     "onderdeel": MARATHON,
     "naam": "Marianne van de Linde",
-    "prestatie": "2.41.52",
+    "prestatie": "2:41.52",
     "datum": "25-10-1992",
     "plaats": "Frankfurt (D)"
   },
-  {
-    "onderdeel": HONDERD_KILOMETER,
-    "naam": "vacant",
-    "prestatie": "",
-    "datum": "",
-    "plaats": ""
-  },
-  {
-    "onderdeel": EEN_UUR,
-    "naam": "vacant",
-    "prestatie": "",
-    "datum": "",
-    "plaats": ""
-  }
 ].map(resultaat => {
   resultaat.categorie = 'Wegatletiek';
   return resultaat;

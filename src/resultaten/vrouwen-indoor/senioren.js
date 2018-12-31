@@ -10,7 +10,7 @@ export default [
   {
     "onderdeel": VIJFTIG_METER,
     "naam": "Marjanne van Sambeek",
-    "prestatie": "7,04 (6,8)",
+    "prestatie": "7,04",
     "plaats": "Amsterdam",
     "datum": "05-02-1995"
   },
@@ -52,7 +52,7 @@ export default [
   {
     "onderdeel": ZESTIG_METER_HORDEN,
     "naam": "Anja Smits",
-    "prestatie": "9,34 (9,1)",
+    "prestatie": "9,34",
     "plaats": "Leiden",
     "datum": "24-02-1973"
   },
