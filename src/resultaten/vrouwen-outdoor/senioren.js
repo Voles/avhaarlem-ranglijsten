@@ -29,7 +29,7 @@ export default [
   {
     "onderdeel": HONDERD_METER,
     "naam": "Mieke van der Kolk",
-    "prestatie": "12,34 (12,1)",
+    "prestatie": "12,34",
     "plaats": "Santpoort",
     "datum": "04-07-1993"
   },
@@ -43,7 +43,7 @@ export default [
   {
     "onderdeel": TWEEHONDERD_METER,
     "naam": "Brenda Stoete",
-    "prestatie": "25,94 (25,7)",
+    "prestatie": "25,94",
     "plaats": "Amsterdam",
     "datum": "26-05-1990"
   },
@@ -176,7 +176,7 @@ export default [
   {
     "onderdeel": HONDERD_METER_HORDEN,
     "naam": "Brenda Stoete",
-    "prestatie": "15,14 (14,9)",
+    "prestatie": "15,14",
     "plaats": "Santpoort",
     "datum": "19-06-1994"
   },
@@ -246,7 +246,7 @@ export default [
   {
     "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": ["Brenda Stoete", "Carla v/d Klei", "Jaqueline Konerman", "Mieke v/d Kolk"],
-    "prestatie": "49,24 (49,1)",
+    "prestatie": "49,24",
     "plaats": "Santpoort",
     "datum": "19-06-1994"
   },

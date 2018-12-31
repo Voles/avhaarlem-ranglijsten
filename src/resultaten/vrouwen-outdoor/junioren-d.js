@@ -19,7 +19,7 @@ export default [
   {
     "onderdeel": ZESTIG_METER,
     "naam": "Marjanne van Sambeek",
-    "prestatie": "8,14 s (7,9)",
+    "prestatie": "8,14",
     "plaats": "Krommenie",
     "datum": "28-05-1992"
   },
@@ -68,7 +68,7 @@ export default [
   {
     "onderdeel": ZESTIG_METER_HORDEN,
     "naam": "Joanna Andrews",
-    "prestatie": "10,14 (9,9)",
+    "prestatie": "10,14",
     "plaats": "Krommenie",
     "datum": "28-05-1992"
   },
@@ -122,7 +122,7 @@ export default [
       "Marjanne van Sambeek",
       "Joanna Andrews"
     ],
-    "prestatie": "33,54 (33,3)",
+    "prestatie": "33,54",
     "plaats": "Santpoort",
     "datum": "22-06-1991"
   },
