@@ -158,7 +158,7 @@ export default [
     "prestatie": [
       {
         "onderdeel": ZESTIG_METER,
-        "prestatie": "7,64 (7,4)",
+        "prestatie": "7,64",
         "punten": "(668)"
       },
       {
@@ -178,7 +178,7 @@ export default [
       },
       {
         "onderdeel": ZESTIG_METER_HORDEN,
-        "prestatie": "9,34 (9,1)",
+        "prestatie": "9,34",
         "punten": "(673)"
       },
       {
