@@ -214,7 +214,7 @@ export default [
       "prestatie": [
         {
           "onderdeel": HONDERD_METER,
-          "prestatie": "11,64 (11,4)",
+          "prestatie": "11,64",
           "punten": "(723)"
         },
         {
@@ -233,13 +233,13 @@ export default [
           "punten": "(560)"
         },
         {
-          "onderdeel": "400 m",
-          "prestatie": "57,74 (57,6)",
+          "onderdeel": VIERHONDERD_METER,
+          "prestatie": "57,74",
           "punten": "(493)"
         },
         {
           "onderdeel": HONDERDENTIEN_METER_HORDEN,
-          "prestatie": "17,04 (16,8)",
+          "prestatie": "17,04",
           "punten": "(620)"
         },
         {
@@ -258,7 +258,7 @@ export default [
           "punten": "(680)"
         },
         {
-          "onderdeel": "1500 m",
+          "onderdeel": DUIZENDVIJFHONDERD_METER,
           "prestatie": "5.13,4",
           "punten": "(485)"
         },
