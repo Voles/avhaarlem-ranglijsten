@@ -101,43 +101,48 @@ export default [
     "prestatie": [
       {
         "onderdeel": TACHTIG_METER,
-        "prestatie": "11,14 s (10,9)",
+        "prestatie": "11,14",
         "punten": "(596)"
       },
       {
         "onderdeel": VERSPRINGEN,
-        "prestatie": "4,70 m",
+        "prestatie": "4,70",
         "punten": "(560)"
       },
       {
         "onderdeel": KOGELSTOTEN,
-        "prestatie": "9,82 m",
+        "prestatie": "9,82",
         "punten": "(514)"
       },
       {
         "onderdeel": TACHTIG_METER_HORDEN,
-        "prestatie": "14,24 s (14,0)",
+        "prestatie": "14,24",
         "punten": "(466)"
       },
       {
         "onderdeel": HOOGSPRINGEN,
-        "prestatie": "1,45 m",
+        "prestatie": "1,45",
         "punten": "(582)"
       },
       {
         "onderdeel": SPEERWERPEN,
-        "prestatie": "32,18 m",
+        "prestatie": "32,18",
         "punten": "(529)"
       },
       {
         "onderdeel": DUIZEND_METER,
-        "prestatie": "3.18,8 s",
+        "prestatie": "3.18,8",
         "punten": "(554)"
       },
       {
         "onderdeel": TACHTIG_METER,
-        "prestatie": "11,14 s (10,9)",
+        "prestatie": "11,14",
         "punten": "(596)"
+      },
+      {
+        "onderdeel": "Totaal",
+        "prestatie": "",
+        "punten": "3801 pnt"
       }
     ]
   }

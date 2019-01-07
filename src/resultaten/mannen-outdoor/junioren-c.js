@@ -1,5 +1,5 @@
 import {
-  ACHTHONDERD_METER, DISCUSWERPEN, DRIEHONDERD_METER_HORDEN,
+  ACHTHONDERD_METER, ACHTKAMP, DISCUSWERPEN, DRIEHONDERD_METER_HORDEN,
   DUIZEND_METER,
   DUIZENDVIJFHONDERD_METER,
   HONDERD_METER, HONDERD_METER_HORDEN,
@@ -113,44 +113,44 @@ export default [
     "datum": "13-06-1987"
   },
   {
-    "onderdeel": "achtkamp",
+    "onderdeel": ACHTKAMP,
     "naam": "Alex Overkamp",
     "plaats": "Schoonhoven",
     "datum": "1/2-7-2006",
     "prestatie": [
       {
         "onderdeel": HONDERD_METER,
-        "prestatie": "12,44 s (12,2)",
+        "prestatie": "12,44",
         "punten": "(753)"
       },
       {
         "onderdeel": VERSPRINGEN,
-        "prestatie": "5,68 m",
+        "prestatie": "5,68",
         "punten": "(751)"
       },
       {
         "onderdeel": KOGELSTOTEN,
-        "prestatie": "10,84 m",
+        "prestatie": "10,84",
         "punten": "(562)"
       },
       {
         "onderdeel": HOOGSPRINGEN,
-        "prestatie": "1,65 m",
+        "prestatie": "1,65",
         "punten": "(741)"
       },
       {
         "onderdeel": HONDERD_METER_HORDEN,
-        "prestatie": "15,14 s (14,9)",
+        "prestatie": "15,14",
         "punten": "(712)"
       },
       {
         "onderdeel": DISCUSWERPEN,
-        "prestatie": "32,03 m",
+        "prestatie": "32,03",
         "punten": "(505)"
       },
       {
         "onderdeel": SPEERWERPEN,
-        "prestatie": "39,94 m",
+        "prestatie": "39,94",
         "punten": "(639)"
       },
       {

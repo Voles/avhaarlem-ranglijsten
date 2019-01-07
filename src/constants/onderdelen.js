@@ -66,4 +66,5 @@ export const SPEERWERPEN = 'Speerwerpen';
 export const VIJFKAMP = 'Vijfkamp';
 export const ZESKAMP = 'Zeskamp';
 export const ZEVENKAMP = 'Zevenkamp';
+export const ACHTKAMP = 'Achtkamp';
 export const TIENKAMP = 'Tienkamp';
