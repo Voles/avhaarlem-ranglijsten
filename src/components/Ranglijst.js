@@ -30,7 +30,7 @@ class Ranglijst extends Component {
               .keys(prestatie)
               .filter(key => prestatie[key].onderdeel !== 'Totaal')
               .map(index => prestatie[index]),
-            2
+            1
           )
             .map((twoPrestaties, index) => {
               const [prestatieA, prestatieB] = twoPrestaties;

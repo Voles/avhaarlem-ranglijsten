@@ -1,3 +1,10 @@
+$container-max-widths: (
+       sm: 720px,
+       md: 720px,
+       lg: 820px,
+       xl: 820px
+) !default;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 h1 {
@@ -10,6 +17,7 @@ h1 {
 
 .RanglijstSectie {
   margin-bottom: 2.5rem;
+  overflow: auto;
 }
 
 .Ranglijst table.table tbody {
