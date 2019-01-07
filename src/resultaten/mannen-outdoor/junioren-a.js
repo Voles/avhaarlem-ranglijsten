@@ -120,7 +120,7 @@ export default [
       "naam": "Frank van Ravensberg",
       "prestatie": "47.20,4",
       "plaats": "Drachten",
-      "datum": "06-10-1979 NR"
+      "datum": "06-10-1979"
     },
     {
       "onderdeel": EEN_UUR,
@@ -188,7 +188,7 @@ export default [
     {
       "onderdeel": "4 x 100 meter h.t.",
       "naam": ["Kenneth Portanger","Hein Macknack","René Moesman","Allan Ellsworth"],
-      "prestatie": "42,54 (42,4)",
+      "prestatie": "42,54",
       "plaats": "Haarlem",
       "datum": "09-10-1983"
     },

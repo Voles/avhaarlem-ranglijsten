@@ -109,7 +109,7 @@ export default [
     "onderdeel": SPEERWERPEN,
     "naam": "Ingeborg Zandbergen (B)",
     "prestatie": "31.10",
-    "plaats": "Alphen aan den Rijn",
+    "plaats": "Alphen a/d Rijn",
     "datum": "12-06-1994"
   },
   {

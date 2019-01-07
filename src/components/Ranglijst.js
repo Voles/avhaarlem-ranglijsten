@@ -39,11 +39,9 @@ class Ranglijst extends Component {
                 <tr key={index}>
                   <td className="text-left">{ prestatieA.onderdeel }</td>
                   <td className="text-right">{ prestatieA.prestatie }</td>
-                  <td className="text-right">{ prestatieA.punten }</td>
                   <td>&nbsp;&nbsp;</td>
                   <td className="text-left">{ prestatieB ? prestatieB.onderdeel : '' }</td>
                   <td className="text-right">{ prestatieB ? prestatieB.prestatie : '' }</td>
-                  <td className="text-right">{ prestatieB ? prestatieB.punten : '' }</td>
                 </tr>
               )
             })

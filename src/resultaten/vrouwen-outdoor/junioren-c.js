@@ -20,14 +20,14 @@ export default [
   {
     "onderdeel": TACHTIG_METER,
     "naam": "Aneska de Windt",
-    "prestatie": "10,64 (10,4)",
+    "prestatie": "10,64",
     "plaats": "",
     "datum": "1988"
   },
   {
     "onderdeel": TACHTIG_METER,
     "naam": "Marjanne van Sambeek",
-    "prestatie": "10,64 (10,4)",
+    "prestatie": "10,64",
     "plaats": "Amsterdam",
     "datum": "21-08-1993"
   },
