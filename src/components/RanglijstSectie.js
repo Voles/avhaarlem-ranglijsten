@@ -9,7 +9,7 @@ class RanglijstSectie extends Component {
       <div className="RanglijstSectie container">
         <div className="row">
           <div className="col-12">
-            <h3>{ title }</h3>
+            <h3 className="mb-3">{ title }</h3>
           </div>
         </div>
         <div className="row">
