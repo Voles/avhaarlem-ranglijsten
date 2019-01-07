@@ -278,7 +278,7 @@ export default [
     "prestatie": [
       {
         "onderdeel": HONDERD_METER,
-        "prestatie": "11,44 (11,2)",
+        "prestatie": "11,44",
         "punten": "(765)"
       },
       {
@@ -298,12 +298,12 @@ export default [
       },
       {
         "onderdeel": "400 m",
-        "prestatie": "52,74 (52,6)",
+        "prestatie": "52,74",
         "punten": "(693)"
       },
       {
         "onderdeel": HONDERDENTIEN_METER_HORDEN,
-        "prestatie": "15,94 (15,7)",
+        "prestatie": "15,94",
         "punten": "(740)"
       },
       {
