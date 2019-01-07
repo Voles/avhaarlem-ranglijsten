@@ -157,6 +157,11 @@ export default [
         "onderdeel": ACHTHONDERD_METER,
         "prestatie": "2.46,79",
         "punten": "(497)"
+      },
+      {
+        "onderdeel": "Totaal",
+        "prestatie": "",
+        "punten": "4388 pnt"
       }
     ],
     "plaats": "Best",
