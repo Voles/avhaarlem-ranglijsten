@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import chunk from 'lodash/chunk';
 
 class Ranglijst extends Component {
   static defaultProps = {
@@ -20,25 +21,42 @@ class Ranglijst extends Component {
     const prestatieIsMeerkamp = prestatie =>
       typeof prestatie !== 'string';
 
-    const renderPrestatie = prestatie =>
-        prestatieIsMeerkamp(prestatie) ?
-        <table className="table table-sm table-borderless">
+    const renderTabelVoorMeerkampPrestatie = prestatie =>
+      <table className="table table-sm table-borderless">
         <tbody>
-          {
+        {
+          chunk(
             Object
               .keys(prestatie)
-              .map((key, index) => {
-                return (
-                  <tr key={index}>
-                    <td>{ prestatie[key].onderdeel }</td>
-                    <td>{ prestatie[key].prestatie }</td>
-                    <td>{ prestatie[key].punten }</td>
-                  </tr>
-                )
-              })
-          }
+              .filter(key => prestatie[key].onderdeel !== 'Totaal')
+              .map(index => prestatie[index]),
+            2
+          )
+            .map((twoPrestaties, index) => {
+              const [prestatieA, prestatieB] = twoPrestaties;
+
+              return (
+                <tr key={index}>
+                  <td className="text-left">{ prestatieA.onderdeel }</td>
+                  <td className="text-right">{ prestatieA.prestatie }</td>
+                  <td className="text-right">{ prestatieA.punten }</td>
+                  <td>&nbsp;&nbsp;</td>
+                  <td className="text-left">{ prestatieB ? prestatieB.onderdeel : '' }</td>
+                  <td className="text-right">{ prestatieB ? prestatieB.prestatie : '' }</td>
+                  <td className="text-right">{ prestatieB ? prestatieB.punten : '' }</td>
+                </tr>
+              )
+            })
+        }
         </tbody>
-        </table> : prestatie;
+      </table>;
+
+    const renderTotaalPuntenaantalVoorMeerkampPrestatie = prestatie =>
+      Object
+        .keys(prestatie)
+        .filter(key => prestatie[key].onderdeel === 'Totaal')
+        .map(key => prestatie[key])
+        .reduce((acc, currentValue) => currentValue.punten, '?');
 
     const renderDatum = datum =>
         typeof datum === 'object' ?
@@ -63,8 +81,21 @@ class Ranglijst extends Component {
                 <td className="text-nowrap">{ rij.onderdeel }</td>
                 <td>
                   { renderNaam(rij.naam) }
+                  {
+                    prestatieIsMeerkamp(rij.prestatie) ?
+                      <React.Fragment>
+                        <hr />
+                        { renderTabelVoorMeerkampPrestatie(rij.prestatie) }
+                      </React.Fragment> : null
+                  }
                 </td>
-                <td className="text-nowrap text-right">{ renderPrestatie(rij.prestatie) }</td>
+                <td className="text-nowrap text-right">
+                  {
+                    prestatieIsMeerkamp(rij.prestatie) ?
+                      renderTotaalPuntenaantalVoorMeerkampPrestatie(rij.prestatie) :
+                      rij.prestatie
+                  }
+                </td>
                 <td className="text-nowrap text-right">{ rij.plaats }</td>
                 <td className="text-nowrap text-right">{ renderDatum(rij.datum) }</td>
               </tr>
