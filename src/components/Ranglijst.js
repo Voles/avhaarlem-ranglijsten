@@ -17,9 +17,12 @@ class Ranglijst extends Component {
           .reduce((acc, x) => acc === null ? [x] : [acc, ', ', x], null):
         <span className="text-nowrap">{ naam }</span>;
 
+    const prestatieIsMeerkamp = prestatie =>
+      typeof prestatie !== 'string';
+
     const renderPrestatie = prestatie =>
-      typeof prestatie === 'string' ?
-        prestatie : <table className="table table-sm table-borderless">
+        prestatieIsMeerkamp(prestatie) ?
+        <table className="table table-sm table-borderless">
         <tbody>
           {
             Object
@@ -35,9 +38,9 @@ class Ranglijst extends Component {
               })
           }
         </tbody>
-        </table>;
+        </table> : prestatie;
 
-      const renderDatum = datum =>
+    const renderDatum = datum =>
         typeof datum === 'object' ?
           datum.toLocaleDateString() : datum;
 
@@ -58,8 +61,10 @@ class Ranglijst extends Component {
             .map((rij, index) => (
               <tr key={index}>
                 <td className="text-nowrap">{ rij.onderdeel }</td>
-                <td>{ renderNaam(rij.naam) }</td>
-                <td className="text-nowrap text-right">{  renderPrestatie(rij.prestatie) }</td>
+                <td>
+                  { renderNaam(rij.naam) }
+                </td>
+                <td className="text-nowrap text-right">{ renderPrestatie(rij.prestatie) }</td>
                 <td className="text-nowrap text-right">{ rij.plaats }</td>
                 <td className="text-nowrap text-right">{ renderDatum(rij.datum) }</td>
               </tr>
