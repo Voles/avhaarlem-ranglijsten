@@ -53,13 +53,6 @@ export default [
     "datum": "16-02-1991"
   },
   {
-    "onderdeel": DUIZEND_METER,
-    "naam": "vacant",
-    "prestatie": "",
-    "plaats": "",
-    "datum": ""
-  },
-  {
     "onderdeel": DUIZENDVIJFHONDERD_METER,
     "naam": "Stijn Jaspers",
     "prestatie": "3.44,8",

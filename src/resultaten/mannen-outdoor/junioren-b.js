@@ -185,20 +185,6 @@ export default [
     "datum": "26-09-1987"
   },
   {
-    "onderdeel": VIER_KEER_VIERHONDERD_METER,
-    "naam": "vacant (limit 3.50,00)",
-    "prestatie": "",
-    "plaats": "",
-    "datum": ""
-  },
-  {
-    "onderdeel": VIER_KEER_ACHTHONDERD_METER,
-    "naam": "vacant",
-    "prestatie": "",
-    "plaats": "",
-    "datum": ""
-  },
-  {
     "onderdeel": "negenkamp",
     "naam": "Walter Kruk",
     "plaats": "Vught",
