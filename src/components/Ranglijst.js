@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import chunk from 'lodash/chunk';
 
+import './Ranglijst.scss';
+
 class Ranglijst extends Component {
   static defaultProps = {
     rijen: []
@@ -21,8 +23,8 @@ class Ranglijst extends Component {
     const prestatieIsMeerkamp = prestatie =>
       typeof prestatie !== 'string';
 
-    const renderTabelVoorMeerkampPrestatie = prestatie =>
-      <table className="table table-sm table-borderless">
+    const renderTabelVoorMeerkampPrestatie = (prestatie, amountOfColumns = 1) =>
+      <table className="MeerkampPrestatie table table-sm table-borderless">
         <tbody>
         {
           chunk(
@@ -30,18 +32,23 @@ class Ranglijst extends Component {
               .keys(prestatie)
               .filter(key => prestatie[key].onderdeel !== 'Totaal')
               .map(index => prestatie[index]),
-            1
+            amountOfColumns
           )
             .map((twoPrestaties, index) => {
               const [prestatieA, prestatieB] = twoPrestaties;
 
               return (
                 <tr key={index}>
-                  <td className="text-left">{ prestatieA.onderdeel }</td>
-                  <td className="text-right">{ prestatieA.prestatie }</td>
-                  <td>&nbsp;&nbsp;</td>
-                  <td className="text-left">{ prestatieB ? prestatieB.onderdeel : '' }</td>
-                  <td className="text-right">{ prestatieB ? prestatieB.prestatie : '' }</td>
+                  <td className="text-lg-left">{ prestatieA.onderdeel }</td>
+                  <td className="text-lg-right">{ prestatieA.prestatie }</td>
+                  {
+                    amountOfColumns !== 1 ?
+                      <React.Fragment>
+                        <td>&nbsp;&nbsp;</td>
+                        <td className="text-left">{ prestatieB ? prestatieB.onderdeel : '' }</td>
+                        <td className="text-right">{ prestatieB ? prestatieB.prestatie : '' }</td>
+                      </React.Fragment> : null
+                  }
                 </tr>
               )
             })
@@ -76,8 +83,8 @@ class Ranglijst extends Component {
           rijen
             .map((rij, index) => (
               <tr key={index}>
-                <td className="text-nowrap">{ rij.onderdeel }</td>
-                <td>
+                <td className="text-nowrap text-right text-lg-left">{ rij.onderdeel }</td>
+                <td className={`text-right text-lg-left ${prestatieIsMeerkamp(rij.prestatie) ? 'MeerkampCell' : ''}`}>
                   { renderNaam(rij.naam) }
                   {
                     prestatieIsMeerkamp(rij.prestatie) ?
@@ -87,12 +94,13 @@ class Ranglijst extends Component {
                       </React.Fragment> : null
                   }
                 </td>
-                <td className="text-nowrap text-right">
+                <td className={`text-nowrap text-right`}>
                   {
                     prestatieIsMeerkamp(rij.prestatie) ?
                       renderTotaalPuntenaantalVoorMeerkampPrestatie(rij.prestatie) :
                       rij.prestatie
                   }
+                  &nbsp;
                 </td>
                 <td className="text-nowrap text-right">{ rij.plaats }</td>
                 <td className="text-nowrap text-right">{ renderDatum(rij.datum) }</td>
