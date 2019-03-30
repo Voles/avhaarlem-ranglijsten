@@ -207,13 +207,6 @@ export default [
     "datum": "13-06-1997"
   },
   {
-    "onderdeel": SPEERWERPEN,
-    "naam": "Niels Terol",
-    "prestatie": "67,08",
-    "plaats": "Groningen",
-    "datum": "11-07-1998"
-  },
-  {
     "onderdeel": VIER_KEER_HONDERD_METER,
     "naam": [
       "Sammy Monsels",
