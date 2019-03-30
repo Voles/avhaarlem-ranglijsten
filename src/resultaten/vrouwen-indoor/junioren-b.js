@@ -44,14 +44,10 @@ export default [
   },
   {
     "onderdeel": HOOGSPRINGEN,
-    "naam": "Joanna Andrews (C)",
-    "prestatie": "1.50",
-    "plaats": "Den Haag",
-    "datum": "17-01-1993"
-  },
-  {
-    "onderdeel": HOOGSPRINGEN,
-    "naam": "Jessica Ramakers (C)",
+    "naam": [
+      "Joanna Andrews (C)",
+      "Jessica Ramakers (C)"
+    ],
     "prestatie": "1.50",
     "plaats": "Den Haag",
     "datum": "17-01-1993"
