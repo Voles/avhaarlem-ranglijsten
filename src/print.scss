@@ -1,10 +1,25 @@
 @media print {
   html,
   body {
-    font-size: 10pt;
+    font-size: 10.5pt;
+  }
+
+  hr {
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+  }
+
+  .MeerkampPrestatie.table-sm th,
+  .MeerkampPrestatie.table-sm td {
+    padding: .2rem 0 .2rem 0;
   }
 
   .RanglijstSectie {
     page-break-before: always;
+    max-width: 500px;
+
+    h3 {
+      display: none;
+    }
   }
 }
