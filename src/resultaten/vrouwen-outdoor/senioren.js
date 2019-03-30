@@ -1,26 +1,26 @@
 import {
-  ACHTHONDERD_METER, DERTIG_KILOMETER,
+  ACHTHONDERD_METER,
   DISCUSWERPEN,
   DRIEDUIZEND_METER,
   DRIEHONDERD_METER,
   DUIZEND_METER,
   DUIZENDVIJFHONDERD_METER,
-  EEN_ENGELSE_MIJL, HALVE_MARATHON,
+  EEN_ENGELSE_MIJL,
   HINKSTAPSPRINGEN,
   HONDERD_METER, HONDERD_METER_HORDEN,
   HONDERDVIJFTIG_METER,
   HOOGSPRINGEN,
   KOGELSLINGEREN,
-  KOGELSTOTEN, MARATHON,
-  POLSSTOKHOOGSPRINGEN, SPEERWERPEN, TIEN_ENGELSE_MIJL,
+  KOGELSTOTEN,
+  POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
   TIEN_KILOMETER,
   TWEEDUIZEND_METER,
-  TWEEHONDERD_METER, TWINTIG_KILOMETER,
+  TWEEHONDERD_METER,
   VERSPRINGEN, VIER_KEER_HONDERD_METER,
   VIER_KEER_TWEEHONDERD_METER, VIER_KEER_VIERHONDERD_METER,
   VIERHONDERD_METER,
   VIERHONDERD_METER_HORDEN,
-  VIJFDUIZEND_METER, VIJFENTWINTIG_KILOMETER, VIJFTIEN_KILOMETER,
+  VIJFDUIZEND_METER,
   ZESHONDERD_METER, ZEVENKAMP,
   ZWEEDSE_ESTAFETTE
 } from "../../constants/onderdelen";
@@ -125,55 +125,6 @@ export default [
     "datum": "13-09-1991"
   },
   {
-    "onderdeel": VIJFTIEN_KILOMETER,
-    "naam": "Marianne van de Linde",
-    "prestatie": "52.29,0",
-    "datum": "21-11-1993",
-    "plaats": "Nijmegen"
-  },
-  {
-    "onderdeel": TIEN_ENGELSE_MIJL,
-    "naam": "Marianne van de Linde",
-    "prestatie": "55.34,0",
-    "datum": "1992",
-    "plaats": "?"
-  },
-  {
-    "onderdeel": TWINTIG_KILOMETER,
-    "naam": "Marianne van de Linde",
-    "prestatie": "1:12.03,0",
-    "datum": "30-04-1991",
-    "plaats": "Beverwijk"
-  },
-  {
-    "onderdeel": HALVE_MARATHON,
-    "naam": "Marianne van de Linde",
-    "prestatie": "1:13.35,0",
-    "datum": "04-10-1992",
-    "plaats": "Breda"
-  },
-  {
-    "onderdeel": VIJFENTWINTIG_KILOMETER,
-    "naam": "Heidi van der Plas",
-    "prestatie": "2:08.06,0",
-    "datum": "23-02-1991",
-    "plaats": "Aerdenhout"
-  },
-  {
-    "onderdeel": DERTIG_KILOMETER,
-    "naam": "Marianne van de Linde",
-    "prestatie": "1:53.37,0",
-    "datum": "20-03-1994",
-    "plaats": "Spaarnwoude"
-  },
-  {
-    "onderdeel": MARATHON,
-    "naam": "Marianne van de Linde",
-    "prestatie": "2:41.52,0",
-    "datum": "25-10-1992",
-    "plaats": "Frankfurt (D)"
-  },
-  {
     "onderdeel": HONDERD_METER_HORDEN,
     "naam": "Brenda Stoete",
     "prestatie": "15,14",
@@ -245,28 +196,28 @@ export default [
   },
   {
     "onderdeel": VIER_KEER_HONDERD_METER,
-    "naam": ["Brenda Stoete", "Carla v/d Klei", "Jaqueline Konerman", "Mieke v/d Kolk"],
+    "naam": [ "Brenda Stoete", "Carla v/d Klei", "Jaqueline Konerman", "Mieke v/d Kolk" ],
     "prestatie": "49,24",
     "plaats": "Santpoort",
     "datum": "19-06-1994"
   },
   {
     "onderdeel": VIER_KEER_TWEEHONDERD_METER,
-    "naam": ["Bente Elgersma","Sabine Hannema","Mirthe Wiltink","Albertine Vermeer"],
+    "naam": [ "Bente Elgersma", "Sabine Hannema", "Mirthe Wiltink", "Albertine Vermeer" ],
     "prestatie": "1.56,73",
     "plaats": "Haarlem",
     "datum": "15-06-2018"
   },
   {
     "onderdeel": VIER_KEER_VIERHONDERD_METER,
-    "naam": ["Bente Elgersma","Kristen Niedrach","Mirthe Wiltink","Femke van der Wolf"],
+    "naam": [ "Bente Elgersma", "Kristen Niedrach", "Mirthe Wiltink", "Femke van der Wolf" ],
     "prestatie": "4.19,14",
     "plaats": "Naaldwijk",
     "datum": "01-07-2017"
   },
   {
     "onderdeel": ZWEEDSE_ESTAFETTE,
-    "naam": ["Albertine Vermeer", "Kristen Niedrach", "Femke van der Wolf", "Evelien Verbruggen"],
+    "naam": [ "Albertine Vermeer", "Kristen Niedrach", "Femke van der Wolf", "Evelien Verbruggen" ],
     "prestatie": "2.21,72",
     "plaats": "Gouda",
     "datum": "22-04-2018"
