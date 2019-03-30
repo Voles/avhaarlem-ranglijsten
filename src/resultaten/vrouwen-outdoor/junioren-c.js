@@ -47,10 +47,10 @@ export default [
   },
   {
     "onderdeel": DRIEHONDERD_METER,
-    "naam": "Babs Koeman",
-    "prestatie": "47,84",
-    "plaats": "Haarlem",
-    "datum": "25-03-2018"
+    "naam": "Vera Hijlkema",
+    "prestatie": "43,60",
+    "plaats": "Amsterdam",
+    "datum": "26-08-2018"
   },
   {
     "onderdeel": VIERHONDERD_METER,
