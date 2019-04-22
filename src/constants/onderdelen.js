@@ -56,6 +56,7 @@ export const EEN_UUR = '1 uur';
 export const BALWERPEN = 'Balwerpen';
 export const HOOGSPRINGEN = 'Hoogspringen';
 export const VERSPRINGEN = 'Verspringen';
+export const GEWICHTWERPEN = 'Gewichtwerpen';
 export const KOGELSTOTEN= 'Kogelstoten';
 export const KOGELSLINGEREN = 'Kogelslingeren';
 export const POLSSTOKHOOGSPRINGEN = 'Polsstokhoogspringen';

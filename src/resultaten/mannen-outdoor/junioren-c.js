@@ -2,9 +2,10 @@ import {
   ACHTHONDERD_METER, ACHTKAMP, DISCUSWERPEN, DRIEHONDERD_METER_HORDEN,
   DUIZEND_METER,
   DUIZENDVIJFHONDERD_METER,
-  HONDERD_METER, HONDERD_METER_HORDEN,
-  HOOGSPRINGEN, KOGELSTOTEN, POLSSTOKHOOGSPRINGEN, SPEERWERPEN, VERSPRINGEN, VIER_KEER_HONDERD_METER
-} from '../../constants/onderdelen';
+  GEWICHTWERPEN, HONDERD_METER, HONDERD_METER_HORDEN, HONDERDVIJFTIG_METER,
+  HOOGSPRINGEN, KOGELSTOTEN, KOGELSLINGEREN,
+  POLSSTOKHOOGSPRINGEN, SPEERWERPEN, VERSPRINGEN, VIER_KEER_HONDERD_METER
+} from '../../constants/onderdelen.js';
 
 export default [
   {
@@ -83,6 +84,20 @@ export default [
     "prestatie": "14,11 m",
     "plaats": "Amsterdam",
     "datum": "28-08-1983"
+  },
+  {
+    "onderdeel": KOGELSLINGEREN,
+    "naam": "Finn Damhoff",
+    "prestatie": "27,86 m",
+    "plaats": "Rotterdam",
+    "datum": "20-04-2019"
+  },
+  {
+    "onderdeel": GEWICHTWERPEN,
+    "naam": "Finn Damhoff",
+    "prestatie": "11,75 m",
+    "plaats": "Rotterdam",
+    "datum": "20-04-2019"
   },
   {
     "onderdeel": DISCUSWERPEN,
