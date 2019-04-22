@@ -3,6 +3,14 @@ import PropTypes from 'prop-types';
 import chunk from 'lodash/chunk';
 
 import './Ranglijst.scss';
+import {
+  DISCUSWERPEN,
+  HINKSTAPSPRINGEN,
+  HOOGSPRINGEN, KOGELSLINGEREN,
+  KOGELSTOTEN,
+  POLSSTOKHOOGSPRINGEN, SPEERWERPEN, TIENKAMP,
+  VERSPRINGEN, ZEVENKAMP, ZWEEDSE_ESTAFETTE
+} from '../constants/onderdelen';
 
 class Ranglijst extends Component {
   static defaultProps = {
@@ -22,6 +30,22 @@ class Ranglijst extends Component {
 
     const prestatieIsMeerkamp = prestatie =>
       typeof prestatie !== 'string';
+
+    const onderdeelIsTechnischNummer = onderdeel => {
+      console.log('oitn: ', onderdeel);
+
+      return onderdeel === HOOGSPRINGEN ||
+        onderdeel === POLSSTOKHOOGSPRINGEN ||
+        onderdeel === VERSPRINGEN ||
+        onderdeel === HINKSTAPSPRINGEN ||
+        onderdeel === KOGELSTOTEN ||
+        onderdeel === DISCUSWERPEN ||
+        onderdeel === KOGELSLINGEREN ||
+        onderdeel === SPEERWERPEN ||
+        onderdeel === ZWEEDSE_ESTAFETTE ||
+        onderdeel === TIENKAMP ||
+        onderdeel === ZEVENKAMP
+    }
 
     const renderTabelVoorMeerkampPrestatie = (prestatie, amountOfColumns = 1) =>
       <table className="MeerkampPrestatie table table-sm table-borderless">
@@ -83,7 +107,7 @@ class Ranglijst extends Component {
           rijen
             .map((rij, index) => (
               <tr key={index}>
-                <td className="text-nowrap text-right text-lg-left">{ rij.onderdeel }</td>
+                <td className={`text-nowrap text-right text-lg-left ${onderdeelIsTechnischNummer(rij.onderdeel) ? 'TechnischNummerCell' : ''}`}>{ rij.onderdeel }</td>
                 <td className={`text-right text-lg-left ${prestatieIsMeerkamp(rij.prestatie) ? 'MeerkampCell' : ''}`}>
                   { renderNaam(rij.naam) }
                   {

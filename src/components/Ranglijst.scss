@@ -50,6 +50,10 @@ and also iPads specifically.
     td:nth-of-type(3):before { content: "Prestatie"; }
     td:nth-of-type(4):before { content: "Plaats"; }
     td:nth-of-type(5):before { content: "Datum"; }
+
+    td.TechnischNummerCell:not(.MeerkampCell) {
+      &:before { content: "Onderdeel"; }
+    }
   }
 
   .MeerkampCell {
