@@ -89,10 +89,10 @@ export default [
   },
   {
     "onderdeel": TACHTIG_METER_HORDEN,
-    "naam": "Marije Zandstra",
-    "prestatie": "12,84",
-    "plaats": "Zaandam",
-    "datum": "14-06-1997"
+    "naam": "Babs Koeman",
+    "prestatie": "12,73",
+    "plaats": "Hoofddorp",
+    "datum": "06-04-2019"
   },
   {
     "onderdeel": DRIEHONDERD_METER_HORDEN,
