@@ -31,10 +31,8 @@ class Ranglijst extends Component {
     const prestatieIsMeerkamp = prestatie =>
       typeof prestatie !== 'string';
 
-    const onderdeelIsTechnischNummer = onderdeel => {
-      console.log('oitn: ', onderdeel);
-
-      return onderdeel === HOOGSPRINGEN ||
+    const onderdeelIsTechnischNummer = onderdeel =>
+      onderdeel === HOOGSPRINGEN ||
         onderdeel === POLSSTOKHOOGSPRINGEN ||
         onderdeel === VERSPRINGEN ||
         onderdeel === HINKSTAPSPRINGEN ||
@@ -45,7 +43,6 @@ class Ranglijst extends Component {
         onderdeel === ZWEEDSE_ESTAFETTE ||
         onderdeel === TIENKAMP ||
         onderdeel === ZEVENKAMP
-    }
 
     const renderTabelVoorMeerkampPrestatie = (prestatie, amountOfColumns = 1) =>
       <table className="MeerkampPrestatie table table-sm table-borderless">
