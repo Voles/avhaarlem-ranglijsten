@@ -54,10 +54,10 @@ export default [
   },
   {
     "onderdeel": DUIZEND_METER,
-    "naam": "Paul Jaspers",
-    "prestatie": "2.26,3",
-    "plaats": "Leiden",
-    "datum": "16-09-1983"
+    "naam": "Jurgen Wielart",
+    "prestatie": "2.24,85",
+    "plaats": "Lisse",
+    "datum": "18-05-2019"
   },
   {
     "onderdeel": DUIZENDVIJFHONDERD_METER,
