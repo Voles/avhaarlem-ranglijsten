@@ -138,10 +138,10 @@ export default [
   },
   {
     "onderdeel": SPEERWERPEN,
-    "naam": "Iris Komen",
-    "prestatie": "31.63",
-    "plaats": "Santpoort",
-    "datum": "24-05-2014"
+    "naam": "Babs Koeman",
+    "prestatie": "36.39",
+    "plaats": "Zaandam",
+    "datum": "12-05-2019"
   },
   {
     "onderdeel": VIER_KEER_TACHTIG_METER,
