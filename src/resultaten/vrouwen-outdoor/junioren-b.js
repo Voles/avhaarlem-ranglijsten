@@ -107,10 +107,10 @@ export default [
   },
   {
     "onderdeel": SPEERWERPEN,
-    "naam": "Ingeborg Zandbergen",
-    "prestatie": "31.30",
-    "plaats": "Alphen a/d Rijn",
-    "datum": "12-06-1994"
+    "naam": "Babs Koeman (C)",
+    "prestatie": "36.39",
+    "plaats": "Zaandam",
+    "datum": "12-05-2019"
   },
   {
     "onderdeel": VIER_KEER_HONDERD_METER,

@@ -156,47 +156,47 @@ export default [
     "prestatie": [
       {
         "onderdeel": TACHTIG_METER_HORDEN,
-        "prestatie": "13,17",
-        "punten": "(569)"
+        "prestatie": "13,12",
+        "punten": "(575)"
       },
       {
         "onderdeel": HOOGSPRINGEN,
-        "prestatie": "1.47",
-        "punten": "(599)"
+        "prestatie": "1.55",
+        "punten": "(663)"
       },
       {
         "onderdeel": KOGELSTOTEN,
-        "prestatie": "8.75",
-        "punten": "(460)"
+        "prestatie": "8.65",
+        "punten": "(455)"
       },
       {
         "onderdeel": HONDERDVIJFTIG_METER,
-        "prestatie": "20,02",
-        "punten": "(617)"
+        "prestatie": "21.13",
+        "punten": "(521)"
       },
       {
         "onderdeel": VERSPRINGEN,
-        "prestatie": "5.06",
-        "punten": "(632)"
+        "prestatie": "4.95",
+        "punten": "(611)"
       },
       {
         "onderdeel": SPEERWERPEN,
-        "prestatie": "27.86",
-        "punten": "(461)"
+        "prestatie": "36.39",
+        "punten": "(590)"
       },
       {
         "onderdeel": ZESHONDERD_METER,
-        "prestatie": "1.42,02",
-        "punten": "(661)"
+        "prestatie": "1.43,76",
+        "punten": "(635)"
       },
       {
         "onderdeel": "Totaal",
         "prestatie": "",
-        "punten": "3999 pnt"
+        "punten": "4050 pnt"
       }
     ],
-    "plaats": "Lisse",
-    "datum": "07/08-07-2018"
+    "plaats": "Zaandam",
+    "datum": "11/12-05-2019"
   }
 ].map(resultaat => {
   resultaat.categorie = 'Junioren C';
