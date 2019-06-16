@@ -90,9 +90,9 @@ export default [
   {
     "onderdeel": TACHTIG_METER_HORDEN,
     "naam": "Babs Koeman",
-    "prestatie": "12,73",
-    "plaats": "Hoofddorp",
-    "datum": "06-04-2019"
+    "prestatie": "12,67",
+    "plaats": "Amsterdam",
+    "datum": "25-05-2019"
   },
   {
     "onderdeel": DRIEHONDERD_METER_HORDEN,

@@ -148,9 +148,9 @@ export default [
   {
     "onderdeel": POLSSTOKHOOGSPRINGEN,
     "naam": "Mette Elgersma (B)",
-    "prestatie": "2.60",
-    "plaats": "Alkmaar",
-    "datum": "27-05-2018"
+    "prestatie": "2.70",
+    "plaats": "Haarlem",
+    "datum": "28-04-2019"
   },
   {
     "onderdeel": VERSPRINGEN,
