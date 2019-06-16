@@ -62,9 +62,9 @@ export default [
   {
     "onderdeel": ZESHONDERD_METER,
     "naam": "Babs Koeman",
-    "prestatie": "1.41,62",
+    "prestatie": "1.40,23",
     "plaats": "Amstelveen",
-    "datum": "21-05-2018"
+    "datum": "9-06-2019"
   },
   {
     "onderdeel": ACHTHONDERD_METER,
@@ -90,16 +90,16 @@ export default [
   {
     "onderdeel": TACHTIG_METER_HORDEN,
     "naam": "Babs Koeman",
-    "prestatie": "12,67",
-    "plaats": "Amsterdam",
-    "datum": "25-05-2019"
+    "prestatie": "12,38",
+    "plaats": "Lisse",
+    "datum": "15-06-2019"
   },
   {
     "onderdeel": DRIEHONDERD_METER_HORDEN,
     "naam": "Babs Koeman",
-    "prestatie": "48,66",
-    "plaats": "Heiloo",
-    "datum": "22-06-2018"
+    "prestatie": "46,70",
+    "plaats": "Lisse",
+    "datum": "15-06-2019"
   },
   {
     "onderdeel": HOOGSPRINGEN,
@@ -156,47 +156,47 @@ export default [
     "prestatie": [
       {
         "onderdeel": TACHTIG_METER_HORDEN,
-        "prestatie": "13,12",
-        "punten": "(575)"
+        "prestatie": "12,42",
+        "punten": "(652)"
       },
       {
         "onderdeel": HOOGSPRINGEN,
-        "prestatie": "1.55",
-        "punten": "(663)"
+        "prestatie": "1.49",
+        "punten": "(615)"
       },
       {
         "onderdeel": KOGELSTOTEN,
-        "prestatie": "8.65",
-        "punten": "(455)"
+        "prestatie": "9.30",
+        "punten": "(488)"
       },
       {
         "onderdeel": HONDERDVIJFTIG_METER,
-        "prestatie": "21.13",
-        "punten": "(521)"
+        "prestatie": "20.16",
+        "punten": "(604)"
       },
       {
         "onderdeel": VERSPRINGEN,
-        "prestatie": "4.95",
-        "punten": "(611)"
+        "prestatie": "5.07",
+        "punten": "(634)"
       },
       {
         "onderdeel": SPEERWERPEN,
-        "prestatie": "36.39",
-        "punten": "(590)"
+        "prestatie": "34.74",
+        "punten": "(566)"
       },
       {
         "onderdeel": ZESHONDERD_METER,
-        "prestatie": "1.43,76",
-        "punten": "(635)"
+        "prestatie": "1.40,23",
+        "punten": "(689)"
       },
       {
         "onderdeel": "Totaal",
         "prestatie": "",
-        "punten": "4050 pnt"
+        "punten": "4248 pnt"
       }
     ],
-    "plaats": "Zaandam",
-    "datum": "11/12-05-2019"
+    "plaats": "Amstelveen",
+    "datum": "9/10-06-2019"
   }
 ].map(resultaat => {
   resultaat.categorie = 'Junioren C';
