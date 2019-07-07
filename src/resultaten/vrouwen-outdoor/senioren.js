@@ -57,9 +57,9 @@ export default [
   {
     "onderdeel": VIERHONDERD_METER,
     "naam": "Albertine Vermeer",
-    "prestatie": "57,74",
-    "plaats": "Lisse",
-    "datum": "19-05-2018"
+    "prestatie": "57,68",
+    "plaats": "Hilversum",
+    "datum": "06-07-2019"
   },
   {
     "onderdeel": ZESHONDERD_METER,
