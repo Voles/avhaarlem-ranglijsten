@@ -3,8 +3,10 @@ import {
   DUIZEND_METER,
   DUIZENDVIJFHONDERD_METER,
   GEWICHTWERPEN, HONDERD_METER, HONDERD_METER_HORDEN, 
+  HONDERDVIJFTIG_METER,
   HOOGSPRINGEN, KOGELSTOTEN, KOGELSLINGEREN,
-  POLSSTOKHOOGSPRINGEN, SPEERWERPEN, VERSPRINGEN, VIER_KEER_HONDERD_METER
+  POLSSTOKHOOGSPRINGEN, SPEERWERPEN, VERSPRINGEN, VIER_KEER_HONDERD_METER,
+  VIER_KEER_TWEEHONDERD_METER
 } from '../../constants/onderdelen.js';
 
 export default [
@@ -14,6 +16,13 @@ export default [
     "prestatie": "11,76 s (rw +1,4 m/s)",
     "plaats": "Emmeloord",
     "datum": "25-09-2004"
+  },
+  {
+    "onderdeel": HONDERDVIJFTIG_METER,
+    "naam": "Sven Koolmoes",
+    "prestatie": "19,14 s (+0,9 m/s)",
+    "plaats": "Amsterdam",
+    "datum": "25-05-2019"
   },
   {
     "onderdeel": ACHTHONDERD_METER,
@@ -126,6 +135,13 @@ export default [
     "prestatie": "",
     "plaats": "Beverwijk",
     "datum": "13-06-1987"
+  },
+  {
+    "onderdeel": VIER_KEER_TWEEHONDERD_METER,
+    "naam": ["Tymo Bouman", "Sven Koolmoes", "Chivaro Friendwijk", "Jarno Enthoven"],
+    "prestatie": "1.45,55 s",
+    "plaats": "Haarlem",
+    "datum": "05-07-2019"
   },
   {
     "onderdeel": ACHTKAMP,
