@@ -57,9 +57,10 @@ export default [
   {
     "onderdeel": VIERHONDERD_METER,
     "naam": "Albertine Vermeer",
-    "prestatie": "57,68",
-    "plaats": "Hilversum",
-    "datum": "06-07-2019"
+    "prestatie": "57,35",
+    "plaats": "Den Haag",
+    "datum": "26-07-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/31082/400m/#164788_"
   },
   {
     "onderdeel": ZESHONDERD_METER,
