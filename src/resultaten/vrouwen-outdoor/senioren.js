@@ -169,10 +169,11 @@ export default [
   },
   {
     "onderdeel": KOGELSTOTEN,
-    "naam": "Toos Stoete",
-    "prestatie": "11.16",
-    "plaats": "Haarlem",
-    "datum": "12-04-1992"
+    "naam": "Mirthe Wiltink",
+    "prestatie": "11.78",
+    "plaats": "Veenendaal",
+    "datum": "16-06-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/25458/Kogel/"
   },
   {
     "onderdeel": DISCUSWERPEN,
@@ -190,10 +191,11 @@ export default [
   },
   {
     "onderdeel": KOGELSLINGEREN,
-    "naam": "Iris Komen",
-    "prestatie": "22.46",
-    "plaats": "Amsterdam",
-    "datum": "18-06-2017"
+    "naam": "Bente Elgersma",
+    "prestatie": "22.51",
+    "plaats": "Veenendaal",
+    "datum": "16-06-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/25458/Kogelsl/"
   },
   {
     "onderdeel": VIER_KEER_HONDERD_METER,
@@ -204,17 +206,18 @@ export default [
   },
   {
     "onderdeel": VIER_KEER_TWEEHONDERD_METER,
-    "naam": [ "Bente Elgersma", "Sabine Hannema", "Mirthe Wiltink", "Albertine Vermeer" ],
-    "prestatie": "1.56,73",
+    "naam": [ "Mirthe Wiltink", "Femke van der Wolf", "Bente Elgersma", "Albertine Vermeer" ],
+    "prestatie": "1.49,09",
     "plaats": "Haarlem",
-    "datum": "15-06-2018"
+    "datum": "05-07-2019"
   },
   {
     "onderdeel": VIER_KEER_VIERHONDERD_METER,
-    "naam": [ "Bente Elgersma", "Kristen Niedrach", "Mirthe Wiltink", "Femke van der Wolf" ],
-    "prestatie": "4.19,14",
-    "plaats": "Naaldwijk",
-    "datum": "01-07-2017"
+    "naam": [ "Vera Hijlkema", "Albertine Vermeer", "Mirthe Wiltink", "Femke van der Wolf" ],
+    "prestatie": "4.11,58",
+    "plaats": "Veenendaal",
+    "datum": "16-06-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/25458/4x400m/"
   },
   {
     "onderdeel": ZWEEDSE_ESTAFETTE,
