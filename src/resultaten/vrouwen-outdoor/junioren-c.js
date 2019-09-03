@@ -97,9 +97,10 @@ export default [
   {
     "onderdeel": DRIEHONDERD_METER_HORDEN,
     "naam": "Babs Koeman",
-    "prestatie": "46,70",
-    "plaats": "Lisse",
-    "datum": "15-06-2019"
+    "prestatie": "46,12",
+    "plaats": "Amsterdam",
+    "datum": "24-08-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/226601/217/"
   },
   {
     "onderdeel": HOOGSPRINGEN,
