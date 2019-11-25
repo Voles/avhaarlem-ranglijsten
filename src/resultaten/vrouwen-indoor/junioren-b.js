@@ -37,10 +37,11 @@ export default [
   },
   {
     "onderdeel": ZESTIG_METER_HORDEN,
-    "naam": "Tara van Schie",
-    "prestatie": "9,90",
-    "plaats": "Gent (B)",
-    "datum": "11-02-2007"
+    "naam": "Babs Koeman",
+    "prestatie": "9,37",
+    "plaats": "Assendelft",
+    "datum": "24-11-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/32242/60mH_f/#171003_"
   },
   {
     "onderdeel": HOOGSPRINGEN,
