@@ -258,10 +258,11 @@ export default [
   },
   {
     "onderdeel": ZWEEDSE_ESTAFETTE,
-    "naam": ["Jurgen Wielart", "Vester van Heijningen", "Sjoerd Dekker", "Stefan Scholte"],
-    "prestatie": "1.58,31",
-    "plaats": "Gouda",
-    "datum": "22-04-2018"
+    "naam": ["Jurgen Wielart", "Vester van Heijningen", "Roeland Heitkönig", "Stefan Scholte"],
+    "prestatie": "1.56,93",
+    "plaats": "Hilversum",
+    "datum": "08-09-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/32178/Zweedse/#170331_"
   },
   {
     "onderdeel": TIENKAMP,
