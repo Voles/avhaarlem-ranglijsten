@@ -45,13 +45,11 @@ export default [
   },
   {
     "onderdeel": HOOGSPRINGEN,
-    "naam": [
-      "Joanna Andrews (C)",
-      "Jessica Ramakers (C)"
-    ],
-    "prestatie": "1.50",
-    "plaats": "Den Haag",
-    "datum": "17-01-1993"
+    "naam": "Babs Koeman",
+    "prestatie": "1.51",
+    "plaats": "Assendelft",
+    "datum": "15-12-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/32243/Hoog/#171013_"
   },
   {
     "onderdeel": VERSPRINGEN,
