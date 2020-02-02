@@ -47,10 +47,11 @@ export default [
   },
   {
     "onderdeel": ACHTHONDERD_METER,
-    "naam": "Jan de Ruiter",
-    "prestatie": "1.54,74",
-    "plaats": "Den Haag",
-    "datum": "16-02-1991"
+    "naam": "Jurgen Wielart",
+    "prestatie": "1.50,24",
+    "plaats": "Apeldoorn",
+    "datum": "01-02-2020",
+    "link": "https://www.atletiek.nu/atleet/main/891306/"
   },
   {
     "onderdeel": DUIZENDVIJFHONDERD_METER,
