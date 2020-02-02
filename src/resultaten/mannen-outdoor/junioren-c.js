@@ -2,7 +2,8 @@ import {
   ACHTHONDERD_METER, ACHTKAMP, DISCUSWERPEN, DRIEHONDERD_METER_HORDEN,
   DUIZEND_METER,
   DUIZENDVIJFHONDERD_METER,
-  GEWICHTWERPEN, HONDERD_METER, HONDERD_METER_HORDEN, 
+  GEWICHTWERPEN, HONDERD_METER, HONDERD_METER_HORDEN,
+  ZESHONDERD_METER,
   HONDERDVIJFTIG_METER,
   HOOGSPRINGEN, KOGELSTOTEN, KOGELSLINGEREN,
   POLSSTOKHOOGSPRINGEN, SPEERWERPEN, VERSPRINGEN, VIER_KEER_HONDERD_METER,
@@ -23,6 +24,14 @@ export default [
     "prestatie": "19,14 s (+0,9 m/s)",
     "plaats": "Amsterdam",
     "datum": "25-05-2019"
+  },
+  {
+    "onderdeel": ZESHONDERD_METER,
+    "naam": "Jeppe Mul",
+    "prestatie": "1.37,28 s",
+    "plaats": "Haarlem",
+    "datum": "31-03-2019",
+    "link": "https://www.atletiek.nu/atleet/main/737347/"
   },
   {
     "onderdeel": ACHTHONDERD_METER,
