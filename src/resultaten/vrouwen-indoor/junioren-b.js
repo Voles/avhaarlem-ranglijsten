@@ -67,9 +67,9 @@ export default [
   },
   {
     "onderdeel": VIJFKAMP,
-    "naam": "Tara van Schie",
-    "plaats": "Gent (B)",
-    "datum": "11-02-2007",
+    "naam": "Babs Koeman",
+    "plaats": "Apeldoorn",
+    "datum": "09-02-2020",
     "prestatie": [
       {
         "onderdeel": ZESTIG_METER_HORDEN,
