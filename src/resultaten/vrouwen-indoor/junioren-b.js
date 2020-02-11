@@ -73,35 +73,36 @@ export default [
     "prestatie": [
       {
         "onderdeel": ZESTIG_METER_HORDEN,
-        "prestatie": "9,90",
-        "punten": "(731)"
+        "prestatie": "9,59",
+        "punten": "(791)"
       },
       {
         "onderdeel": HOOGSPRINGEN,
-        "prestatie": "1.39",
-        "punten": "(502)"
+        "prestatie": "1.51",
+        "punten": "(632)"
       },
       {
         "onderdeel": KOGELSTOTEN,
-        "prestatie": "10.94",
-        "punten": "(591)"
+        "prestatie": "9.77",
+        "punten": "(514)"
       },
       {
         "onderdeel": VERSPRINGEN,
-        "prestatie": "4.86",
-        "punten": "(522)"
+        "prestatie": "5.04",
+        "punten": "(570)"
       },
       {
         "onderdeel": ACHTHONDERD_METER,
-        "prestatie": "3.00,98",
-        "punten": "(356)"
+        "prestatie": "2.32,72",
+        "punten": "(659)"
       },
       {
         "onderdeel": "Totaal",
         "prestatie": "",
-        "punten": "2702"
+        "punten": "3166"
       }
-    ]
+    ],
+    "link": "https://www.atletiek.nu/wedstrijd/vereniging/32514/48/"
   }
 ].map(resultaat => {
   resultaat.categorie = 'Junioren B';
