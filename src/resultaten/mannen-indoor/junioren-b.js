@@ -19,10 +19,11 @@ import {
 export default [
   {
     "onderdeel": DERTIG_METER,
-    "naam": "Erick Könst",
-    "prestatie": "5,09",
+    "naam": "Daniël de Vries",
+    "prestatie": "4,89",
     "plaats": "Heerde",
-    "datum": "24-11-2018"
+    "datum": "23-11-2019",
+    "link": "https://www.atletiek.nu/atleet/main/879963/"
   },
   {
     "onderdeel": VIJFTIG_METER,
