@@ -192,10 +192,10 @@ export default [
   {
     "onderdeel": KOGELSLINGEREN,
     "naam": "Bente Elgersma",
-    "prestatie": "22.51",
-    "plaats": "Veenendaal",
-    "datum": "16-06-2019",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/25458/Kogelsl/"
+    "prestatie": "22.92",
+    "plaats": "Hilversum",
+    "datum": "08-09-2019",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/32178/Kogelsl/"
   },
   {
     "onderdeel": VIER_KEER_HONDERD_METER,
