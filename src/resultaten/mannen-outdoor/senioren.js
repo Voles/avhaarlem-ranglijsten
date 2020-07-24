@@ -48,9 +48,10 @@ export default [
   {
     "onderdeel": ACHTHONDERD_METER,
     "naam": "Jurgen Wielart",
-    "prestatie": "1.48,08",
-    "plaats": "Leuven (B)",
-    "datum": "19-08-2017"
+    "prestatie": "1.47,69",
+    "plaats": "Papendal",
+    "datum": "18-07-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/33681/200562/#losonderdeel_6_"
   },
   {
     "onderdeel": DUIZEND_METER,
