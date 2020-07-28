@@ -51,17 +51,19 @@ export default [
   },
   {
     "onderdeel": HONDERD_METER_HORDEN,
-    "naam": "Tara van Schie",
-    "prestatie": "15,28",
-    "plaats": "Best",
-    "datum": "30-06-2007"
+    "naam": "Babs Koeman",
+    "prestatie": "15,18",
+    "plaats": "Heerenveen",
+    "datum": "25-07-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/33786/202306/#losonderdeel_50_"
   },
   {
     "onderdeel": VIERHONDERD_METER_HORDEN,
-    "naam": "Jirina van Kesteren",
-    "prestatie": "68,82",
-    "plaats": "Sittard",
-    "datum": "25-06-2004"
+    "naam": "Babs Koeman",
+    "prestatie": "67,88",
+    "plaats": "Heerenveen",
+    "datum": "25-07-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/33786/202306/#losonderdeel_76_"
   },
   {
     "onderdeel": HOOGSPRINGEN,
