@@ -58,7 +58,7 @@ export default [
   },
   {
     "onderdeel": VIERHONDERD_METER_HORDEN,
-    "naam": "Babs Koeman",
+    "naam": "Babs Koeman (B)",
     "prestatie": "67,22",
     "plaats": "Den Haag",
     "datum": "29-07-2020",
