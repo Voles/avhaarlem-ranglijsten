@@ -58,10 +58,11 @@ export default [
   },
   {
     "onderdeel": VIERHONDERD_METER_HORDEN,
-    "naam": "Jirina van Kesteren",
-    "prestatie": "67,75",
-    "plaats": "Helmond",
-    "datum": "24-06-2005"
+    "naam": "Babs Koeman",
+    "prestatie": "67,22",
+    "plaats": "Den Haag",
+    "datum": "29-07-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33864/400mH/#207899_"
   },
   {
     "onderdeel": HOOGSPRINGEN,

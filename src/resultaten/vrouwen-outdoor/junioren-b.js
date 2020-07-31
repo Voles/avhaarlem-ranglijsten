@@ -60,10 +60,10 @@ export default [
   {
     "onderdeel": VIERHONDERD_METER_HORDEN,
     "naam": "Babs Koeman",
-    "prestatie": "67,88",
-    "plaats": "Heerenveen",
-    "datum": "25-07-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/33786/202306/#losonderdeel_76_"
+    "prestatie": "67,22",
+    "plaats": "Den Haag",
+    "datum": "29-07-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33864/400mH/#207899_"
   },
   {
     "onderdeel": HOOGSPRINGEN,
