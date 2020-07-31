@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "node-sass-chokidar": "1.4.0",
+    "node-sass-chokidar": "1.5.0",
     "npm-run-all": "4.1.5",
     "react-scripts": "3.4.1"
   },
   "dependencies": {
     "bootstrap": "4.5.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-app-polyfill": "1.0.6",
