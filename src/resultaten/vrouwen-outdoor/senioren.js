@@ -42,10 +42,11 @@ export default [
   },
   {
     "onderdeel": TWEEHONDERD_METER,
-    "naam": "Brenda Stoete",
-    "prestatie": "25,94",
-    "plaats": "Amsterdam",
-    "datum": "26-05-1990"
+    "naam": "Femke Nuijten",
+    "prestatie": "25,76",
+    "plaats": "Utrecht",
+    "datum": "07-08-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33086/200m/#185958_"
   },
   {
     "onderdeel": DRIEHONDERD_METER,

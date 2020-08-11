@@ -59,11 +59,11 @@ export default [
   },
   {
     "onderdeel": VIERHONDERD_METER_HORDEN,
-    "naam": "Babs Koeman",
-    "prestatie": "67,22",
-    "plaats": "Den Haag",
-    "datum": "29-07-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33864/400mH/#207899_"
+    "naam": "Vera Hylkema",
+    "prestatie": "61,10",
+    "plaats": "Haarlem",
+    "datum": "09-08-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33857/400m/#207607_"
   },
   {
     "onderdeel": HOOGSPRINGEN,
