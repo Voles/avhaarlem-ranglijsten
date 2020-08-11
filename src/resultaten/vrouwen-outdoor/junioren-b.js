@@ -22,6 +22,7 @@ export default [
     "datum": "30-06-2007"
   },
   {
+    "onderdeel": VIERHONDERD_METER,
     "naam": "Vera Hylkema",
     "prestatie": "61,10",
     "plaats": "Haarlem",
