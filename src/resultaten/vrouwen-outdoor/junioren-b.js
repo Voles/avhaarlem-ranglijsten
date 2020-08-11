@@ -22,11 +22,11 @@ export default [
     "datum": "30-06-2007"
   },
   {
-    "onderdeel": VIERHONDERD_METER,
-    "naam": "Chantal Bruyn",
-    "prestatie": "61,74",
+    "naam": "Vera Hylkema",
+    "prestatie": "61,10",
     "plaats": "Haarlem",
-    "datum": "16-09-1990"
+    "datum": "09-08-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33857/400m/#207607_"
   },
   {
     "onderdeel": ACHTHONDERD_METER,
@@ -59,11 +59,11 @@ export default [
   },
   {
     "onderdeel": VIERHONDERD_METER_HORDEN,
-    "naam": "Vera Hylkema",
-    "prestatie": "61,10",
-    "plaats": "Haarlem",
-    "datum": "09-08-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33857/400m/#207607_"
+    "naam": "Babs Koeman",
+    "prestatie": "67,22",
+    "plaats": "Den Haag",
+    "datum": "29-07-2020",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33864/400mH/#207899_"
   },
   {
     "onderdeel": HOOGSPRINGEN,
