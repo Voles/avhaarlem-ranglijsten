@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Tienkamp",
+    "naam": "Jeltjo Doornbosch",
+    "plaats": "Vlissingen",
+    "datum": "15/16-09-1962",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"100 m\",\n        \"prestatie\": \"11,44\",\n        \"punten\": \"(765)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"6,68\",\n        \"punten\": \"(739)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"13,64\",\n        \"punten\": \"(706)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,65\",\n        \"punten\": \"(504)\"\n    },\n    {\n        \"onderdeel\": \"400 m\",\n        \"prestatie\": \"52,74\",\n        \"punten\": \"(693)\"\n    },\n    {\n        \"onderdeel\": \"110 m horden\",\n        \"prestatie\": \"15,94\",\n        \"punten\": \"(740)\"\n    },\n    {\n        \"onderdeel\": \"Discuswerpen\",\n        \"prestatie\": \"39,30\",\n        \"punten\": \"(650)\"\n    },\n    {\n        \"onderdeel\": \"Polsstokhoogspringen\",\n        \"prestatie\": \"3,25\",\n        \"punten\": \"(418)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"54,90\",\n        \"punten\": \"(661)\"\n    },\n    {\n        \"onderdeel\": \"1500 m\",\n        \"prestatie\": \"4.41,8\",\n        \"punten\": \"(669)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"6545 pnt\"\n    }\n]"
+    },
+    "categorie": "Senioren",
+    "geslacht": "Mannen",
+    "locatie": "outdoor"
+}

@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Zevenkamp",
+    "naam": "Tara van Schie",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,28\",\n        \"punten\": \"(805)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.51\",\n        \"punten\": \"(632)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"11.41\",\n        \"punten\": \"(622)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26.17\",\n        \"punten\": \"(782)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.31\",\n        \"punten\": \"(645)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"26.19\",\n        \"punten\": \"(405)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.46,79\",\n        \"punten\": \"(497)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4388 pnt\"\n    }\n]"
+    },
+    "plaats": "Best",
+    "datum": "11/12-05-2008",
+    "categorie": "Junioren B",
+    "geslacht": "Vrouwen",
+    "locatie": "outdoor"
+}

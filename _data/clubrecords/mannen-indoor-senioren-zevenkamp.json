@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Zevenkamp",
+    "naam": "Less Brown",
+    "plaats": "Zwolle",
+    "datum": "21/22-01-1984",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"60 m\",\n        \"prestatie\": \"7,64\",\n        \"punten\": \"(668)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5,74\",\n        \"punten\": \"(531)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"13,59\",\n        \"punten\": \"(703)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,80\",\n        \"punten\": \"(627)\"\n    },\n    {\n        \"onderdeel\": \"60 m horden\",\n        \"prestatie\": \"9,34\",\n        \"punten\": \"(673)\"\n    },\n    {\n        \"onderdeel\": \"Polsstokhoogspringen\",\n        \"prestatie\": \"3,40\",\n        \"punten\": \"(457)\"\n    },\n    {\n        \"onderdeel\": \"1 000 m\",\n        \"prestatie\": \"3.07,1\",\n        \"punten\": \"(596)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4255\"\n    }\n]"
+    },
+    "categorie": "Senioren",
+    "geslacht": "Mannen",
+    "locatie": "indoor"
+}

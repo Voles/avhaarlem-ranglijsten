@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Achtkamp",
+    "naam": "Alex Overkamp",
+    "plaats": "Schoonhoven",
+    "datum": "01/02-07-2006",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"100 m\",\n        \"prestatie\": \"12,44\",\n        \"punten\": \"(753)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5,68\",\n        \"punten\": \"(751)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"10,84\",\n        \"punten\": \"(562)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,65\",\n        \"punten\": \"(741)\"\n    },\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,14\",\n        \"punten\": \"(712)\"\n    },\n    {\n        \"onderdeel\": \"Discuswerpen\",\n        \"prestatie\": \"32,03\",\n        \"punten\": \"(505)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"39,94\",\n        \"punten\": \"(639)\"\n    },\n    {\n        \"onderdeel\": \"1 000 m\",\n        \"prestatie\": \"3.00,9\",\n        \"punten\": \"(692)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"5355 pnt\"\n    }\n]"
+    },
+    "categorie": "Junioren C",
+    "geslacht": "Mannen",
+    "locatie": "outdoor"
+}

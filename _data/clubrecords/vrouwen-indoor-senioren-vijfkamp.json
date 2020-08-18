@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Vijfkamp",
+    "naam": "Tara van Schie",
+    "plaats": "Gent (B)",
+    "datum": "03-02-2008",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"60 m horden\",\n        \"prestatie\": \"9,72\",\n        \"punten\": \"(756)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.56\",\n        \"punten\": \"(689)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.72\",\n        \"punten\": \"(511)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.38\",\n        \"punten\": \"(665)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"3.07,09\",\n        \"punten\": \"(302)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"2932\"\n    }\n]"
+    },
+    "categorie": "Senioren",
+    "geslacht": "Vrouwen",
+    "locatie": "indoor"
+}

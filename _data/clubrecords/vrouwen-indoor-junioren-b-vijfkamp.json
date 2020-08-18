@@ -1,0 +1,13 @@
+{
+    "onderdeel": "Vijfkamp",
+    "naam": "Babs Koeman",
+    "plaats": "Apeldoorn",
+    "datum": "09-02-2020",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"60 m horden\",\n        \"prestatie\": \"9,59\",\n        \"punten\": \"(791)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.51\",\n        \"punten\": \"(632)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.77\",\n        \"punten\": \"(514)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.04\",\n        \"punten\": \"(570)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.32,72\",\n        \"punten\": \"(659)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"3166\"\n    }\n]"
+    },
+    "link": "https://www.atletiek.nu/wedstrijd/vereniging/32514/48/",
+    "categorie": "Junioren B",
+    "geslacht": "Vrouwen",
+    "locatie": "indoor"
+}

@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Negenkamp",
+    "naam": "Walter Kruk",
+    "plaats": "Vught",
+    "datum": "27/28-06-1987",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"100 m\",\n        \"prestatie\": \"11,54\",\n        \"punten\": \"(744)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"6,49\",\n        \"punten\": \"(695)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"11,64\",\n        \"punten\": \"(585)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"2,01\",\n        \"punten\": \"(813)\"\n    },\n    {\n        \"onderdeel\": \"110 m horden\",\n        \"prestatie\": \"14,78\",\n        \"punten\": \"(876)\"\n    },\n    {\n        \"onderdeel\": \"Discuswerpen\",\n        \"prestatie\": \"29,49\",\n        \"punten\": \"(454)\"\n    },\n    {\n        \"onderdeel\": \"Polsstokhoogspringen\",\n        \"prestatie\": \"3,40\",\n        \"punten\": \"(457)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"47,06\",\n        \"punten\": \"(545)\"\n    },\n    {\n        \"onderdeel\": \"1500 m\",\n        \"prestatie\": \"4.50,63\",\n        \"punten\": \"(615)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"5784 pnt\"\n    }\n]"
+    },
+    "categorie": "Junioren B",
+    "geslacht": "Mannen",
+    "locatie": "outdoor"
+}

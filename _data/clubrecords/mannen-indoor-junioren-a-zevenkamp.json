@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Zevenkamp",
+    "naam": "Stein Metten",
+    "datum": "04/05-02-2006",
+    "plaats": "Gent (B)",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"60 m\",\n        \"prestatie\": \"7,77\",\n        \"punten\": \"(628)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"6,00\",\n        \"punten\": \"(587)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"12,39\",\n        \"punten\": \"(630)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,62\",\n        \"punten\": \"(480)\"\n    },\n    {\n        \"onderdeel\": \"60 m horden\",\n        \"prestatie\": \"9,67\",\n        \"punten\": \"(605)\"\n    },\n    {\n        \"onderdeel\": \"Polsstokhoogspringen\",\n        \"prestatie\": \"3,40\",\n        \"punten\": \"(457)\"\n    },\n    {\n        \"onderdeel\": \"1 000 m\",\n        \"prestatie\": \"3.06,44\",\n        \"punten\": \"(603)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"3990\"\n    }\n]"
+    },
+    "categorie": "Junioren A",
+    "geslacht": "Mannen",
+    "locatie": "indoor"
+}

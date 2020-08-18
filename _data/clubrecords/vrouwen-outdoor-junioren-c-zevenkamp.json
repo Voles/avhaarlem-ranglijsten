@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Zevenkamp",
+    "naam": "Babs Koeman",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"80 m horden\",\n        \"prestatie\": \"12,42\",\n        \"punten\": \"(652)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.49\",\n        \"punten\": \"(615)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.30\",\n        \"punten\": \"(488)\"\n    },\n    {\n        \"onderdeel\": \"150 m\",\n        \"prestatie\": \"20.16\",\n        \"punten\": \"(604)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.07\",\n        \"punten\": \"(634)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"34.74\",\n        \"punten\": \"(566)\"\n    },\n    {\n        \"onderdeel\": \"600 m\",\n        \"prestatie\": \"1.40,23\",\n        \"punten\": \"(689)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4248 pnt\"\n    }\n]"
+    },
+    "plaats": "Amstelveen",
+    "datum": "9/10-06-2019",
+    "categorie": "Junioren C",
+    "geslacht": "Vrouwen",
+    "locatie": "outdoor"
+}

@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Zeskamp",
+    "naam": "Babs Koeman",
+    "plaats": "Lisse",
+    "datum": "08/09-07-2017",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"60 m horden\",\n        \"prestatie\": \"10,41\",\n        \"punten\": \"(554)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.47\",\n        \"punten\": \"(599)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"28.59\",\n        \"punten\": \"(473)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"4.91\",\n        \"punten\": \"(603)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.52\",\n        \"punten\": \"(499)\"\n    },\n    {\n        \"onderdeel\": \"600 m\",\n        \"prestatie\": \"1.46,00\",\n        \"punten\": \"(602)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"3330 pnt\"\n    }\n]"
+    },
+    "categorie": "Junioren D",
+    "geslacht": "Vrouwen",
+    "locatie": "outdoor"
+}

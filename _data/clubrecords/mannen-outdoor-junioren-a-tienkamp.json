@@ -1,0 +1,12 @@
+{
+    "onderdeel": "Tienkamp",
+    "naam": "Niels Terol",
+    "plaats": "Haarlem",
+    "datum": "01/02-10-1994",
+    "prestatie": {
+        "code": "[\n    {\n        \"onderdeel\": \"100 m\",\n        \"prestatie\": \"11,64\",\n        \"punten\": \"(723)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"6,34\",\n        \"punten\": \"(661)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"11,66\",\n        \"punten\": \"(586)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,72\",\n        \"punten\": \"(560)\"\n    },\n    {\n        \"onderdeel\": \"400 m\",\n        \"prestatie\": \"57,74\",\n        \"punten\": \"(493)\"\n    },\n    {\n        \"onderdeel\": \"110 m horden\",\n        \"prestatie\": \"17,04\",\n        \"punten\": \"(620)\"\n    },\n    {\n        \"onderdeel\": \"Discuswerpen\",\n        \"prestatie\": \"37,64\",\n        \"punten\": \"(617)\"\n    },\n    {\n        \"onderdeel\": \"Polsstokhoogspringen\",\n        \"prestatie\": \"3,80\",\n        \"punten\": \"(562)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"56,12\",\n        \"punten\": \"(680)\"\n    },\n    {\n        \"onderdeel\": \"1 500 m\",\n        \"prestatie\": \"5.13,4\",\n        \"punten\": \"(485)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"5987 pnt\"\n    }\n]"
+    },
+    "categorie": "Junioren A",
+    "geslacht": "Mannen",
+    "locatie": "outdoor"
+}
