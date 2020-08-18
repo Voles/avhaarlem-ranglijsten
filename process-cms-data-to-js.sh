@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
+-e # exit on errors
+
 FILES_TO_READ='./_data/clubrecords/*'
 DESTINATION='./src/resultaten/index.js'
+
+ls -d $FILES_TO_READ
 
 echo "const resultaten = " > $DESTINATION
 ls -d $FILES_TO_READ | xargs cat | jq -s >> $DESTINATION
