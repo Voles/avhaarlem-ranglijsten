@@ -89,6 +89,7 @@ export default resultatenNaarTabellen
     "5 km snelwandelen",
     "10 km snelwandelen",
     "20 km snelwandelen",
+    "30 km snelwandelen",
     "50 km snelwandelen",
     "1 500 m steeplechase",
     "2 000 m steeplechase",
