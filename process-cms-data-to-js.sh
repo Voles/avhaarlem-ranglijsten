@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
--e # exit on errors
+set -e # exit on errors
+set -u # fail on unknown variables
 
 FILES_TO_READ='./_data/clubrecords/*'
 DESTINATION='./src/resultaten/index.js'
