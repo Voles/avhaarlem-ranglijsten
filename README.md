@@ -12,6 +12,16 @@ TODO:
 ---
 
 
+# Local development
+
+`npx netlify-cms-proxy-server` to enable Netlify admin locally
+
+Change `local_backend: false` to `local_backend: true` in `/public/admin/config.yml`.
+
+`npm start`
+
+---
+
 Meerdere deelnemers naar array
 http://live.datatables.net/firobila/1/edit
 
