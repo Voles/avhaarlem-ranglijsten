@@ -17,6 +17,7 @@
     "react-router-dom": "5.2.0"
   },
   "scripts": {
+    "process-cms-data": "sh process-cms-data-to-js.sh",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",

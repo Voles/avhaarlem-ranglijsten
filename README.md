@@ -1,3 +1,17 @@
+Het script `process-cms-data-to-js.sh` is toegevoegd om de data van Netlify CMS te converteren.
+De invoer is meerdere files die elk één JSON-object bevattne. De uitvoer is een JS-bestand die een lijst met 
+JSON-objecten exporteert.
+
+Het script is onderdeel van het `npm run build` command.
+
+
+TODO:
+
+- [ ] converteren van bestaande JS-bestanden met resultaten naar bestanden van Netlify CMS
+
+---
+
+
 Meerdere deelnemers naar array
 http://live.datatables.net/firobila/1/edit
 
