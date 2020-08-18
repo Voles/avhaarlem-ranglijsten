@@ -5,9 +5,13 @@ JSON-objecten exporteert.
 Het script is onderdeel van het `npm run build` command.
 
 
-TODO:
+## Conversie
 
-- [ ] converteren van bestaande JS-bestanden met resultaten naar bestanden van Netlify CMS
+JS to Netlify CMS
+`node -r esm convert-results-to-netlify-cms.js`   
+
+Netlify CMS to JS
+`sh process-cms-data-to-js.sh`
 
 ---
 
