@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Ranglijst from "../components/Ranglijst";
 import RanglijstSectie from "../components/RanglijstSectie";
 import Filters from "../components/Filters";
-import resultaten, { resultatenNaarTabellen } from '../resultaten/index';
+import resultaten from '../resultaten/index';
+import resultatenNaarTabellen from '../resultaten/resultaten-naar-tabellen';
 
 class Overview extends Component {
   categoryIsSet(label) {
