@@ -186,7 +186,7 @@ export default [
       "datum": "04-06-1994"
     },
     {
-      "onderdeel": "4 x 100 meter h.t.",
+      "onderdeel": "4 x 100 m h.t.",
       "naam": ["Kenneth Portanger","Hein Macknack","René Moesman","Allan Ellsworth"],
       "prestatie": "42,54",
       "plaats": "Haarlem",

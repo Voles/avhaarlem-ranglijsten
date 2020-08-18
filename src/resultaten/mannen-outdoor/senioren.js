@@ -14,12 +14,12 @@ import {
   KOGELSTOTEN,
   POLSSTOKHOOGSPRINGEN, SPEERWERPEN,
   TIEN_KILOMETER, TIEN_KILOMETER_SNELWANDELEN, TIENKAMP, TWEEDUIZEND_METER,
-  TWEEHONDERD_METER,
+  TWEEHONDERD_METER, TWINTIG_KILOMETER_SNELWANDELEN,
   VERSPRINGEN, VIER_KEER_ACHTHONDERD_METER, VIER_KEER_DUIZENDVIJFHONDERD_METER, VIER_KEER_HONDERD_METER,
   VIER_KEER_TWEEHONDERD_METER, VIER_KEER_VIERHONDERD_METER,
   VIERHONDERD_METER,
   VIERHONDERD_METER_HORDEN,
-  VIJFDUIZEND_METER,
+  VIJFDUIZEND_METER, VIJFTIG_KILOMETER_SNELWANDELEN,
   ZWEEDSE_ESTAFETTE
 } from "../../constants/onderdelen";
 
@@ -131,7 +131,7 @@ export default [
     "datum": "25-03-1984"
   },
   {
-    "onderdeel": "20 km snelwandelen",
+    "onderdeel": TWINTIG_KILOMETER_SNELWANDELEN,
     "naam": "Frank van Ravensberg",
     "prestatie": "1.29.37,5",
     "plaats": "Sittard",
@@ -145,7 +145,7 @@ export default [
     "datum": "24-10-1982"
   },
   {
-    "onderdeel": "50 km snelwandelen",
+    "onderdeel": VIJFTIG_KILOMETER_SNELWANDELEN,
     "naam": "Frank van Ravensberg",
     "prestatie": "4.47.05",
     "plaats": "Stiphout",

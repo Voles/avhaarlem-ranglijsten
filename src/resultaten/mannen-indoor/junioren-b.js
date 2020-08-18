@@ -13,7 +13,7 @@ import {
   VIERHONDERD_METER,
   VIJFTIG_METER,
   VIJFTIG_METER_HORDEN,
-  ZESTIG_METER, ZESTIG_METER_HORDEN
+  ZESTIG_METER, ZESTIG_METER_HORDEN, ZEVENKAMP
 } from "../../constants/onderdelen";
 
 export default [
@@ -138,7 +138,7 @@ export default [
     "datum": "26-02-2005"
   },
   {
-    "onderdeel": "meerkamp",
+    "onderdeel": ZEVENKAMP,
     "naam": "Stein Metten",
     "datum": "26/27-02-2005",
     "plaats": "Gent (B)",

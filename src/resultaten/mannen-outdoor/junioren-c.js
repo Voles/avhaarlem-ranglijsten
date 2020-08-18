@@ -55,14 +55,14 @@ export default [
     "datum": "02-09-1973"
   },
   {
-    "onderdeel": "100 meter horden (84 cm)*",
+    "onderdeel": "100 m horden (84 cm)*",
     "naam": "Kan Dinkla",
     "prestatie": "14,43 s (rw +0,3 m/s)",
     "plaats": "Emmeloord",
     "datum": "26-09-2004"
   },
   {
-    "onderdeel": "100 meter horden (91,4 cm)*",
+    "onderdeel": "100 m horden (91,4 cm)*",
     "naam": "Chris van der Werff",
     "prestatie": "15,14 s (14,9)",
     "plaats": "Heerhugowaard",
@@ -156,7 +156,7 @@ export default [
     "onderdeel": ACHTKAMP,
     "naam": "Alex Overkamp",
     "plaats": "Schoonhoven",
-    "datum": "1/2-7-2006",
+    "datum": "01/02-07-2006",
     "prestatie": [
       {
         "onderdeel": HONDERD_METER,

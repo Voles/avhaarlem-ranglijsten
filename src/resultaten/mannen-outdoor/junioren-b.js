@@ -6,7 +6,7 @@ import {
   HONDERD_METER,
   HONDERDENTIEN_METER_HORDEN,
   HOOGSPRINGEN, KOGELSLINGEREN,
-  KOGELSTOTEN,
+  KOGELSTOTEN, NEGENKAMP,
   POLSSTOKHOOGSPRINGEN, SPEERWERPEN, TIEN_KILOMETER_SNELWANDELEN,
   TWEEDUIZEND_METER_STEEPLECHASE,
   TWEEHONDERD_METER,
@@ -185,7 +185,7 @@ export default [
     "datum": "26-09-1987"
   },
   {
-    "onderdeel": "negenkamp",
+    "onderdeel": NEGENKAMP,
     "naam": "Walter Kruk",
     "plaats": "Vught",
     "datum": "27/28-06-1987",

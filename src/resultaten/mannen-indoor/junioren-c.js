@@ -29,14 +29,14 @@ export default [
     "datum": "25-02-2018"
   },
   {
-    "onderdeel": "50 meter h.t.",
+    "onderdeel": "50 m h.t.",
     "naam": "Richard Kruithof",
     "prestatie": "6,84 (6,6)",
     "plaats": "Amsterdam",
     "datum": "05-03-1977"
   },
   {
-    "onderdeel": "50 meter h.t.",
+    "onderdeel": "50 m h.t.",
     "naam": "Jason Mensingh",
     "prestatie": "6,84 (6,6)",
     "plaats": "Amsterdam",
