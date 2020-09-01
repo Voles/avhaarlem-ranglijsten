@@ -1,12 +1,13 @@
 {
-    "onderdeel": "100 m",
-    "naam": "Mieke van der Kolk",
-    "prestatie": {
-        "code": "\"12,34\""
-    },
-    "plaats": "Santpoort",
-    "datum": "04-07-1993",
-    "categorie": "Senioren",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+  "geslacht": "Vrouwen",
+  "datum": "29-08-2020",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"12,21\""
+  },
+  "categorie": "Senioren",
+  "onderdeel": "100 m",
+  "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33240/100m_hf/#190158_",
+  "plaats": "Utrecht",
+  "naam": "Femke Nuijten"
 }
