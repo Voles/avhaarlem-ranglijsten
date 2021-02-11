@@ -1,13 +1,13 @@
 {
-    "onderdeel": "800 m",
-    "naam": "Jurgen Wielart",
-    "prestatie": {
-        "code": "\"1.50,24\""
-    },
-    "plaats": "Apeldoorn",
-    "datum": "01-02-2020",
-    "link": "https://www.atletiek.nu/atleet/main/891306/",
-    "categorie": "Senioren",
-    "geslacht": "Mannen",
-    "locatie": "indoor"
+  "geslacht": "Mannen",
+  "datum": "10-02-2021",
+  "locatie": "indoor",
+  "prestatie": {
+    "code": "\"1.48,37\""
+  },
+  "categorie": "Senioren",
+  "onderdeel": "800 m",
+  "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/34543/800m/",
+  "plaats": "Apeldoorn",
+  "naam": "Jurgen Wielart"
 }
