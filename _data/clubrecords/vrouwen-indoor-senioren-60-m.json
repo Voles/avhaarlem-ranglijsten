@@ -1,12 +1,13 @@
 {
-    "onderdeel": "60 m",
-    "naam": "Brenda Stoete",
-    "prestatie": {
-        "code": "\"7,99\""
-    },
-    "plaats": "Den Haag",
-    "datum": "26-01-1992",
-    "categorie": "Senioren",
-    "geslacht": "Vrouwen",
-    "locatie": "indoor"
+  "geslacht": "Vrouwen",
+  "datum": "20-02-2021",
+  "locatie": "indoor",
+  "prestatie": {
+    "code": "\"7,87\""
+  },
+  "categorie": "Senioren",
+  "onderdeel": "60 m",
+  "link": "https://www.atletiek.nu/wedstrijd/startlijst/343017/3/",
+  "plaats": "Apeldoorn",
+  "naam": "Femke Nuijten"
 }
