@@ -1,12 +1,13 @@
 {
-    "onderdeel": "Verspringen",
-    "naam": "Tara van Schie",
-    "prestatie": {
-        "code": "\"5.42\""
-    },
-    "plaats": "Utrecht",
-    "datum": "08-07-2007",
-    "categorie": "Junioren B",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+  "geslacht": "Vrouwen",
+  "datum": "08-05-2021",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"5.51\""
+  },
+  "categorie": "Junioren B",
+  "onderdeel": "Verspringen",
+  "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/35397/Ver/#230860_1",
+  "plaats": "Haarlem",
+  "naam": "Babs Koeman"
 }
