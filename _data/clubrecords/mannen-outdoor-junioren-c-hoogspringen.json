@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Hoogspringen",
-    "naam": "Niels Pijnaker",
-    "prestatie": {
-        "code": "\"1,80 m\""
-    },
-    "plaats": "Krommenie",
-    "datum": "04-09-2004",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Hoogspringen",
+  "naam": "Niels Pijnaker",
+  "prestatie": {
+    "code": "\"1,80\""
+  },
+  "plaats": "Krommenie",
+  "datum": "04-09-2004",
+  "categorie": "Junioren C",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
