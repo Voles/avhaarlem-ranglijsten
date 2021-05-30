@@ -1,12 +1,12 @@
 {
-    "onderdeel": "100 m",
-    "naam": "Kan Dinkla",
-    "prestatie": {
-        "code": "\"11,76 s (rw +1,4 m/s)\""
-    },
-    "plaats": "Emmeloord",
-    "datum": "25-09-2004",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "100 m",
+  "naam": "Kan Dinkla",
+  "prestatie": {
+    "code": "\"11,76\""
+  },
+  "plaats": "Emmeloord",
+  "datum": "25-09-2004",
+  "categorie": "Junioren C",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
