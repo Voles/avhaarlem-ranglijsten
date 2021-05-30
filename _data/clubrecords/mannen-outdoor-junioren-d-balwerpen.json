@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Balwerpen",
-    "naam": "Dennis Kruithof",
-    "prestatie": {
-        "code": "\"60 m\""
-    },
-    "plaats": "Haarlem",
-    "datum": "13-10-1977",
-    "categorie": "Junioren D",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Balwerpen",
+  "naam": "Dennis Kruithof",
+  "prestatie": {
+    "code": "\"60,0\""
+  },
+  "plaats": "Haarlem",
+  "datum": "13-10-1977",
+  "categorie": "Junioren D",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
