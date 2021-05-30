@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Discuswerpen",
-    "naam": "Dennis Kruithof",
-    "prestatie": {
-        "code": "\"35,32 m\""
-    },
-    "plaats": "Haarlem",
-    "datum": "01-07-1978",
-    "categorie": "Junioren D",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Discuswerpen",
+  "naam": "Dennis Kruithof",
+  "prestatie": {
+    "code": "\"35,32\""
+  },
+  "plaats": "Haarlem",
+  "datum": "01-07-1978",
+  "categorie": "Junioren D",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
