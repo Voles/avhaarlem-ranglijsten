@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Verspringen",
-    "naam": "Edward Leter",
-    "prestatie": {
-        "code": "\"5,40 m\""
-    },
-    "plaats": "Beverwijk",
-    "datum": "01-09-1984",
-    "categorie": "Junioren D",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Verspringen",
+  "naam": "Edward Leter",
+  "prestatie": {
+    "code": "\"5,40\""
+  },
+  "plaats": "Beverwijk",
+  "datum": "01-09-1984",
+  "categorie": "Junioren D",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
