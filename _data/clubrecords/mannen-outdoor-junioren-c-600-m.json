@@ -1,13 +1,13 @@
 {
-    "onderdeel": "600 m",
-    "naam": "Jeppe Mul",
-    "prestatie": {
-        "code": "\"1.37,28 s\""
-    },
-    "plaats": "Haarlem",
-    "datum": "31-03-2019",
-    "link": "https://www.atletiek.nu/atleet/main/737347/",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "geslacht": "Mannen",
+  "datum": "31-03-2019",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"1.37,28\""
+  },
+  "categorie": "Junioren C",
+  "onderdeel": "600 m",
+  "link": "https://www.atletiek.nu/atleet/main/737347/",
+  "plaats": "Haarlem",
+  "naam": "Jeppe Mul"
 }
