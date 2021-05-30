@@ -1,12 +1,12 @@
 {
-    "onderdeel": "4 x 200 m",
-    "naam": "Tymo Bouman, Sven Koolmoes, Chivaro Friendwijk, Jarno Enthoven",
-    "prestatie": {
-        "code": "\"1.45,55 s\""
-    },
-    "plaats": "Haarlem",
-    "datum": "05-07-2019",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "4 x 200 m",
+  "naam": "Tymo Bouman, Sven Koolmoes, Chivaro Friendwijk, Jarno Enthoven",
+  "prestatie": {
+    "code": "\"1.45,55\""
+  },
+  "plaats": "Haarlem",
+  "datum": "05-07-2019",
+  "categorie": "Junioren C",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
