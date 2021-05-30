@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Verspringen",
-    "naam": "Eldridge Isselt",
-    "prestatie": {
-        "code": "\"6,34 m\""
-    },
-    "plaats": "Amsterdam",
-    "datum": "25-08-1991",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Verspringen",
+  "naam": "Eldridge Isselt",
+  "prestatie": {
+    "code": "\"6,34\""
+  },
+  "plaats": "Amsterdam",
+  "datum": "25-08-1991",
+  "categorie": "Junioren C",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
