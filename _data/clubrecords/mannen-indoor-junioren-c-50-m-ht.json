@@ -1,12 +1,12 @@
 {
-    "onderdeel": "50 m h.t.",
-    "naam": "Jason Mensingh",
-    "prestatie": {
-        "code": "\"6,84 (6,6)\""
-    },
-    "plaats": "Amsterdam",
-    "datum": "13-11-1993",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "indoor"
+  "onderdeel": "50 m",
+  "naam": "Jason Mensingh",
+  "prestatie": {
+    "code": "\"6,84 (6,6)\""
+  },
+  "plaats": "Amsterdam",
+  "datum": "13-11-1993",
+  "categorie": "Junioren C",
+  "geslacht": "Mannen",
+  "locatie": "indoor"
 }
