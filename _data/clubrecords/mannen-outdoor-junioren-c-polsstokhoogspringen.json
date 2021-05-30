@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Polsstokhoogspringen",
-    "naam": "Olivier Barreveld",
-    "prestatie": {
-        "code": "\"3,10 m\""
-    },
-    "plaats": "Hoorn",
-    "datum": "19-09-1992",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Polsstokhoogspringen",
+  "naam": "Olivier Barreveld",
+  "prestatie": {
+    "code": "\"3,10\""
+  },
+  "plaats": "Hoorn",
+  "datum": "19-09-1992",
+  "categorie": "Junioren C",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
