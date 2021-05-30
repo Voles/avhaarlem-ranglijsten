@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Kogelslingeren",
-    "naam": "Finn Damhoff",
-    "prestatie": {
-        "code": "\"27,86 m\""
-    },
-    "plaats": "Rotterdam",
-    "datum": "20-04-2019",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Kogelslingeren",
+  "naam": "Finn Damhoff",
+  "prestatie": {
+    "code": "\"27,86\""
+  },
+  "plaats": "Rotterdam",
+  "datum": "20-04-2019",
+  "categorie": "Junioren C",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
