@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Hoogspringen",
-    "naam": "Marvin Isselt",
-    "prestatie": {
-        "code": "\"1,60 m\""
-    },
-    "plaats": "Amstelveen",
-    "datum": "02-06-1984",
-    "categorie": "Junioren D",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Hoogspringen",
+  "naam": "Marvin Isselt",
+  "prestatie": {
+    "code": "\"1,60\""
+  },
+  "plaats": "Amstelveen",
+  "datum": "02-06-1984",
+  "categorie": "Junioren D",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
