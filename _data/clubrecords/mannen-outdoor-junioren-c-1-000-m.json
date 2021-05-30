@@ -1,12 +1,12 @@
 {
-    "onderdeel": "1 000 m",
-    "naam": "Vincent van der Lans",
-    "prestatie": {
-        "code": "\"2.47,2 s\""
-    },
-    "plaats": "Haarlem",
-    "datum": "06-10-1996",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "1 000 m",
+  "naam": "Vincent van der Lans",
+  "prestatie": {
+    "code": "\"2.47,2\""
+  },
+  "plaats": "Haarlem",
+  "datum": "06-10-1996",
+  "categorie": "Junioren C",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
