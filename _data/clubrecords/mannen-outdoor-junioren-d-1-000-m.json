@@ -1,12 +1,12 @@
 {
-    "onderdeel": "1 000 m",
-    "naam": "Peter Markwat",
-    "prestatie": {
-        "code": "\"3.04,3 s\""
-    },
-    "plaats": "Haarlem",
-    "datum": "06-10-1991",
-    "categorie": "Junioren D",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "1 000 m",
+  "naam": "Peter Markwat",
+  "prestatie": {
+    "code": "\"3.04,3\""
+  },
+  "plaats": "Haarlem",
+  "datum": "06-10-1991",
+  "categorie": "Junioren D",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
