@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Zevenkamp",
-    "naam": "Pim Pauel",
-    "plaats": "Schoonhoven",
-    "datum": "02/03-07-2011",
-    "prestatie": {
-        "code": "[\n    {\n        \"onderdeel\": \"80 m\",\n        \"prestatie\": \"11,14\",\n        \"punten\": \"(596)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"4,70\",\n        \"punten\": \"(560)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9,82\",\n        \"punten\": \"(514)\"\n    },\n    {\n        \"onderdeel\": \"80 m horden\",\n        \"prestatie\": \"14,24\",\n        \"punten\": \"(466)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,45\",\n        \"punten\": \"(582)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"32,18\",\n        \"punten\": \"(529)\"\n    },\n    {\n        \"onderdeel\": \"1 000 m\",\n        \"prestatie\": \"3.18,8\",\n        \"punten\": \"(554)\"\n    },\n    {\n        \"onderdeel\": \"80 m\",\n        \"prestatie\": \"11,14\",\n        \"punten\": \"(596)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"3801 pnt\"\n    }\n]"
-    },
-    "categorie": "Junioren D",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "Zevenkamp",
+  "naam": "Pim Pauel",
+  "plaats": "Schoonhoven",
+  "datum": "02/03-07-2011",
+  "prestatie": {
+    "code": "[\n    {\n        \"onderdeel\": \"80 m\",\n        \"prestatie\": \"11,14\",\n        \"punten\": \"(596)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"4,70\",\n        \"punten\": \"(560)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9,82\",\n        \"punten\": \"(514)\"\n    },\n    {\n        \"onderdeel\": \"80 m horden\",\n        \"prestatie\": \"14,24\",\n        \"punten\": \"(466)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,45\",\n        \"punten\": \"(582)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"32,18\",\n        \"punten\": \"(529)\"\n    },\n    {\n        \"onderdeel\": \"1 000 m\",\n        \"prestatie\": \"3.18,8\",\n        \"punten\": \"(554)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"3801 pnt\"\n    }\n]"
+  },
+  "categorie": "Junioren D",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
