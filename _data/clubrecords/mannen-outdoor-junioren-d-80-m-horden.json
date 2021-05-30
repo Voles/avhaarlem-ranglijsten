@@ -1,12 +1,12 @@
 {
-    "onderdeel": "80 m horden",
-    "naam": "Derk Hoefman",
-    "prestatie": {
-        "code": "\"13,13 s\""
-    },
-    "plaats": "Leiden",
-    "datum": "19-09-2018",
-    "categorie": "Junioren D",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "onderdeel": "80 m horden",
+  "naam": "Derk Hoefman",
+  "prestatie": {
+    "code": "\"13,13\""
+  },
+  "plaats": "Leiden",
+  "datum": "19-09-2018",
+  "categorie": "Junioren D",
+  "geslacht": "Mannen",
+  "locatie": "outdoor"
 }
