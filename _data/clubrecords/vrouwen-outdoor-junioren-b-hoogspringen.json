@@ -1,12 +1,13 @@
 {
-  "onderdeel": "Hoogspringen",
-  "naam": "Babs Koeman",
-  "prestatie": {
-    "code": "\"1.64\""
-  },
-  "plaats": "Emmeloord",
-  "datum": "05-09-2020",
-  "categorie": "Junioren B",
   "geslacht": "Vrouwen",
-  "locatie": "outdoor"
+  "datum": "05-06-2021",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"1.66\""
+  },
+  "categorie": "Junioren B",
+  "onderdeel": "Hoogspringen",
+  "link": "https://www.atletiek.nu/atleet/main/1025264/",
+  "plaats": "Assendelft",
+  "naam": "Babs Koeman"
 }
