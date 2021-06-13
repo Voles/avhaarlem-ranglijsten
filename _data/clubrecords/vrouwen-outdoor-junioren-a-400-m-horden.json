@@ -1,13 +1,13 @@
 {
-    "onderdeel": "400 m horden",
-    "naam": "Babs Koeman (B)",
-    "prestatie": {
-        "code": "\"67,22\""
-    },
-    "plaats": "Den Haag",
-    "datum": "29-07-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33864/400mH/#207899_",
-    "categorie": "Junioren A",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+  "geslacht": "Vrouwen",
+  "datum": "12-09-2020",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"1.06,87\""
+  },
+  "categorie": "Junioren A",
+  "onderdeel": "400 m horden",
+  "link": "https://www.atletiek.nu/wedstrijd/startgroep/326064/",
+  "plaats": "Amersfoort",
+  "naam": "Babs Koeman (B)"
 }
