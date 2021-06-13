@@ -1,12 +1,12 @@
 {
-    "onderdeel": "400 m",
-    "naam": "Brenda Stoete",
-    "prestatie": {
-        "code": "\"60,64\""
-    },
-    "plaats": "Santpoort",
-    "datum": "29-04-1990",
-    "categorie": "Junioren A",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+  "onderdeel": "400 m",
+  "naam": "Brenda Stoete",
+  "prestatie": {
+    "code": "\"1.00,64\""
+  },
+  "plaats": "Santpoort",
+  "datum": "29-04-1990",
+  "categorie": "Junioren A",
+  "geslacht": "Vrouwen",
+  "locatie": "outdoor"
 }
