@@ -1,12 +1,13 @@
 {
-    "onderdeel": "Hoogspringen",
-    "naam": "Anja Smits",
-    "prestatie": {
-        "code": "\"1.65\""
-    },
-    "plaats": "Arnhem",
-    "datum": "20-05-1973",
-    "categorie": "Junioren A",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+  "geslacht": "Vrouwen",
+  "datum": "05-06-2021",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"1.66\""
+  },
+  "categorie": "Junioren A",
+  "onderdeel": "Hoogspringen",
+  "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/34648/Hoog/#222291_13",
+  "plaats": "Assendelft",
+  "naam": "Babs Koeman (B)"
 }
