@@ -1,12 +1,13 @@
 {
-    "onderdeel": "100 m horden",
-    "naam": "Brenda Stoete",
-    "prestatie": {
-        "code": "\"15,14\""
-    },
-    "plaats": "Santpoort",
-    "datum": "19-06-1994",
-    "categorie": "Senioren",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+  "geslacht": "Vrouwen",
+  "datum": "26-06-2021",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"15,04\""
+  },
+  "categorie": "Senioren",
+  "onderdeel": "100 m horden",
+  "link": "https://www.atletiek.nu/wedstrijd/startlijst/366767/50/",
+  "plaats": "Breda",
+  "naam": "Babs Koeman (B)"
 }
