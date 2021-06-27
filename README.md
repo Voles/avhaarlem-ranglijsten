@@ -1,9 +1,12 @@
 Het script `process-cms-data-to-js.sh` is toegevoegd om de data van Netlify CMS te converteren.
-De invoer is meerdere files die elk één JSON-object bevattne. De uitvoer is een JS-bestand die een lijst met 
+De invoer is meerdere files die elk één JSON-object bevatten. De uitvoer is een JS-bestand die een lijst met 
 JSON-objecten exporteert.
 
 Het script is onderdeel van het `npm run build` command.
 
+## Hosted on Netlify
+
+- Gebruikers toegang geven via de 'Identity'-instellingen van het Netlify-project.
 
 ## Conversie
 
@@ -21,7 +24,6 @@ Netlify CMS to JS
 `npx netlify-cms-proxy-server` to enable Netlify admin locally
 
 Change `local_backend: false` to `local_backend: true` in `/public/admin/config.yml`.
-
 `npm start`
 
 ---
