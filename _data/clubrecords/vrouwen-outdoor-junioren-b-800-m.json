@@ -1,12 +1,13 @@
 {
-  "onderdeel": "800 m",
-  "naam": "Babs Koeman",
-  "prestatie": {
-    "code": "\"2.23,21\""
-  },
-  "plaats": "Beverwijk",
-  "datum": "28-08-2020",
-  "categorie": "Junioren B",
   "geslacht": "Vrouwen",
-  "locatie": "outdoor"
+  "datum": "20-09-2020",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"2.23,07\""
+  },
+  "categorie": "Junioren B",
+  "onderdeel": "800 m",
+  "link": "https://www.atletiek.nu/wedstrijd/uitslagen/34175/213651/#meerkamponderdeel_1_6_",
+  "plaats": "Haarlem",
+  "naam": "Babs Koeman"
 }
