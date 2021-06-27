@@ -115,5 +115,6 @@ collections:
           - "Tienkamp"
       - {label: "Prestatie", name: "prestatie", widget: "code"}
       - {label: "Plaats", name: "plaats", widget: "string"}
-      - {label: "Datum", name: "datum", widget: "datetime", format: 'DD-MM-YYYY', dateFormat: 'DD-MM-YYYY', timeFormat: ''}
+      - {label: "Datum", hint: "Indien het om een meerkamp gaat mag je dit veld gebruiken als startdatum van de wedstrijd", name: "datum", widget: "datetime", format: 'DD-MM-YYYY', dateFormat: 'DD-MM-YYYY', timeFormat: ''}
+      - {label: "(eind)datum", hint: "Einddatum van de wedstrijd indien het om een meerkamp gaat", name: "einddatum", default: "", widget: "datetime", format: 'DD-MM-YYYY', dateFormat: 'DD-MM-YYYY', timeFormat: '', required: false }
       - {label: "Link", name: "link", widget: "string", required: false}
