@@ -1,12 +1,13 @@
 {
-    "onderdeel": "Speerwerpen",
-    "naam": "Ingeborg Zandbergen (B)",
-    "prestatie": {
-        "code": "\"31.10\""
-    },
-    "plaats": "Alphen a/d Rijn",
-    "datum": "12-06-1994",
-    "categorie": "Junioren A",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+  "geslacht": "Vrouwen",
+  "datum": "27-06-2021",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"36.97\""
+  },
+  "categorie": "Junioren A",
+  "onderdeel": "Speerwerpen",
+  "link": "https://www.atletiek.nu/wedstrijd/startlijst/366767/39/",
+  "plaats": "Breda",
+  "naam": "Babs Koeman (B)"
 }
