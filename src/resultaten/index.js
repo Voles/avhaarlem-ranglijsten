@@ -446,7 +446,7 @@ const resultaten =
     "locatie": "indoor"
   },
   {
-    "onderdeel": "50 m h.t.",
+    "onderdeel": "50 m",
     "naam": "Jason Mensingh",
     "prestatie": {
       "code": "\"6,84 (6,6)\""
@@ -782,17 +782,17 @@ const resultaten =
     "locatie": "indoor"
   },
   {
-    "onderdeel": "800 m",
-    "naam": "Jurgen Wielart",
-    "prestatie": {
-      "code": "\"1.50,24\""
-    },
-    "plaats": "Apeldoorn",
-    "datum": "01-02-2020",
-    "link": "https://www.atletiek.nu/atleet/main/891306/",
-    "categorie": "Senioren",
     "geslacht": "Mannen",
-    "locatie": "indoor"
+    "datum": "20-02-2021",
+    "locatie": "indoor",
+    "prestatie": {
+      "code": "\"1.48,16\""
+    },
+    "categorie": "Senioren",
+    "onderdeel": "800 m",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/34431/800m_f/",
+    "plaats": "Apeldoorn",
+    "naam": "Jurgen Wielart"
   },
   {
     "onderdeel": "Hinkstapspringen",
@@ -1494,7 +1494,7 @@ const resultaten =
     "onderdeel": "1 000 m",
     "naam": "Vincent van der Lans",
     "prestatie": {
-      "code": "\"2.47,2 s\""
+      "code": "\"2.47,2\""
     },
     "plaats": "Haarlem",
     "datum": "06-10-1996",
@@ -1506,7 +1506,7 @@ const resultaten =
     "onderdeel": "1 500 m",
     "naam": "Walter Salzmann",
     "prestatie": {
-      "code": "\"4.29,7 s\""
+      "code": "\"4.29,7\""
     },
     "plaats": "Amsterdam",
     "datum": "02-09-1973",
@@ -1518,7 +1518,7 @@ const resultaten =
     "onderdeel": "100 m horden (84 cm)*",
     "naam": "Kan Dinkla",
     "prestatie": {
-      "code": "\"14,43 s (rw +0,3 m/s)\""
+      "code": "\"14,43\""
     },
     "plaats": "Emmeloord",
     "datum": "26-09-2004",
@@ -1530,7 +1530,7 @@ const resultaten =
     "onderdeel": "100 m horden (91,4 cm)*",
     "naam": "Chris van der Werff",
     "prestatie": {
-      "code": "\"15,14 s (14,9)\""
+      "code": "\"15,14 (14,9)\""
     },
     "plaats": "Heerhugowaard",
     "datum": "17-08-1985",
@@ -1542,7 +1542,7 @@ const resultaten =
     "onderdeel": "100 m",
     "naam": "Kan Dinkla",
     "prestatie": {
-      "code": "\"11,76 s (rw +1,4 m/s)\""
+      "code": "\"11,76\""
     },
     "plaats": "Emmeloord",
     "datum": "25-09-2004",
@@ -1554,7 +1554,7 @@ const resultaten =
     "onderdeel": "150 m",
     "naam": "Sven Koolmoes",
     "prestatie": {
-      "code": "\"19,14 s (+0,9 m/s)\""
+      "code": "\"19,14\""
     },
     "plaats": "Amsterdam",
     "datum": "25-05-2019",
@@ -1566,7 +1566,7 @@ const resultaten =
     "onderdeel": "300 m horden",
     "naam": "Chris van der Werff",
     "prestatie": {
-      "code": "\"41,74 s (41,5)\""
+      "code": "\"41,74 (41,5)\""
     },
     "plaats": "Amsterdam",
     "datum": "25-08-1985",
@@ -1590,7 +1590,7 @@ const resultaten =
     "onderdeel": "4 x 200 m",
     "naam": "Tymo Bouman, Sven Koolmoes, Chivaro Friendwijk, Jarno Enthoven",
     "prestatie": {
-      "code": "\"1.45,55 s\""
+      "code": "\"1.45,55\""
     },
     "plaats": "Haarlem",
     "datum": "05-07-2019",
@@ -1599,23 +1599,23 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "600 m",
-    "naam": "Jeppe Mul",
-    "prestatie": {
-      "code": "\"1.37,28 s\""
-    },
-    "plaats": "Haarlem",
-    "datum": "31-03-2019",
-    "link": "https://www.atletiek.nu/atleet/main/737347/",
-    "categorie": "Junioren C",
     "geslacht": "Mannen",
-    "locatie": "outdoor"
+    "datum": "31-03-2019",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.37,28\""
+    },
+    "categorie": "Junioren C",
+    "onderdeel": "600 m",
+    "link": "https://www.atletiek.nu/atleet/main/737347/",
+    "plaats": "Haarlem",
+    "naam": "Jeppe Mul"
   },
   {
     "onderdeel": "800 m",
     "naam": "Vincent van der Lans",
     "prestatie": {
-      "code": "\"2.05,5 s\""
+      "code": "\"2.05,5\""
     },
     "plaats": "Haarlem",
     "datum": "18-09-1996",
@@ -1639,7 +1639,7 @@ const resultaten =
     "onderdeel": "Discuswerpen",
     "naam": "Dennis Kruithof",
     "prestatie": {
-      "code": "\"46,50 m\""
+      "code": "\"46,50\""
     },
     "plaats": "Haarlem",
     "datum": "21-06-1980",
@@ -1651,7 +1651,7 @@ const resultaten =
     "onderdeel": "Gewichtwerpen",
     "naam": "Finn Damhoff",
     "prestatie": {
-      "code": "\"11,75 m\""
+      "code": "\"11,75\""
     },
     "plaats": "Rotterdam",
     "datum": "20-04-2019",
@@ -1663,7 +1663,7 @@ const resultaten =
     "onderdeel": "Hoogspringen",
     "naam": "Niels Pijnaker",
     "prestatie": {
-      "code": "\"1,80 m\""
+      "code": "\"1,80\""
     },
     "plaats": "Krommenie",
     "datum": "04-09-2004",
@@ -1675,7 +1675,7 @@ const resultaten =
     "onderdeel": "Kogelslingeren",
     "naam": "Finn Damhoff",
     "prestatie": {
-      "code": "\"27,86 m\""
+      "code": "\"27,86\""
     },
     "plaats": "Rotterdam",
     "datum": "20-04-2019",
@@ -1687,7 +1687,7 @@ const resultaten =
     "onderdeel": "Kogelstoten",
     "naam": "Eric Noom",
     "prestatie": {
-      "code": "\"14,11 m\""
+      "code": "\"14,11\""
     },
     "plaats": "Amsterdam",
     "datum": "28-08-1983",
@@ -1699,7 +1699,7 @@ const resultaten =
     "onderdeel": "Polsstokhoogspringen",
     "naam": "Olivier Barreveld",
     "prestatie": {
-      "code": "\"3,10 m\""
+      "code": "\"3,10\""
     },
     "plaats": "Hoorn",
     "datum": "19-09-1992",
@@ -1711,7 +1711,7 @@ const resultaten =
     "onderdeel": "Speerwerpen",
     "naam": "Dennis Kruithof",
     "prestatie": {
-      "code": "\"50,76 m\""
+      "code": "\"50,76\""
     },
     "plaats": "Haarlem",
     "datum": "23-08-1980",
@@ -1723,7 +1723,7 @@ const resultaten =
     "onderdeel": "Verspringen",
     "naam": "Eldridge Isselt",
     "prestatie": {
-      "code": "\"6,34 m\""
+      "code": "\"6,34\""
     },
     "plaats": "Amsterdam",
     "datum": "25-08-1991",
@@ -1735,7 +1735,7 @@ const resultaten =
     "onderdeel": "1 000 m",
     "naam": "Peter Markwat",
     "prestatie": {
-      "code": "\"3.04,3 s\""
+      "code": "\"3.04,3\""
     },
     "plaats": "Haarlem",
     "datum": "06-10-1991",
@@ -1759,7 +1759,7 @@ const resultaten =
     "onderdeel": "4 x 80 m",
     "naam": "Tymo Bouman, Chivaro Friendwijk, Derk Hoefman, Sven Koolmoes",
     "prestatie": {
-      "code": "\"41,12 s\""
+      "code": "\"41,12\""
     },
     "plaats": "Amsterdam",
     "datum": "30-06-2018",
@@ -1783,7 +1783,7 @@ const resultaten =
     "onderdeel": "80 m horden",
     "naam": "Derk Hoefman",
     "prestatie": {
-      "code": "\"13,13 s\""
+      "code": "\"13,13\""
     },
     "plaats": "Leiden",
     "datum": "19-09-2018",
@@ -1795,7 +1795,7 @@ const resultaten =
     "onderdeel": "80 m",
     "naam": "Michael Parkinson",
     "prestatie": {
-      "code": "\"10,44 s (10,2)\""
+      "code": "\"10,44 (10,2)\""
     },
     "plaats": "Haarlem",
     "datum": "06-08-1988",
@@ -1807,7 +1807,7 @@ const resultaten =
     "onderdeel": "Balwerpen",
     "naam": "Dennis Kruithof",
     "prestatie": {
-      "code": "\"60 m\""
+      "code": "\"60,0\""
     },
     "plaats": "Haarlem",
     "datum": "13-10-1977",
@@ -1819,7 +1819,7 @@ const resultaten =
     "onderdeel": "Discuswerpen",
     "naam": "Dennis Kruithof",
     "prestatie": {
-      "code": "\"35,32 m\""
+      "code": "\"35,32\""
     },
     "plaats": "Haarlem",
     "datum": "01-07-1978",
@@ -1831,7 +1831,7 @@ const resultaten =
     "onderdeel": "Hoogspringen",
     "naam": "Marvin Isselt",
     "prestatie": {
-      "code": "\"1,60 m\""
+      "code": "\"1,60\""
     },
     "plaats": "Amstelveen",
     "datum": "02-06-1984",
@@ -1843,7 +1843,7 @@ const resultaten =
     "onderdeel": "Kogelstoten",
     "naam": "Dennis Kruithof",
     "prestatie": {
-      "code": "\"12,30 m\""
+      "code": "\"12,30\""
     },
     "plaats": "Zaandam",
     "datum": "20-05-1978",
@@ -1855,7 +1855,7 @@ const resultaten =
     "onderdeel": "Speerwerpen",
     "naam": "Thomas Wouterse",
     "prestatie": {
-      "code": "\"42,00 m\""
+      "code": "\"42,00\""
     },
     "plaats": "Alkmaar",
     "datum": "12-05-2001",
@@ -1867,7 +1867,7 @@ const resultaten =
     "onderdeel": "Verspringen",
     "naam": "Edward Leter",
     "prestatie": {
-      "code": "\"5,40 m\""
+      "code": "\"5,40\""
     },
     "plaats": "Beverwijk",
     "datum": "01-09-1984",
@@ -1876,16 +1876,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "Zevenkamp",
-    "naam": "Pim Pauel",
-    "plaats": "Schoonhoven",
+    "geslacht": "Mannen",
     "datum": "02/03-07-2011",
+    "locatie": "outdoor",
     "prestatie": {
-      "code": "[\n    {\n        \"onderdeel\": \"80 m\",\n        \"prestatie\": \"11,14\",\n        \"punten\": \"(596)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"4,70\",\n        \"punten\": \"(560)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9,82\",\n        \"punten\": \"(514)\"\n    },\n    {\n        \"onderdeel\": \"80 m horden\",\n        \"prestatie\": \"14,24\",\n        \"punten\": \"(466)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,45\",\n        \"punten\": \"(582)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"32,18\",\n        \"punten\": \"(529)\"\n    },\n    {\n        \"onderdeel\": \"1 000 m\",\n        \"prestatie\": \"3.18,8\",\n        \"punten\": \"(554)\"\n    },\n    {\n        \"onderdeel\": \"80 m\",\n        \"prestatie\": \"11,14\",\n        \"punten\": \"(596)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"3801 pnt\"\n    }\n]"
+      "code": "[\n    {\n        \"onderdeel\": \"80 m\",\n        \"prestatie\": \"11,14\",\n        \"punten\": \"(596)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"4,70\",\n        \"punten\": \"(560)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9,82\",\n        \"punten\": \"(514)\"\n    },\n    {\n        \"onderdeel\": \"80 m horden\",\n        \"prestatie\": \"14,24\",\n        \"punten\": \"(466)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1,45\",\n        \"punten\": \"(582)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"32,18\",\n        \"punten\": \"(529)\"\n    },\n    {\n        \"onderdeel\": \"1 000 m\",\n        \"prestatie\": \"3.18,8\",\n        \"punten\": \"(554)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"3801 pnt\"\n    }\n]"
     },
     "categorie": "Junioren D",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+    "onderdeel": "Zevenkamp",
+    "link": "https://www.avantri.nl/uitslagen/2011/avantri-meerkampen/",
+    "plaats": "Schoonhoven",
+    "naam": "Pim Pauel"
   },
   {
     "onderdeel": "1 000 m",
@@ -2044,6 +2045,18 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
+    "categorie": "Senioren",
+    "geslacht": "Mannen",
+    "locatie": "outdoor",
+    "datum": "09-08-2013",
+    "naam": "Jurgen Wielart",
+    "onderdeel": "300 m",
+    "prestatie": {
+      "code": "\"33,28\""
+    },
+    "plaats": "Utrecht"
+  },
+  {
     "onderdeel": "4 x 100 m",
     "naam": "Sammy Monsels, Mario Westbroek, Henk Macknack, Mike Bienfait",
     "prestatie": {
@@ -2152,17 +2165,29 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "800 m",
-    "naam": "Jurgen Wielart",
-    "prestatie": {
-      "code": "\"1.47,69\""
-    },
-    "plaats": "Papendal",
-    "datum": "18-07-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/33681/200562/#losonderdeel_6_",
     "categorie": "Senioren",
     "geslacht": "Mannen",
-    "locatie": "outdoor"
+    "locatie": "outdoor",
+    "datum": "31-03-2019",
+    "naam": "Jurgen Wielart",
+    "onderdeel": "600 m",
+    "prestatie": {
+      "code": "\"1.17,93\""
+    },
+    "plaats": "Haarlem"
+  },
+  {
+    "geslacht": "Mannen",
+    "datum": "29-05-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.46,80\""
+    },
+    "categorie": "Senioren",
+    "onderdeel": "800 m",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/34571/800m/",
+    "plaats": "Nijmegen",
+    "naam": "Jurgen Wielart"
   },
   {
     "onderdeel": "Discuswerpen",
@@ -2937,16 +2962,17 @@ const resultaten =
     "locatie": "indoor"
   },
   {
-    "onderdeel": "60 m",
-    "naam": "Brenda Stoete",
-    "prestatie": {
-      "code": "\"7,99\""
-    },
-    "plaats": "Den Haag",
-    "datum": "26-01-1992",
-    "categorie": "Senioren",
     "geslacht": "Vrouwen",
-    "locatie": "indoor"
+    "datum": "20-02-2021",
+    "locatie": "indoor",
+    "prestatie": {
+      "code": "\"7,87\""
+    },
+    "categorie": "Senioren",
+    "onderdeel": "60 m",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/343017/3/",
+    "plaats": "Apeldoorn",
+    "naam": "Femke Nuijten"
   },
   {
     "onderdeel": "800 m",
@@ -3045,16 +3071,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "100 m horden",
-    "naam": "Anja Smits",
-    "prestatie": {
-      "code": "\"15,24\""
-    },
-    "plaats": "Arnhem",
-    "datum": "20-05-1973",
-    "categorie": "Junioren A",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "26-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"15,04\""
+    },
+    "categorie": "Junioren A",
+    "onderdeel": "100 m horden",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/366767/50/",
+    "plaats": "Breda",
+    "naam": "Babs Koeman (B)"
   },
   {
     "onderdeel": "100 m",
@@ -3093,23 +3120,23 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "400 m horden",
-    "naam": "Babs Koeman (B)",
-    "prestatie": {
-      "code": "\"67,22\""
-    },
-    "plaats": "Den Haag",
-    "datum": "29-07-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33864/400mH/#207899_",
-    "categorie": "Junioren A",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "12-09-2020",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.06,87\""
+    },
+    "categorie": "Junioren A",
+    "onderdeel": "400 m horden",
+    "link": "https://www.atletiek.nu/wedstrijd/startgroep/326064/",
+    "plaats": "Amersfoort",
+    "naam": "Babs Koeman (B)"
   },
   {
     "onderdeel": "400 m",
     "naam": "Brenda Stoete",
     "prestatie": {
-      "code": "\"60,64\""
+      "code": "\"1.00,64\""
     },
     "plaats": "Santpoort",
     "datum": "29-04-1990",
@@ -3154,16 +3181,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "Hoogspringen",
-    "naam": "Anja Smits",
-    "prestatie": {
-      "code": "\"1.65\""
-    },
-    "plaats": "Arnhem",
-    "datum": "20-05-1973",
-    "categorie": "Junioren A",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "26-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.67\""
+    },
+    "categorie": "Junioren A",
+    "onderdeel": "Hoogspringen",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/366767/13/",
+    "plaats": "Breda",
+    "naam": "Babs Koeman (B)"
   },
   {
     "onderdeel": "Kogelstoten",
@@ -3178,28 +3206,30 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "Polsstokhoogspringen",
-    "naam": "Mette Elgersma (B)",
-    "prestatie": {
-      "code": "\"2.60\""
-    },
-    "plaats": "Alkmaar",
-    "datum": "27-05-2018",
-    "categorie": "Junioren A",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "23-08-2020",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"2.71\""
+    },
+    "categorie": "Junioren A",
+    "onderdeel": "Polsstokhoogspringen",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/32991/Polshoog/#208710_",
+    "plaats": "Lisse",
+    "naam": "Noa Claus (B)"
   },
   {
-    "onderdeel": "Speerwerpen",
-    "naam": "Ingeborg Zandbergen (B)",
-    "prestatie": {
-      "code": "\"31.10\""
-    },
-    "plaats": "Alphen a/d Rijn",
-    "datum": "12-06-1994",
-    "categorie": "Junioren A",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "27-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"36.97\""
+    },
+    "categorie": "Junioren A",
+    "onderdeel": "Speerwerpen",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/366767/39/",
+    "plaats": "Breda",
+    "naam": "Babs Koeman (B)"
   },
   {
     "onderdeel": "Verspringen",
@@ -3214,16 +3244,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "Zevenkamp",
-    "naam": "Tara van Schie",
-    "prestatie": {
-      "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"16,68\",\n        \"punten\": \"(633)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.54\",\n        \"punten\": \"(666)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.72\",\n        \"punten\": \"(511)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26,31\",\n        \"punten\": \"(770)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.36\",\n        \"punten\": \"(660)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"26.99\",\n        \"punten\": \"(420)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.46,43\",\n        \"punten\": \"(501)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4161 pnt\"\n    }\n]"
-    },
-    "plaats": "Sittard",
-    "datum": "11/12-05-2008",
-    "categorie": "Junioren A",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "26-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,04\",\n        \"punten\": \"(836)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.67\",\n        \"punten\": \"(818)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"8.40\",\n        \"punten\": \"(425)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26,86\",\n        \"punten\": \"(724)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.61\",\n        \"punten\": \"(732)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"36.97\",\n        \"punten\": \"(609)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.23,67\",\n        \"punten\": \"(774)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4918 pnt\"\n    }\n]"
+    },
+    "categorie": "Junioren A",
+    "onderdeel": "Zevenkamp",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/35336/229603/",
+    "plaats": "Breda",
+    "naam": "Babs Koeman (B)"
   },
   {
     "onderdeel": "1 000 m",
@@ -3250,17 +3281,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "100 m horden",
-    "naam": "Babs Koeman",
-    "prestatie": {
-      "code": "\"15,18\""
-    },
-    "plaats": "Heerenveen",
-    "datum": "25-07-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/33786/202306/#losonderdeel_50_",
-    "categorie": "Junioren B",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "05-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"14,75\""
+    },
+    "categorie": "Junioren B",
+    "onderdeel": "100 m horden",
+    "link": "meerkamp, 5 en 6 juni. https://www.atletiek.nu/wedstrijd/uitslagen/34648/222291/",
+    "plaats": "Assendelft",
+    "naam": "Babs Koeman"
   },
   {
     "onderdeel": "100 m",
@@ -3299,42 +3330,43 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
+    "geslacht": "Vrouwen",
+    "datum": "12-09-2020",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.06,87\""
+    },
+    "categorie": "Junioren B",
     "onderdeel": "400 m horden",
-    "naam": "Babs Koeman",
-    "prestatie": {
-      "code": "\"67,22\""
-    },
-    "plaats": "Den Haag",
-    "datum": "29-07-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33864/400mH/#207899_",
-    "categorie": "Junioren B",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "link": "https://www.atletiek.nu/wedstrijd/startgroep/326064/",
+    "plaats": "Amersfoort",
+    "naam": "Babs Koeman"
   },
   {
-    "onderdeel": "400 m",
-    "naam": "Vera Hylkema",
-    "prestatie": {
-      "code": "\"61,10\""
-    },
-    "plaats": "Haarlem",
+    "geslacht": "Vrouwen",
     "datum": "09-08-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33857/400m/#207607_",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.01,10\""
+    },
     "categorie": "Junioren B",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "onderdeel": "400 m",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33857/400m/#207607_",
+    "plaats": "Haarlem",
+    "naam": "Vera Hylkema"
   },
   {
-    "onderdeel": "800 m",
-    "naam": "Jirina van Kesteren",
-    "prestatie": {
-      "code": "\"2.26,18\""
-    },
-    "plaats": "Emmeloord",
-    "datum": "26-09-2004",
-    "categorie": "Junioren B",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "20-09-2020",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"2.23,07\""
+    },
+    "categorie": "Junioren B",
+    "onderdeel": "800 m",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/34175/213651/#meerkamponderdeel_1_6_",
+    "plaats": "Haarlem",
+    "naam": "Babs Koeman"
   },
   {
     "onderdeel": "Discuswerpen",
@@ -3361,16 +3393,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "Hoogspringen",
-    "naam": "Sanne Immer (C)",
-    "prestatie": {
-      "code": "\"1.60\""
-    },
-    "plaats": "Krommenie",
-    "datum": "19-08-2000",
-    "categorie": "Junioren B",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "26-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.67\""
+    },
+    "categorie": "Junioren B",
+    "onderdeel": "Hoogspringen",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/366767/13/",
+    "plaats": "Breda",
+    "naam": "Babs Koeman"
   },
   {
     "onderdeel": "Kogelstoten",
@@ -3385,52 +3418,56 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
+    "geslacht": "Vrouwen",
+    "datum": "23-08-2020",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"2.71\""
+    },
+    "categorie": "Junioren B",
     "onderdeel": "Polsstokhoogspringen",
-    "naam": "Mette Elgersma",
-    "prestatie": {
-      "code": "\"2.60\""
-    },
-    "plaats": "Alkmaar",
-    "datum": "27-05-2018",
-    "categorie": "Junioren B",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/32991/Polshoog/#208710_",
+    "plaats": "Lisse",
+    "naam": "Noa Claus"
   },
   {
+    "geslacht": "Vrouwen",
+    "datum": "06-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"37.18\""
+    },
+    "categorie": "Junioren B",
     "onderdeel": "Speerwerpen",
-    "naam": "Babs Koeman (C)",
-    "prestatie": {
-      "code": "\"36.39\""
-    },
-    "plaats": "Zaandam",
-    "datum": "12-05-2019",
-    "categorie": "Junioren B",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "link": " https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/35397/Speer/#230860_39",
+    "plaats": "Assendelft",
+    "naam": "Babs Koeman"
   },
   {
+    "geslacht": "Vrouwen",
+    "datum": "08-05-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"5.51\""
+    },
+    "categorie": "Junioren B",
     "onderdeel": "Verspringen",
-    "naam": "Tara van Schie",
-    "prestatie": {
-      "code": "\"5.42\""
-    },
-    "plaats": "Utrecht",
-    "datum": "08-07-2007",
-    "categorie": "Junioren B",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/35397/Ver/#230860_1",
+    "plaats": "Haarlem",
+    "naam": "Babs Koeman"
   },
   {
-    "onderdeel": "Zevenkamp",
-    "naam": "Tara van Schie",
-    "prestatie": {
-      "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,28\",\n        \"punten\": \"(805)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.51\",\n        \"punten\": \"(632)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"11.41\",\n        \"punten\": \"(622)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26.17\",\n        \"punten\": \"(782)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.31\",\n        \"punten\": \"(645)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"26.19\",\n        \"punten\": \"(405)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.46,79\",\n        \"punten\": \"(497)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4388 pnt\"\n    }\n]"
-    },
-    "plaats": "Best",
-    "datum": "11/12-05-2008",
-    "categorie": "Junioren B",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "05-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"14,75\",\n        \"punten\": \"(875)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.66\",\n        \"punten\": \"(806)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"10.28\",\n        \"punten\": \"(548)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26.54\",\n        \"punten\": \"(751)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.28\",\n        \"punten\": \"(637)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"37.18\",\n        \"punten\": \"(613)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.26,12\",\n        \"punten\": \"(742)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4972 pnt\"\n    }\n]"
+    },
+    "categorie": "Junioren B",
+    "onderdeel": "Zevenkamp",
+    "link": "5 en 6 juni 2021.   https://www.atletiek.nu/atleet/main/1025264/",
+    "plaats": "Assendelft",
+    "naam": "Babs Koeman"
   },
   {
     "onderdeel": "1 000 m",
@@ -3867,12 +3904,12 @@ const resultaten =
   },
   {
     "onderdeel": "1 500 m",
-    "naam": "Larissa Scholten",
+    "naam": "Kristen Niedrach",
     "prestatie": {
-      "code": "\"4.39,07\""
+      "code": "\"4.22,06\""
     },
-    "plaats": "Utrecht",
-    "datum": "25-05-2012",
+    "plaats": "Portland (VS)",
+    "datum": "08-05-2021",
     "categorie": "Senioren",
     "geslacht": "Vrouwen",
     "locatie": "outdoor"
@@ -3902,28 +3939,30 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "100 m horden",
-    "naam": "Brenda Stoete",
-    "prestatie": {
-      "code": "\"15,14\""
-    },
-    "plaats": "Santpoort",
-    "datum": "19-06-1994",
-    "categorie": "Senioren",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "26-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"15,04\""
+    },
+    "categorie": "Senioren",
+    "onderdeel": "100 m horden",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/366767/50/",
+    "plaats": "Breda",
+    "naam": "Babs Koeman (B)"
   },
   {
-    "onderdeel": "100 m",
-    "naam": "Mieke van der Kolk",
-    "prestatie": {
-      "code": "\"12,34\""
-    },
-    "plaats": "Santpoort",
-    "datum": "04-07-1993",
-    "categorie": "Senioren",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "25-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"12,01\""
+    },
+    "categorie": "Senioren",
+    "onderdeel": "100 m",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/366741/86/",
+    "plaats": "Breda",
+    "naam": "Femke Nuijten"
   },
   {
     "onderdeel": "150 m",
@@ -3950,17 +3989,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "200 m",
-    "naam": "Femke Nuijten",
-    "prestatie": {
-      "code": "\"25,76\""
-    },
-    "plaats": "Utrecht",
-    "datum": "07-08-2020",
-    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33086/200m/#185958_",
-    "categorie": "Senioren",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "26-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"25,05\""
+    },
+    "categorie": "Senioren",
+    "onderdeel": "200 m",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/366744/118/",
+    "plaats": "Breda",
+    "naam": "Femke Nuijten"
   },
   {
     "onderdeel": "3 000 m",
@@ -4076,10 +4115,10 @@ const resultaten =
     "onderdeel": "800 m",
     "naam": "Kristen Niedrach",
     "prestatie": {
-      "code": "\"2.08,93\""
+      "code": "\"2.07,85\""
     },
-    "plaats": "Grootebroek",
-    "datum": "14-07-2018",
+    "plaats": "Portland (VS)",
+    "datum": "03-06-2021",
     "categorie": "Senioren",
     "geslacht": "Vrouwen",
     "locatie": "outdoor"
@@ -4109,16 +4148,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "Hoogspringen",
-    "naam": "Anja Smits",
-    "prestatie": {
-      "code": "\"1.65\""
-    },
-    "plaats": "Arnhem",
-    "datum": "20-05-1973",
-    "categorie": "Senioren",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "26-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.67\""
+    },
+    "categorie": "Senioren",
+    "onderdeel": "Hoogspringen",
+    "link": "https://www.atletiek.nu/wedstrijd/startlijst/366767/13/",
+    "plaats": "Breda",
+    "naam": "Babs Koeman (B)"
   },
   {
     "onderdeel": "Kogelslingeren",
@@ -4147,16 +4187,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "Polsstokhoogspringen",
-    "naam": "Mette Elgersma (B)",
-    "prestatie": {
-      "code": "\"2.70\""
-    },
-    "plaats": "Haarlem",
-    "datum": "28-04-2019",
-    "categorie": "Senioren",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "23-08-2020",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"2.71\""
+    },
+    "categorie": "Senioren",
+    "onderdeel": "Polsstokhoogspringen",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/32991/Polshoog/#208710_",
+    "plaats": "Lisse",
+    "naam": "Noa Claus (B)"
   },
   {
     "onderdeel": "Speerwerpen",
@@ -4183,16 +4224,17 @@ const resultaten =
     "locatie": "outdoor"
   },
   {
-    "onderdeel": "Zevenkamp",
-    "naam": "Tara van Schie",
-    "prestatie": {
-      "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"16,68\",\n        \"punten\": \"(633)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.54\",\n        \"punten\": \"(666)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.72\",\n        \"punten\": \"(511)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26,31\",\n        \"punten\": \"(770)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.36\",\n        \"punten\": \"(660)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"26.99\",\n        \"punten\": \"(420)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.46,42\",\n        \"punten\": \"(501)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4161 pnt\"\n    }\n]"
-    },
-    "plaats": "Sittard",
-    "datum": "11/12-05-2008",
-    "categorie": "Senioren",
     "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+    "datum": "26-06-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,04\",\n        \"punten\": \"(836)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.67\",\n        \"punten\": \"(818)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"8.40\",\n        \"punten\": \"(425)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26,86\",\n        \"punten\": \"(724)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.61\",\n        \"punten\": \"(732)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"36.97\",\n        \"punten\": \"(609)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.23,67\",\n        \"punten\": \"(774)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4918 pnt\"\n    }\n]\n"
+    },
+    "categorie": "Senioren",
+    "onderdeel": "Zevenkamp",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagen/35336/229603/",
+    "plaats": "Breda",
+    "naam": "Babs Koeman (B)"
   },
   {
     "onderdeel": "Zweedse estafette",
