@@ -1,9 +1,9 @@
 
-const perOnderdeel = (a, b) =>
+const opOnderdeel = (a, b) =>
   (onderdelen.indexOf(a.onderdeel) + 1) - (onderdelen.indexOf(b.onderdeel) + 1)
 
 const resultatenNaarTabellen = resultaten => {
-  resultaten.sort(perOnderdeel)
+  resultaten.sort(opOnderdeel)
 
   const hash = resultaten
     .reduce((accumulator, currentValue) => {
@@ -26,10 +26,58 @@ const resultatenNaarTabellen = resultaten => {
       return accumulator;
     }, {});
 
-  return Object
-    .keys(hash)
-    .map(key => hash[key]);
+    const tabellen = Object
+      .keys(hash)
+      .map(key => hash[key]);
+
+    return tabellen
+      .map(tabel => {
+          tabel.rijen = filterMeestRecentePrestatiesEnEvenaringen(tabel.rijen)
+          return tabel
+      })
 };
+
+// we willen alleen het meest recente record laten zien.
+// tenzij het record een evenaring is van een vorig record, dan willen
+// we beiden laten zien
+const filterMeestRecentePrestatiesEnEvenaringen = (rijen) => {
+    const rijenPerOnderdeel = rijen.reduce((acc, currentValue) => {
+        const key = currentValue.onderdeel
+        acc[key] = acc[key] || []
+        acc[key].push(currentValue)
+        return acc
+    }, {})
+
+    return rijen.filter(rij => {
+        const aantalRijenVoorOnderdeel = rijenPerOnderdeel[rij.onderdeel].length
+
+        if (aantalRijenVoorOnderdeel <= 1) {
+            return true
+        }
+
+        const rijenVoorOnderdeel = rijenPerOnderdeel[rij.onderdeel]
+
+        // sorteer rijen per onderdeel op datum
+        rijenVoorOnderdeel.sort((a, b) => {
+            return stringDatumNaarDatumObject(a.datum) - stringDatumNaarDatumObject(b.datum)
+        })
+
+        const meestRecentePrestatie = rijenVoorOnderdeel[rijenVoorOnderdeel.length - 1]
+
+        if (meestRecentePrestatie.datum === rij.datum) {
+            return true
+        }
+
+        if (meestRecentePrestatie.prestatie === rij.prestatie) {
+            return true
+        }
+    })
+}
+
+const stringDatumNaarDatumObject = (stringDatum) => {
+    const parts = stringDatum.split('-')
+    return Date.parse(`${parts[2]}-${parts[1]}-${parts[0]}`)
+}
 
 export default resultatenNaarTabellen
 
