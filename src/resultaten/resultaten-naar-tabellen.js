@@ -32,7 +32,8 @@ const resultatenNaarTabellen = resultaten => {
 };
 
 export default resultatenNaarTabellen
-  const onderdelen = [
+
+const onderdelen = [
     "30 m",
     "35 m",
     "40 m",
@@ -112,4 +113,4 @@ export default resultatenNaarTabellen
     "Negenkamp",
     "Tienkamp",
     "10 x 10 km",
-    ]
+]
