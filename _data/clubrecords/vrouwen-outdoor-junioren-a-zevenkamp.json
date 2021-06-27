@@ -1,12 +1,12 @@
 {
-    "onderdeel": "Zevenkamp",
-    "naam": "Tara van Schie",
-    "prestatie": {
-        "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"16,68\",\n        \"punten\": \"(633)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.54\",\n        \"punten\": \"(666)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.72\",\n        \"punten\": \"(511)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26,31\",\n        \"punten\": \"(770)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.36\",\n        \"punten\": \"(660)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"26.99\",\n        \"punten\": \"(420)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.46,43\",\n        \"punten\": \"(501)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4161 pnt\"\n    }\n]"
-    },
-    "plaats": "Sittard",
-    "datum": "11/12-05-2008",
-    "categorie": "Junioren A",
-    "geslacht": "Vrouwen",
-    "locatie": "outdoor"
+  "onderdeel": "Zevenkamp",
+  "naam": "Babs Koeman (B)",
+  "prestatie": {
+    "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,04\",\n        \"punten\": \"(836)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.67\",\n        \"punten\": \"(818)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"8.40\",\n        \"punten\": \"(425)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26,86\",\n        \"punten\": \"(724)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.61\",\n        \"punten\": \"(732)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"36.97\",\n        \"punten\": \"(609)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.23,67\",\n        \"punten\": \"(774)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4918 pnt\"\n    }\n]"
+  },
+  "plaats": "Sittard",
+  "datum": "11/12-05-2008",
+  "categorie": "Junioren A",
+  "geslacht": "Vrouwen",
+  "locatie": "outdoor"
 }
