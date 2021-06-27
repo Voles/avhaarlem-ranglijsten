@@ -21,10 +21,16 @@ Netlify CMS to JS
 
 # Local development
 
-`npx netlify-cms-proxy-server` to enable Netlify admin locally
-
 Change `local_backend: false` to `local_backend: true` in `/public/admin/config.yml`.
-`npm start`
+
+1. `npx netlify-cms-proxy-server` to enable Netlify admin locally
+1. `npm start`
+
+site: localhost:3000
+admin: localhost:3000/admin
+
+After updating the data locally, run
+`npm run process-cms-data`
 
 ---
 
