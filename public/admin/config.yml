@@ -13,7 +13,7 @@ collections:
     folder: "_data/clubrecords" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{datum}}-{{geslacht}}-{{locatie}}-{{categorie}}-{{onderdeel}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    summary: "{{geslacht}} - {{locatie}} - {{categorie}} - {{onderdeel}}"
+    summary: "{{onderdeel}} - {{naam}} ({{datum}})"
     sortableFields: ['datum']
     fields: # The fields for each document, usually in front matter
       - {label: "Atleet", name: "naam", widget: "string"}
