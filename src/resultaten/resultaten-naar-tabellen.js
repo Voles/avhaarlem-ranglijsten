@@ -105,6 +105,94 @@ export const tijdsnotatieNaarSeconden = (tijdsnotatie) => {
     return result
 }
 
+const grootheidTijd = 'tijd'
+const grootheidAfstand = 'afstand'
+
+const onderdeelToGrootheid = (onderdeel) => {
+    switch (onderdeel) {
+        case "30 m":
+        case "35 m":
+        case "40 m":
+        case "50 m":
+        case "50 m h.t.":
+        case "60 m":
+        case "80 m":
+        case "100 m":
+        case "150 m":
+        case "200 m":
+        case "300 m":
+        case "400 m":
+        case "600 m":
+        case "800 m":
+        case "1 000 m":
+        case "1 500 m":
+        case "1 Engelse mijl":
+        case "10 Engelse mijl":
+        case "2 000 m":
+        case "3 000 m":
+        case "5 000 m":
+        case "10 km":
+        case "15 km":
+        case "20 km":
+        case "Halve marathon":
+        case "25 km":
+        case "30 km":
+        case "35 km":
+        case "Marathon":
+        case "100 km":
+        case "40 m horden":
+        case "60 m horden":
+        case "80 m horden":
+        case "100 m horden":
+        case "100 m horden (84 cm)*":
+        case "100 m horden (91,4 cm)*":
+        case "110 m horden":
+        case "300 m horden":
+        case "400 m horden":
+        case "4 x 60 m":
+        case "4 x 80 m":
+        case "4 x 100 m":
+        case "4 x 100 m h.t.":
+        case "4 x 200 m":
+        case "4 x 400 m":
+        case "4 x 800 m":
+        case "4 x 1500 m":
+        case "Zweedse estafette":
+        case "3 km snelwandelen":
+        case "5 km snelwandelen":
+        case "10 km snelwandelen":
+        case "20 km snelwandelen":
+        case "30 km snelwandelen":
+        case "50 km snelwandelen":
+        case "1 500 m steeplechase":
+        case "2 000 m steeplechase":
+        case "3 000 m steeplechase":
+        case "1 uur":
+          return grootheidTijd
+
+        case "Balwerpen":
+        case "Hoogspringen":
+        case "Verspringen":
+        case "Gewichtwerpen":
+        case "Kogelstoten":
+        case "Kogelslingeren":
+        case "Polsstokhoogspringen":
+        case "Hinkstapspringen":
+        case "Discuswerpen":
+        case "Speerwerpen":
+        case "10 x 10 km":
+            return grootheidAfstand
+
+        case "Vijfkamp":
+        case "Zeskamp":
+        case "Zevenkamp":
+        case "Achtkamp":
+        case "Negenkamp":
+        case "Tienkamp":
+          throw new Error(`unable to determine grootheid for onderdeel '${onderdeel}'`)
+    }
+}
+
 const onderdelen = [
     "30 m",
     "35 m",
