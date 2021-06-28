@@ -1,4 +1,4 @@
-import resultatenNaarTabellen from "./resultaten-naar-tabellen";
+import resultatenNaarTabellen, {tijdsnotatieNaarSeconden} from "./resultaten-naar-tabellen";
 
 test('resultaten naar tabellen', () => {
   const resultaat = {
@@ -70,4 +70,12 @@ test('laat alleen meest recente resultaat zien voor categorie, tenzij de prestat
     locatie: "indoor",
     rijen: [resultaatB, resultaatC]
   }])
+})
+
+test.concurrent.each([
+  ['2.54,19', 174.19],
+  ['3.51,0', 231],
+  ['2.25.02', 8702]
+])('tijdsnotatie naar seconden (%s is %i seconden)', (tijdsnotatie, expected) => {
+  expect(tijdsnotatieNaarSeconden(tijdsnotatie)).toBe(expected);
 })

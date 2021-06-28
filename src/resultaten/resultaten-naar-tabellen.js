@@ -81,6 +81,30 @@ const stringDatumNaarDatumObject = (stringDatum) => {
 
 export default resultatenNaarTabellen
 
+export const tijdsnotatieNaarSeconden = (tijdsnotatie) => {
+    let result = 0
+
+    const voorEnNaKomma = tijdsnotatie.split(',')
+    const voorDeKomma = voorEnNaKomma[0]
+    const naDeKomma = voorEnNaKomma[1]
+
+    if (naDeKomma) {
+        result += (parseFloat(naDeKomma) / 100)
+    }
+
+    if (voorDeKomma) {
+        const tijden = voorDeKomma.split('.').reverse()
+
+        const seconden = tijden.length >= 1 ? parseInt(tijden[0], 10) : 0
+        const minuten = tijden.length >= 2 ? parseInt(tijden[1], 10) : 0
+        const uren = tijden.length >= 3 ? parseInt(tijden[2], 10) : 0
+
+        result += (seconden) + (minuten * 60) + (uren * 60 * 60)
+    }
+
+    return result
+}
+
 const onderdelen = [
     "30 m",
     "35 m",
