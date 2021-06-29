@@ -5,6 +5,7 @@
   "prestatie": {
     "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,04\",\n        \"punten\": \"(836)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.67\",\n        \"punten\": \"(818)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"8.40\",\n        \"punten\": \"(425)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26,86\",\n        \"punten\": \"(724)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.61\",\n        \"punten\": \"(732)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"36.97\",\n        \"punten\": \"(609)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.23,67\",\n        \"punten\": \"(774)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4918 pnt\"\n    }\n]\n"
   },
+  "einddatum": "27-06-2021",
   "categorie": "Senioren",
   "onderdeel": "Zevenkamp",
   "link": "https://www.atletiek.nu/wedstrijd/uitslagen/35336/229603/",
