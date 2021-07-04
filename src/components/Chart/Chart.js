@@ -8,6 +8,9 @@ const options = {
     yAxisKey: 'value'
   },
   scales: {
+    x: {
+      offset: true
+    },
     y: {
       min: 0,
       ticks: {
