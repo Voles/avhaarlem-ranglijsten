@@ -1,6 +1,6 @@
 import React from "react";
 import {Line} from "react-chartjs-2";
-import {secondenNaarTijdsnotatie, tijdsnotatieNaarSeconden} from "../../notaties";
+import {isoToSeconds, secondsToIso} from "../../tijdsnotatie";
 
 const options = {
   parsing: {
@@ -15,7 +15,7 @@ const options = {
       min: 0,
       ticks: {
         callback: function (value) {
-          return secondenNaarTijdsnotatie(value)
+          return secondsToIso(value)
         }
       }
     }
@@ -45,7 +45,7 @@ const Chart = ({ title, records }) => {
         label: 'Clubrecord',
         data: records.map(r => ({
           plaats: r.plaats,
-          value: tijdsnotatieNaarSeconden(r.prestatie),
+          value: isoToSeconds(r.prestatie),
           prestatie: r.prestatie,
           naam: r.naam,
           datum: r.datum,
