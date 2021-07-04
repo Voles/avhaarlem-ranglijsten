@@ -6,12 +6,12 @@ class Filters extends Component {
     return (
       <div className="Filters">
         <div className="d-none d-sm-block">
-          <div className="btn-group btn-group-sm mr-3">
+          <div className="btn-group btn-group-sm me-3">
             <FilterButton type="secondary" label="vrouwen">Vrouwen</FilterButton>
             <FilterButton type="secondary" label="mannen">Mannen</FilterButton>
           </div>
 
-          <div className="btn-group btn-group-sm mr-3">
+          <div className="btn-group btn-group-sm me-3">
             <FilterButton type="success" label="indoor">Indoor</FilterButton>
             <FilterButton type="success" label="outdoor">Outdoor</FilterButton>
           </div>

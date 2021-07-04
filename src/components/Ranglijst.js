@@ -90,7 +90,7 @@ class Ranglijst extends Component {
 
     return (
       <table className="Ranglijst table table-sm table-striped table-responsive-md">
-        <thead className="thead-dark">
+        <thead className="table-dark">
           <tr>
             <th>Onderdeel</th>
             <th>Naam</th>
