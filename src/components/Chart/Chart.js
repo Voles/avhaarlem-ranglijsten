@@ -9,7 +9,11 @@ const options = {
   },
   scales: {
     x: {
-      offset: true
+      offset: true,
+      title: {
+        display: true,
+        text: 'Datum'
+      }
     },
     y: {
       min: 0,
@@ -17,6 +21,10 @@ const options = {
         callback: function (value) {
           return secondsToIso(value)
         }
+      },
+      title: {
+        display: true,
+        text: 'Prestatie (tijd)'
       }
     }
   },
