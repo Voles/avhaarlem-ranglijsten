@@ -1,6 +1,6 @@
 import React from "react";
 import {Line} from "react-chartjs-2";
-import {secondenNaarTijdsnotatie, tijdsnotatieNaarSeconden} from "../../resultaten/resultaten-naar-tabellen";
+import {secondenNaarTijdsnotatie, tijdsnotatieNaarSeconden} from "../../notaties";
 
 const options = {
   parsing: {
@@ -14,7 +14,7 @@ const options = {
     y: {
       min: 0,
       ticks: {
-        callback: function (value, index, values) {
+        callback: function (value) {
           return secondenNaarTijdsnotatie(value)
         }
       }
