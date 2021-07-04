@@ -24,7 +24,7 @@ class RanglijstSectie extends Component {
 
 RanglijstSectie.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.element
+  children: PropTypes.node
 };
 
 export default RanglijstSectie;

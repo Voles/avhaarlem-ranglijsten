@@ -1,6 +1,32 @@
 const resultaten = 
 [
   {
+    "geslacht": "Mannen",
+    "datum": "01-01-1922",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"12,1\""
+    },
+    "einddatum": "",
+    "categorie": "Senioren",
+    "onderdeel": "100 m",
+    "plaats": "",
+    "naam": "Cor Saeys"
+  },
+  {
+    "geslacht": "Mannen",
+    "datum": "26-05-1923",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"11,7\""
+    },
+    "einddatum": "",
+    "categorie": "Senioren",
+    "onderdeel": "100 m",
+    "plaats": "Haarlem",
+    "naam": "Ab Brouwer"
+  },
+  {
     "onderdeel": "1 000 m",
     "naam": "Stein Metten",
     "prestatie": {

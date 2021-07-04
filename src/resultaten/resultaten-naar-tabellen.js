@@ -105,6 +105,36 @@ export const tijdsnotatieNaarSeconden = (tijdsnotatie) => {
     return result
 }
 
+// via https://electrictoolbox.com/pad-number-zeroes-javascript/
+function pad(number, length) {
+    var str = '' + number;
+    while (str.length < length) {
+        str = '0' + str;
+    }
+
+    return str;
+}
+
+export const secondenNaarTijdsnotatie = (seconden) => {
+    if (seconden < 1) {
+        return `0,${pad(seconden, 2)}`
+    }
+
+    if (seconden < 60) {
+        return `${pad(seconden, 2)},00`
+    }
+
+    if (seconden < 3600) {
+        const minuten = Math.floor(seconden / 60)
+        return `${pad(minuten, 2)}.${pad(seconden - (minuten*60), 2)},00`
+    }
+
+    const uren = Math.floor(seconden / 3600)
+    const minuten = Math.floor((seconden - (uren*3600)) / 60)
+    const overgeblevenSeconden = seconden - (uren * 3600) - (minuten * 60)
+    return `${pad(uren, 2)}.${pad(minuten, 2)}.${pad(overgeblevenSeconden, 2)},00`
+}
+
 const grootheidTijd = 'tijd'
 const grootheidAfstand = 'afstand'
 
