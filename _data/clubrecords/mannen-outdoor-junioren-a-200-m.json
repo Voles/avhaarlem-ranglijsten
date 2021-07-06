@@ -1,12 +1,13 @@
 {
-    "onderdeel": "200 m",
-    "naam": "Mario Westbroek",
-    "prestatie": {
-        "code": "\"\""
-    },
-    "plaats": "Haarlem",
-    "datum": "21-05-1980",
-    "categorie": "Junioren A",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "geslacht": "Mannen",
+  "datum": "21-05-1980",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"21,34\""
+  },
+  "einddatum": "",
+  "categorie": "Junioren A",
+  "onderdeel": "200 m",
+  "plaats": "Haarlem",
+  "naam": "Mario Westbroek"
 }
