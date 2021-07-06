@@ -1,12 +1,13 @@
 {
-    "onderdeel": "4 x 100 m",
-    "naam": "Patrick Been, Stefan van Keulen, Martijn te Velden, Ricardo Wielingen",
-    "prestatie": {
-        "code": "\"\""
-    },
-    "plaats": "Beverwijk",
-    "datum": "13-06-1987",
-    "categorie": "Junioren C",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "geslacht": "Mannen",
+  "datum": "13-06-1987",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"47,54\""
+  },
+  "einddatum": "",
+  "categorie": "Junioren C",
+  "onderdeel": "4 x 100 m",
+  "plaats": "Beverwijk",
+  "naam": "Patrick Been, Stefan van Keulen, Martijn te Velden, Ricardo Wielingen"
 }
