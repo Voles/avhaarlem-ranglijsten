@@ -1,12 +1,13 @@
 {
-    "onderdeel": "100 m",
-    "naam": "Mario Westbroek",
-    "prestatie": {
-        "code": "\"\""
-    },
-    "plaats": "Merksem (B)",
-    "datum": "26-08-1978",
-    "categorie": "Junioren A",
-    "geslacht": "Mannen",
-    "locatie": "outdoor"
+  "geslacht": "Mannen",
+  "datum": "26-08-1978",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "\"10,74\""
+  },
+  "einddatum": "",
+  "categorie": "Junioren A",
+  "onderdeel": "100 m",
+  "plaats": "Merksem (B)",
+  "naam": "Mario Westbroek"
 }
