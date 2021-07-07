@@ -2,6 +2,23 @@ import React from "react";
 import {Line} from "react-chartjs-2";
 import {isoToSeconds, secondsToIso} from "../../tijdsnotatie";
 
+const dateStringToObject = (input) => {
+  const parts = input.split('-')
+  return Date.parse(`${parts[2]}-${parts[1]}-${parts[0]}`)
+}
+
+const sorteerOpDatum = (input) => {
+  const result = [...input]
+
+  result.sort((a, b) => {
+    return dateStringToObject(b.datum) - dateStringToObject(a.datum)
+  })
+
+  result.reverse()
+
+  return result
+}
+
 const options = {
   parsing: {
     xAxisKey: 'datum',
@@ -51,13 +68,13 @@ const Chart = ({ title, records }) => {
     datasets: [
       {
         label: 'Clubrecord',
-        data: records.map(r => ({
+        data: sorteerOpDatum(records.map(r => ({
           plaats: r.plaats,
           value: isoToSeconds(r.prestatie),
           prestatie: r.prestatie,
           naam: r.naam,
           datum: r.datum,
-        })),
+        }))),
       }
     ]
   };
