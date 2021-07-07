@@ -23,7 +23,7 @@
     "process-cms-data": "sh process-cms-data-to-js.sh",
     "build-css": "sass src/:src/",
     "watch-css": "npm run build-css && sass src/:src/ --watch",
-    "start-js": "react-scripts start",
+    "start-js": "BROWSER=none react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all process-cms-data build-css build-js",
