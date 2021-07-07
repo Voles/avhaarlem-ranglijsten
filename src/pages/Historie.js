@@ -4,6 +4,23 @@ import resultaten from '../resultaten'
 import {ACHTKAMP, TIENKAMP, VIJFKAMP, ZESKAMP, ZEVENKAMP} from "../constants/onderdelen";
 import Chart from "../components/Chart/Chart";
 
+const dateStringToObject = (input) => {
+  const parts = input.split('-')
+  return Date.parse(`${parts[2]}-${parts[1]}-${parts[0]}`)
+}
+
+const sorteerOpDatum = (input) => {
+  const result = [...input]
+
+  result.sort((a, b) => {
+    return dateStringToObject(b.datum) - dateStringToObject(a.datum)
+  })
+
+  result.reverse()
+
+  return result
+}
+
 const Historie = ({location}) => {
   const history = useHistory()
   useEffect(() => {
@@ -25,7 +42,7 @@ const Historie = ({location}) => {
   const grafieken = alleOnderdelenBehalveMeerkampen
     .map(onderdeel => ({
       titel: `${onderdeel}`,
-      records: filteredRecords.filter(r => r.onderdeel === onderdeel),
+      records: sorteerOpDatum(filteredRecords.filter(r => r.onderdeel === onderdeel)),
     }))
 
   const handleClick = (event) => {

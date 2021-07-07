@@ -99,6 +99,32 @@ const resultaten =
   },
   {
     "geslacht": "Vrouwen",
+    "datum": "05-09-2020",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.64\""
+    },
+    "einddatum": "",
+    "categorie": "Junioren B",
+    "onderdeel": "Hoogspringen",
+    "plaats": "Emmeloord",
+    "naam": "Babs Koeman"
+  },
+  {
+    "geslacht": "Vrouwen",
+    "datum": "05-09-2020",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,10\",\n        \"punten\": \"(828)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.64\",\n        \"punten\": \"(783)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.07\",\n        \"punten\": \"(469)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26.84\",\n        \"punten\": \"(725)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.30\",\n        \"punten\": \"(643)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"30.30\",\n        \"punten\": \"(482)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.27,48\",\n        \"punten\": \"(725)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4655 pnt\"\n    }\n]"
+    },
+    "einddatum": "06-09-2020",
+    "categorie": "Junioren B",
+    "onderdeel": "Zevenkamp",
+    "plaats": "Emmeloord",
+    "naam": "Babs Koeman"
+  },
+  {
+    "geslacht": "Vrouwen",
     "datum": "07-08-2020",
     "locatie": "outdoor",
     "prestatie": {
@@ -110,6 +136,34 @@ const resultaten =
     "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33086/200m/#185958_",
     "plaats": "Utrecht",
     "naam": "Femke Nuijten"
+  },
+  {
+    "geslacht": "Vrouwen",
+    "datum": "08-05-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"37.06\""
+    },
+    "einddatum": "",
+    "categorie": "Junioren B",
+    "onderdeel": "Speerwerpen",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/35397/Speer/#230860_39",
+    "plaats": "Haarlem",
+    "naam": "Babs Koeman"
+  },
+  {
+    "geslacht": "Vrouwen",
+    "datum": "08-05-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"5.51\""
+    },
+    "einddatum": "",
+    "categorie": "Junioren B",
+    "onderdeel": "Verspringen",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/35397/Ver/#230860_1",
+    "plaats": "Haarlem",
+    "naam": "Babs Koeman"
   },
   {
     "geslacht": "Vrouwen",
@@ -277,7 +331,7 @@ const resultaten =
     "datum": "15-06-1930",
     "locatie": "outdoor",
     "prestatie": {
-      "code": "\"21,34 (21,1)"
+      "code": "\"21,34 (21,1)\""
     },
     "einddatum": "",
     "categorie": "Junioren A",
@@ -290,7 +344,7 @@ const resultaten =
     "datum": "17-08-1930",
     "locatie": "outdoor",
     "prestatie": {
-      "code": "\"10,74 (10,5)"
+      "code": "\"10,74 (10,5)\""
     },
     "einddatum": "",
     "categorie": "Junioren A",
@@ -485,6 +539,20 @@ const resultaten =
     "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/33240/100m_hf/#190158_",
     "plaats": "Utrecht",
     "naam": "Femke Nuijten"
+  },
+  {
+    "geslacht": "Vrouwen",
+    "datum": "30-05-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"14,98\""
+    },
+    "einddatum": "",
+    "categorie": "Junioren B",
+    "onderdeel": "100 m horden",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/35557/100mH/#233779_149",
+    "plaats": "Haarlem",
+    "naam": "Babs Koeman"
   },
   {
     "onderdeel": "1 000 m",
