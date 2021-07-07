@@ -1,0 +1,13 @@
+{
+  "geslacht": "Vrouwen",
+  "datum": "05-09-2020",
+  "locatie": "outdoor",
+  "prestatie": {
+    "code": "[\n    {\n        \"onderdeel\": \"100 m horden\",\n        \"prestatie\": \"15,10\",\n        \"punten\": \"(828)\"\n    },\n    {\n        \"onderdeel\": \"Hoogspringen\",\n        \"prestatie\": \"1.64\",\n        \"punten\": \"(783)\"\n    },\n    {\n        \"onderdeel\": \"Kogelstoten\",\n        \"prestatie\": \"9.07\",\n        \"punten\": \"(469)\"\n    },\n    {\n        \"onderdeel\": \"200 m\",\n        \"prestatie\": \"26.84\",\n        \"punten\": \"(725)\"\n    },\n    {\n        \"onderdeel\": \"Verspringen\",\n        \"prestatie\": \"5.30\",\n        \"punten\": \"(643)\"\n    },\n    {\n        \"onderdeel\": \"Speerwerpen\",\n        \"prestatie\": \"30.30\",\n        \"punten\": \"(482)\"\n    },\n    {\n        \"onderdeel\": \"800 m\",\n        \"prestatie\": \"2.27,48\",\n        \"punten\": \"(725)\"\n    },\n    {\n        \"onderdeel\": \"Totaal\",\n        \"prestatie\": \"\",\n        \"punten\": \"4655 pnt\"\n    }\n]"
+  },
+  "einddatum": "06-09-2020",
+  "categorie": "Junioren B",
+  "onderdeel": "Zevenkamp",
+  "plaats": "Emmeloord",
+  "naam": "Babs Koeman"
+}
