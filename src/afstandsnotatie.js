@@ -3,5 +3,5 @@ export const notatieToCentimeter = (notatie) => {
 }
 
 export const centimeterToNotatie = (centimeter) => {
-  return `${centimeter/100}`.replace('.', ',')
+  return `${Math.floor(centimeter/100)},${('' + centimeter).slice(-2)}`
 }

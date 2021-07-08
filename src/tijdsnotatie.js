@@ -1,3 +1,5 @@
+import {pad} from "./pad";
+
 export const isoToSeconds = (tijdsnotatie) => {
   let result = 0
 
@@ -44,12 +46,3 @@ export const secondsToIso = (seconden) => {
   return `${pad(uren, 2)}.${pad(minuten, 2)}.${pad(overgeblevenSeconden, 2)},${naDeKomma}`
 }
 
-// via https://electrictoolbox.com/pad-number-zeroes-javascript/
-function pad(number, length) {
-  var str = '' + number;
-  while (str.length < length) {
-    str = '0' + str;
-  }
-
-  return str;
-}

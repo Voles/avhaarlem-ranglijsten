@@ -81,10 +81,10 @@ const stringDatumNaarDatumObject = (stringDatum) => {
 
 export default resultatenNaarTabellen
 
-const grootheidTijd = 'tijd'
-const grootheidAfstand = 'afstand'
+export const GROOTHEID_TIJD = 'tijd'
+export const GROOTHEID_AFSTAND = 'afstand'
 
-const onderdeelToGrootheid = (onderdeel) => {
+export const onderdeelToGrootheid = (onderdeel) => {
     switch (onderdeel) {
         case "30 m":
         case "35 m":
@@ -144,7 +144,7 @@ const onderdeelToGrootheid = (onderdeel) => {
         case "2 000 m steeplechase":
         case "3 000 m steeplechase":
         case "1 uur":
-          return grootheidTijd
+          return GROOTHEID_TIJD
 
         case "Balwerpen":
         case "Hoogspringen":
@@ -157,7 +157,7 @@ const onderdeelToGrootheid = (onderdeel) => {
         case "Discuswerpen":
         case "Speerwerpen":
         case "10 x 10 km":
-            return grootheidAfstand
+            return GROOTHEID_AFSTAND
 
         case "Vijfkamp":
         case "Zeskamp":
