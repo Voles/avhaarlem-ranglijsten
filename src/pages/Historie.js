@@ -1,7 +1,6 @@
 import React, {useEffect} from "react";
 import { useHistory } from "react-router-dom";
-import resultaten from '../resultaten'
-import {ACHTKAMP, TIENKAMP, VIJFKAMP, ZESKAMP, ZEVENKAMP} from "../constants/onderdelen";
+import resultaten, {ONDERDELEN_ZONDER_ONDERSTEUNING_VOOR_HISTORIE} from '../resultaten'
 import Chart from "../components/Chart/Chart";
 
 const dateStringToObject = (input) => {
@@ -34,7 +33,15 @@ const Historie = ({location}) => {
 
   const records = resultaten
   const filteredRecords = filterResultaten(records, geslacht, locatie, categorie)
-  const alleOnderdelenBehalveMeerkampen = [...new Set(filteredRecords.map(r => r.onderdeel).filter(onderdeel => ![VIJFKAMP, ZESKAMP, ZEVENKAMP, ACHTKAMP, TIENKAMP].includes(onderdeel)))]
+  const alleOnderdelenBehalveMeerkampen = [
+    ...new Set(
+      filteredRecords
+        .map(r => r.onderdeel)
+        .filter(onderdeel =>
+          !ONDERDELEN_ZONDER_ONDERSTEUNING_VOOR_HISTORIE.includes(onderdeel)
+        )
+    )
+  ]
 
   const firstRecord = filteredRecords[0]
   const titelPrefix = `${firstRecord.geslacht} ${firstRecord.categorie} ${firstRecord.locatie}`

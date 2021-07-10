@@ -1,3 +1,4 @@
+import {ACHTKAMP, NEGENKAMP, TIENKAMP, VIJFKAMP, ZESKAMP, ZEVENKAMP} from "../constants/onderdelen";
 
 const opOnderdeel = (a, b) =>
   (onderdelen.indexOf(a.onderdeel) + 1) - (onderdelen.indexOf(b.onderdeel) + 1)
@@ -159,12 +160,12 @@ export const onderdeelToGrootheid = (onderdeel) => {
         case "10 x 10 km":
             return GROOTHEID_AFSTAND
 
-        case "Vijfkamp":
-        case "Zeskamp":
-        case "Zevenkamp":
-        case "Achtkamp":
-        case "Negenkamp":
-        case "Tienkamp":
+        case VIJFKAMP:
+        case ZESKAMP:
+        case ZEVENKAMP:
+        case ACHTKAMP:
+        case NEGENKAMP:
+        case TIENKAMP:
           throw new Error(`unable to determine grootheid for onderdeel '${onderdeel}'`)
     }
 }
