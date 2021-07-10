@@ -119,7 +119,9 @@ class Ranglijst extends Component {
                   {
                     prestatieIsMeerkamp(rij.prestatie) ?
                       renderTotaalPuntenaantalVoorMeerkampPrestatie(rij.prestatie) :
-                      rij.prestatie
+                      rij.handtijd ?
+                        `${rij.prestatie} (${rij.handtijd})` :
+                        rij.prestatie
                   }
                   &nbsp;
                 </td>
