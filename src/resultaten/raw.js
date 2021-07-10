@@ -832,16 +832,18 @@ const resultaten =
     "locatie": "indoor"
   },
   {
-    "onderdeel": "50 m",
-    "naam": "Mario Westbroek",
-    "prestatie": {
-      "code": "\"6,24 (6,0)\""
-    },
-    "plaats": "Groningen",
-    "datum": "14-01-1983",
-    "categorie": "Junioren B",
     "geslacht": "Mannen",
-    "locatie": "indoor"
+    "datum": "14-01-1983",
+    "locatie": "indoor",
+    "prestatie": {
+      "code": "\"6,24\""
+    },
+    "einddatum": "",
+    "categorie": "Junioren B",
+    "onderdeel": "50 m",
+    "plaats": "Groningen",
+    "handtijd": "6,0",
+    "naam": "Mario Westbroek"
   },
   {
     "onderdeel": "60 m horden",
