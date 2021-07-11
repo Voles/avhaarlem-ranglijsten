@@ -3,11 +3,12 @@
   "datum": "01-01-1922",
   "locatie": "outdoor",
   "prestatie": {
-    "code": "\"12,1\""
+    "code": "\"12,34\""
   },
   "einddatum": "",
   "categorie": "Senioren",
   "onderdeel": "100 m",
-  "plaats": "",
+  "plaats": "?",
+  "handtijd": "12,1",
   "naam": "Cor Saeys"
 }
