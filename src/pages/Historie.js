@@ -8,11 +8,11 @@ const dateStringToObject = (input) => {
   return Date.parse(`${parts[2]}-${parts[1]}-${parts[0]}`)
 }
 
-const sorteerOpDatum = (input) => {
+export const sorteerOpDatumEnPrestatie = (input) => {
   const result = [...input]
 
   result.sort((a, b) => {
-    return dateStringToObject(b.datum) - dateStringToObject(a.datum)
+    return dateStringToObject(b.datum) - dateStringToObject(a.datum) || a.parsedPrestatie.value - b.parsedPrestatie.value
   })
 
   result.reverse()
@@ -49,7 +49,7 @@ const Historie = ({location}) => {
   const grafieken = alleOnderdelenBehalveMeerkampen
     .map(onderdeel => ({
       titel: `${onderdeel}`,
-      records: sorteerOpDatum(filteredRecords.filter(r => r.onderdeel === onderdeel)),
+      records: sorteerOpDatumEnPrestatie(filteredRecords.filter(r => r.onderdeel === onderdeel)),
     }))
 
   const handleClick = (event) => {

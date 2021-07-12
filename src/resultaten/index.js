@@ -9,7 +9,7 @@ export default resultaten
   .map(resultaat => enhanceRawResultaat(resultaat))
   .filter(resultaat => resultaat !== null)
 
-function enhanceRawResultaat(resultaat) {
+export function enhanceRawResultaat(resultaat) {
   try {
     if (resultaat.naam.indexOf(',') !== -1) {
       resultaat.naam = resultaat.naam.split(', ')
