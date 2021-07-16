@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import { useHistory } from "react-router-dom";
+import {useHistory} from "react-router-dom";
 import resultaten, {ONDERDELEN_ZONDER_ONDERSTEUNING_VOOR_HISTORIE} from '../resultaten'
 import Chart from "../components/Chart/Chart";
 
@@ -30,9 +30,10 @@ const Historie = ({location}) => {
   const geslacht = params.get('geslacht')
   const locatie = params.get('locatie')
   const categorie = params.get('categorie')
+  const onderdeel = params.get('onderdeel')
 
   const records = resultaten
-  const filteredRecords = filterResultaten(records, geslacht, locatie, categorie)
+  const filteredRecords = filterResultaten(records, geslacht, locatie, categorie, onderdeel)
   const alleOnderdelenBehalveMeerkampen = [
     ...new Set(
       filteredRecords
@@ -48,7 +49,6 @@ const Historie = ({location}) => {
 
   const grafieken = alleOnderdelenBehalveMeerkampen
     .map(onderdeel => ({
-      titel: `${onderdeel}`,
       records: sorteerOpDatumEnPrestatie(filteredRecords.filter(r => r.onderdeel === onderdeel)),
     }))
 
@@ -60,25 +60,30 @@ const Historie = ({location}) => {
   return (
     <div className="Historie">
       <div className="container d-print-none">
-        <h1>Historie {titelPrefix}</h1>
+        <h1>{firstRecord.onderdeel}</h1>
+        <p className="lead">
+          Historie {titelPrefix}
+        </p>
+        <br/>
+        {
+          grafieken.map((grafiek, i) =>
+            <Chart records={grafiek.records} key={i}/>
+          )
+        }
         <p>
           <a href="/" onClick={handleClick}>← Terug naar overzicht</a>
         </p>
-        {
-          grafieken.map((grafiek, i) =>
-            <Chart title={grafiek.titel} records={grafiek.records} key={i}/>
-          )
-        }
       </div>
     </div>
   )
 }
 
-const filterResultaten = (records, geslacht, locatie, categorie) => {
+const filterResultaten = (records, geslacht, locatie, categorie, onderdeel) => {
   return records.filter(record => {
     return record.geslacht.toLowerCase() === geslacht &&
       record.locatie.toLowerCase() === locatie &&
-      record.categorie.toLowerCase().replace(' ', '-') === categorie
+      record.categorie.toLowerCase().replace(' ', '-') === categorie &&
+      record.onderdeel.toLowerCase().replace(' ', '-') === onderdeel
   })
 }
 

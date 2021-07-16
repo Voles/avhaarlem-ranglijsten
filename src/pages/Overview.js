@@ -4,7 +4,6 @@ import RanglijstSectie from "../components/RanglijstSectie";
 import Filters from "../components/Filters";
 import resultaten from '../resultaten/index';
 import resultatenNaarTabellen from '../resultaten/resultaten-naar-tabellen';
-import {Link} from "react-router-dom";
 
 class Overview extends Component {
   categoryIsSet(label) {
@@ -76,7 +75,6 @@ class Overview extends Component {
               })
               .map((tabel, index) =>
                 <RanglijstSectie title={tabel.titel} key={index}>
-                  <p><Link to={`/historie?geslacht=${tabel.geslacht}&categorie=${tabel.categorie}&locatie=${tabel.locatie}`}>Bekijk de historie van deze records</Link>.</p>
                   <Ranglijst rijen={tabel.rijen}/>
                 </RanglijstSectie>
               )

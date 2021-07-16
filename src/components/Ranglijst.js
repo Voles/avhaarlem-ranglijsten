@@ -11,6 +11,8 @@ import {
   POLSSTOKHOOGSPRINGEN, SPEERWERPEN, TIENKAMP,
   VERSPRINGEN, ZEVENKAMP, ZWEEDSE_ESTAFETTE
 } from '../constants/onderdelen';
+import {Link} from "react-router-dom";
+import {ONDERDELEN_ZONDER_ONDERSTEUNING_VOOR_HISTORIE} from "../resultaten";
 
 class Ranglijst extends Component {
   static defaultProps = {
@@ -104,7 +106,13 @@ class Ranglijst extends Component {
           rijen
             .map((rij, index) => (
               <tr key={index}>
-                <td className={`text-nowrap text-right text-lg-left ${onderdeelIsTechnischNummer(rij.onderdeel) ? 'TechnischNummerCell' : ''}`}>{ rij.onderdeel }</td>
+                <td className={`text-nowrap text-right text-lg-left ${onderdeelIsTechnischNummer(rij.onderdeel) ? 'TechnischNummerCell' : ''}`}>
+                  {
+                    ONDERDELEN_ZONDER_ONDERSTEUNING_VOOR_HISTORIE.includes(rij.onderdeel) ?
+                      rij.onderdeel :
+                      <Link to={`/historie?geslacht=${rij.geslacht.toLowerCase()}&categorie=${rij.categorie.toLowerCase().replace(' ', '-')}&locatie=${rij.locatie.toLowerCase()}&onderdeel=${rij.onderdeel.toLowerCase().replace(' ', '-')}`}>{ rij.onderdeel }</Link>
+                  }
+                </td>
                 <td className={`text-right text-lg-left ${prestatieIsMeerkamp(rij.prestatie) ? 'MeerkampCell' : ''}`}>
                   { renderNaam(rij.naam) }
                   {

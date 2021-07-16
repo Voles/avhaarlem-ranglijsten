@@ -5,12 +5,13 @@ const resultaten =
     "datum": "01-01-1922",
     "locatie": "outdoor",
     "prestatie": {
-      "code": "\"12,1\""
+      "code": "\"12,34\""
     },
     "einddatum": "",
     "categorie": "Senioren",
     "onderdeel": "100 m",
-    "plaats": "",
+    "plaats": "?",
+    "handtijd": "12,1",
     "naam": "Cor Saeys"
   },
   {
@@ -191,6 +192,34 @@ const resultaten =
     "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/34543/800m/",
     "plaats": "Apeldoorn",
     "naam": "Jurgen Wielart"
+  },
+  {
+    "geslacht": "Mannen",
+    "datum": "10-07-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"1.46,12\""
+    },
+    "einddatum": "",
+    "categorie": "Senioren",
+    "onderdeel": "800 m",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/34718/800m/",
+    "plaats": "Kortrijk (B)",
+    "naam": "Jurgen Wielart"
+  },
+  {
+    "geslacht": "Vrouwen",
+    "datum": "10-07-2021",
+    "locatie": "outdoor",
+    "prestatie": {
+      "code": "\"2.07,18\""
+    },
+    "einddatum": "",
+    "categorie": "Senioren",
+    "onderdeel": "800 m",
+    "link": "https://www.atletiek.nu/wedstrijd/uitslagenonderdeel/34718/800m/#236679_6",
+    "plaats": "Kortrijk (B)",
+    "naam": "Kristen Niedrach"
   },
   {
     "geslacht": "Vrouwen",

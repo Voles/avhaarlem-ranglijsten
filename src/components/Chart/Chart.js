@@ -2,7 +2,7 @@ import React from "react";
 import {Line} from "react-chartjs-2";
 import {valueToPrestatie} from "../../resultaten";
 
-const Chart = ({title, records}) => {
+const Chart = ({records}) => {
   const options = {
     parsing: {
       xAxisKey: 'datum',
@@ -60,10 +60,7 @@ const Chart = ({title, records}) => {
   };
 
   return (
-    <>
-      <h2>{title}</h2>
-      <Line data={data} options={options}/>
-    </>
+    <Line data={data} options={options}/>
   )
 }
 
