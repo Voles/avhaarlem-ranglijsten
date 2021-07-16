@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {useHistory} from "react-router-dom";
-import resultaten, {ONDERDELEN_ZONDER_ONDERSTEUNING_VOOR_HISTORIE} from '../resultaten'
+import resultaten from '../resultaten'
 import Chart from "../components/Chart/Chart";
 
 const dateStringToObject = (input) => {
@@ -34,45 +34,80 @@ const Historie = ({location}) => {
 
   const records = resultaten
   const filteredRecords = filterResultaten(records, geslacht, locatie, categorie, onderdeel)
-  const alleOnderdelenBehalveMeerkampen = [
-    ...new Set(
-      filteredRecords
-        .map(r => r.onderdeel)
-        .filter(onderdeel =>
-          !ONDERDELEN_ZONDER_ONDERSTEUNING_VOOR_HISTORIE.includes(onderdeel)
-        )
-    )
-  ]
 
   const firstRecord = filteredRecords[0]
   const titelPrefix = `${firstRecord.geslacht} ${firstRecord.categorie} ${firstRecord.locatie}`
 
-  const grafieken = alleOnderdelenBehalveMeerkampen
-    .map(onderdeel => ({
-      records: sorteerOpDatumEnPrestatie(filteredRecords.filter(r => r.onderdeel === onderdeel)),
-    }))
+  const grafiek = {
+    records: sorteerOpDatumEnPrestatie(filteredRecords),
+  }
 
   const handleClick = (event) => {
     event.preventDefault()
     history.go(-1)
   }
 
+  const renderDatum = datum =>
+    typeof datum === 'object' ?
+      datum.toLocaleDateString() : datum;
+
   return (
     <div className="Historie">
       <div className="container d-print-none">
-        <h1>{firstRecord.onderdeel}</h1>
-        <p className="lead">
-          Historie {titelPrefix}
-        </p>
-        <br/>
-        {
-          grafieken.map((grafiek, i) =>
-            <Chart records={grafiek.records} key={i}/>
-          )
-        }
-        <p>
-          <a href="/" onClick={handleClick}>← Terug naar overzicht</a>
-        </p>
+        <div className="row">
+          <div className="col">
+            <h1>{firstRecord.onderdeel}</h1>
+            <p className="lead">
+              Historie {titelPrefix}
+            </p>
+            <p>
+              <a href="/" onClick={handleClick}>← Terug naar overzicht</a>
+            </p>
+            <br/>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col">
+            {
+              <Chart records={grafiek.records} />
+            }
+          </div>
+        </div>
+
+        <div className="row">
+          <br/>
+          <br/>
+
+          <table className="table">
+            <thead className="table">
+            <tr>
+              <th>Datum</th>
+              <th>Plaats</th>
+              <th>Atleet</th>
+              <th className="text-end">Prestatie</th>
+            </tr>
+            </thead>
+            <tbody className="table">
+            {
+              grafiek.records.map((record, i) => {
+                return (
+                  <tr key={i}>
+                    <td>{renderDatum(record.datum)}</td>
+                    <td>{record.plaats}</td>
+                    <td>{record.naam}</td>
+                    <td className="text-nowrap text-end">
+                      {record.handtijd ?
+                        `${record.prestatie} (${record.handtijd})` :
+                        record.prestatie}
+                    </td>
+                  </tr>
+                )
+              })
+            }
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   )

@@ -62,14 +62,14 @@ class Ranglijst extends Component {
 
               return (
                 <tr key={index}>
-                  <td className="text-lg-left">{ prestatieA.onderdeel }</td>
-                  <td className="text-lg-right">{ prestatieA.prestatie }</td>
+                  <td className="text-lg-start">{ prestatieA.onderdeel }</td>
+                  <td className="text-lg-end">{ prestatieA.prestatie }</td>
                   {
                     amountOfColumns !== 1 ?
                       <React.Fragment>
                         <td>&nbsp;&nbsp;</td>
-                        <td className="text-left">{ prestatieB ? prestatieB.onderdeel : '' }</td>
-                        <td className="text-right">{ prestatieB ? prestatieB.prestatie : '' }</td>
+                        <td className="text-start">{ prestatieB ? prestatieB.onderdeel : '' }</td>
+                        <td className="text-end">{ prestatieB ? prestatieB.prestatie : '' }</td>
                       </React.Fragment> : null
                   }
                 </tr>
@@ -96,9 +96,9 @@ class Ranglijst extends Component {
           <tr>
             <th>Onderdeel</th>
             <th>Naam</th>
-            <th className="text-right">Prestatie</th>
-            <th className="text-right">Plaats</th>
-            <th className="text-right">Datum</th>
+            <th className="text-end">Prestatie</th>
+            <th className="text-end">Plaats</th>
+            <th className="text-end">Datum</th>
           </tr>
         </thead>
         <tbody>
@@ -106,14 +106,14 @@ class Ranglijst extends Component {
           rijen
             .map((rij, index) => (
               <tr key={index}>
-                <td className={`text-nowrap text-right text-lg-left ${onderdeelIsTechnischNummer(rij.onderdeel) ? 'TechnischNummerCell' : ''}`}>
+                <td className={`text-nowrap text-end text-lg-start ${onderdeelIsTechnischNummer(rij.onderdeel) ? 'TechnischNummerCell' : ''}`}>
                   {
                     ONDERDELEN_ZONDER_ONDERSTEUNING_VOOR_HISTORIE.includes(rij.onderdeel) ?
                       rij.onderdeel :
                       <Link to={`/historie?geslacht=${rij.geslacht.toLowerCase()}&categorie=${rij.categorie.toLowerCase().replace(' ', '-')}&locatie=${rij.locatie.toLowerCase()}&onderdeel=${rij.onderdeel.toLowerCase().replace(' ', '-')}`}>{ rij.onderdeel }</Link>
                   }
                 </td>
-                <td className={`text-right text-lg-left ${prestatieIsMeerkamp(rij.prestatie) ? 'MeerkampCell' : ''}`}>
+                <td className={`text-end text-lg-start ${prestatieIsMeerkamp(rij.prestatie) ? 'MeerkampCell' : ''}`}>
                   { renderNaam(rij.naam) }
                   {
                     prestatieIsMeerkamp(rij.prestatie) ?
@@ -123,7 +123,7 @@ class Ranglijst extends Component {
                       </React.Fragment> : null
                   }
                 </td>
-                <td className={`text-nowrap text-right`}>
+                <td className={`text-nowrap text-end`}>
                   {
                     prestatieIsMeerkamp(rij.prestatie) ?
                       renderTotaalPuntenaantalVoorMeerkampPrestatie(rij.prestatie) :
@@ -133,8 +133,8 @@ class Ranglijst extends Component {
                   }
                   &nbsp;
                 </td>
-                <td className="text-nowrap text-right">{ rij.plaats }</td>
-                <td className="text-nowrap text-right">{ renderDatum(rij.datum) }</td>
+                <td className="text-nowrap textstart">{ rij.plaats }</td>
+                <td className="text-nowrap text-end">{ renderDatum(rij.datum) }</td>
               </tr>
             ))
         }
