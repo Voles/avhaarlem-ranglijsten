@@ -91,8 +91,8 @@ class Ranglijst extends Component {
           datum.toLocaleDateString() : datum;
 
     return (
-      <table className="Ranglijst table table-sm table-striped table-responsive-md">
-        <thead className="table-dark">
+      <table className="Ranglijst table table table-striped table-responsive-md">
+        <thead className="table">
           <tr>
             <th>Onderdeel</th>
             <th>Naam</th>
