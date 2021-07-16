@@ -55,6 +55,10 @@ const Chart = ({records}) => {
           ...r,
           value: r.parsedPrestatie.value,
         })),
+        borderColor: 'rgb(75, 192, 192)',
+        tension: 0.1,
+        fill: true,
+        backgroundColor: 'rgb(75, 192, 192, .2)',
       }
     ]
   };
